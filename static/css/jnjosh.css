@@ -1,0 +1,54 @@
+
+/* Page Updates */
+
+.page ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page li {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.page h4 {
+  margin: 20px 0 0 0;
+  color: #999999
+  font-size: 16pt;
+  font-weight: normal;
+}
+
+.page h2 {
+  margin: 40px 0 0 0;
+}
+
+article div.postmeta {
+  margin: 0 0 10px 0;
+}
+
+/* Post */
+
+figure {
+  margin: 0 0 20px 0;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  color: #999999;
+}
+
+.highlight {
+  overflow: scroll;
+}
+
+.yellow-highlight {
+  background-color: #FFFEDC;
+}

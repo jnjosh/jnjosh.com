@@ -17,7 +17,7 @@ With over 100,000 apps available on the iTunes App Store, developers are strivin
 
 __My app was featured in the Apple Store.__
 
-This morning I received an email from another [iPhone developer]("http://lawpower.net/") in the Raleigh-Durham area ([Tantrum Apps, if you have small kids these apps are a great find]("http://tantrumapps.com/")). He shared an image he had taken from one of two local Apple Stores showing the icon for my app, iAdvent (no longer available). Checking out the other local store, I found the icon hanging up as well.
+This morning I received an email from another [iPhone developer](http://lawpower.net/) in the Raleigh-Durham area ([Tantrum Apps, if you have small kids these apps are a great find](http://tantrumapps.com/)). He shared an image he had taken from one of two local Apple Stores showing the icon for my app, iAdvent (no longer available). Checking out the other local store, I found the icon hanging up as well.
 
 So how does this happen? I can only speculate. I wasn't contacted by Apple or anything. I assume a store planner designed an in-store "App-Christmas" tree, and searched the store for matching themes. The design was approved, printed and sent to the stores. I have learned that this design is likely in most of the US stores, so my App is hanging up with other Christmas apps all over the US. (If you see this as true or not, let me know, it would be interesting to know if these displays are standard)
 

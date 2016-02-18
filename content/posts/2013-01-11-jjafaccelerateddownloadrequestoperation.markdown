@@ -1,6 +1,6 @@
 +++
 date = "2013-01-11T22:30:32-05:00"
-title = "JJAFAcceleratedDownloadRequestOperation"
+title = "Accelerated Download Operation with AFNetworking"
 categories = [
   "Cocoa",
   "Objective-C",

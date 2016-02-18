@@ -18,11 +18,13 @@ How do you leave in code that generates a warning but not see said warning? How 
 
 Here's an example. My current project uses __AVFoundation__ to play audio files. One of AVPlayer’s properties, `allowsAirPlayVideo`, is deprecated in iOS 6 in favor of `allowsExternalPlayback`; a property that is available in iOS 6. But my project also requires support for iOS 5. I check the player to see if it supports the new property and sets the right one depending on where the app runs.
 
-        if ([_audioPlayer respondsToSelector:@selector(setAllowsExternalPlayback:)]) {
-            [_audioPlayer setAllowsExternalPlayback:NO];
-        } else {
-            [_audioPlayer setAllowsAirPlayVideo:NO];
-        }
+{{< highlight Objective-C >}}
+  if ([_audioPlayer respondsToSelector:@selector(setAllowsExternalPlayback:)]) {
+    [_audioPlayer setAllowsExternalPlayback:NO];
+  } else {
+    [_audioPlayer setAllowsAirPlayVideo:NO];
+  }
+{{< / highlight >}}
 
 Due to the more strict warnings, I get a warning that the property is deprecated:
 
@@ -30,14 +32,16 @@ Due to the more strict warnings, I get a warning that the property is deprecated
 
 With a normally clean build log, I see this right away. Then I can decide whether I need to do this or not, and since I am supporting iOS 5, I do. In this case, I tell the compiler to suppress this deprecation warning with `-Wdeprecated-declarations`:
 
-        if ([_audioPlayer respondsToSelector:@selector(setAllowsExternalPlayback:)]) {
-            [_audioPlayer setAllowsExternalPlayback:NO];
-        } else {
-            #pragma clang diagnostic push
-            #pragma clang diagnostic ignored "-Wdeprecated-declarations"
-            [_audioPlayer setAllowsAirPlayVideo:NO];
-            #pragma clang diagnastic pop
-        }
+{{< highlight Objective-C >}}
+  if ([_audioPlayer respondsToSelector:@selector(setAllowsExternalPlayback:)]) {
+    [_audioPlayer setAllowsExternalPlayback:NO];
+  } else {
+    #pragma clang diagnostic push
+    #pragma clang diagnostic ignored "-Wdeprecated-declarations"
+    [_audioPlayer setAllowsAirPlayVideo:NO];
+    #pragma clang diagnastic pop
+  }
+{{< / highlight >}}
 
 Now my build log is clean and this piece of code is identified as requiring special handling but without lowering my global build setting’s warning level.
 

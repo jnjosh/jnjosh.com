@@ -1,11 +1,58 @@
 +++
 date = "2015-07-12T01:20:32-05:00"
-title = "New York / July 2015"
+title = "Fourth of July Weekend in NYC"
 location = "New York, NY"
+camera = "iPhone 6"
 +++
 
-![Photo](https://farm1.staticflickr.com/287/19260738290_4c2b8d0460_o.jpg)
+<figure>
+  <img src="/assets/photos/newyork-july2015/oneworld1-small.jpg" />
+  <figcaption>One World just goes up forever.</figcaption>
+</figure>
 
 <!--more-->
 
-There is more stuff here
+<figure>
+  <img src="/assets/photos/newyork-july2015/oneworld2.jpg" />
+  <figcaption>One World in the morning…</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/photos/newyork-july2015/oneworld3.jpg" />
+  <figcaption></figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/photos/newyork-july2015/memorial.jpg" />
+  <figcaption>The World Trade Center Memorial was sobering.</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/photos/newyork-july2015/funhome.jpg" />
+  <figcaption>On Broadway! We went to see both Wicked and Fun Home. This was the Fun Home stage.</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/photos/newyork-july2015/jacks.jpg" />
+  <figcaption>Coffee Break at Jack's Stir Brew.</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/photos/newyork-july2015/library.jpg" />
+  <figcaption>The New York Public Library</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/photos/newyork-july2015/library-window.jpg" />
+  <figcaption>City through the window.</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/photos/newyork-july2015/radiocity.jpg" />
+  <figcaption>Radio City Music Hall</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/photos/newyork-july2015/skyline1.jpg" />
+  <figcaption>Ah… New York.</figcaption>
+</figure>

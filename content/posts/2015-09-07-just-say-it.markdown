@@ -6,6 +6,7 @@ categories = [
   "Life",
   "Podcasts",
 ]
+slug = "just-say-it"
 +++
 
 During a recent interview with [Marcus Zarra on the CocoaConf Podcast][1],

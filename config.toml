@@ -1,7 +1,9 @@
-baseurl = "http://jnjosh.com"
+baseurl = "http://jnjosh.com/"
 languageCode = "en-us"
 title = "jnjosh's internet weblog"
 theme = "internet-weblog"
+googleAnalytics = "UA-17240422-2"
+pygmentsstyle = "emacs"
 Paginate = 10
 
 [author]

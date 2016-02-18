@@ -14,7 +14,9 @@ Deep inside of the Core Graphics framework, there is a treasure trove of awesome
 
 How many times have you seen or written code like this:
 
+{{< highlight Objective-C >}}
     CGRect myFrame = CGRectMake(self.view.frame.origin.x + self.otherView.frame.origin.x / 2, 0, self.view.frame.size.width, self.view.frame.size.height - self.otherView.frame.size.height);
+{{< / highlight >}}
 
 Sure, if you actually look at the frame I've built there it makes no sense, but you'd have to really study what is going on and visualize the frame being created. CGGeometry provides a lot of great tools to deal with situations like these.
 
@@ -22,6 +24,7 @@ Sure, if you actually look at the frame I've built there it makes no sense, but 
 
 `CGRectInset` provides a way to get a smaller CGRect by moving inside an existing rect:
 
+{{< highlight Objective-C >}}
     CGRect originRect = (CGRect){ 10.0f, 10.0f, 80.0f, 80.0f };
     CGRect insetRect = CGRectInset(originRect, 10.0f, 10.0f);
 
@@ -32,6 +35,7 @@ Sure, if you actually look at the frame I've built there it makes no sense, but 
     UIView *innerView = [[UIView alloc] initWithFrame:insetRect];
     [innerView setBackgroundColor:greenishColor];
     [self.view addSubview:innerView];
+{{< / highlight >}}
 
 ![CGRectInset](/assets/images/cggeometry/cgrect-inset.png)
 
@@ -39,6 +43,7 @@ Sure, if you actually look at the frame I've built there it makes no sense, but 
 
 `CGRectOffset` provides a way to create a new CGRect by offsetting an existing CGRect:
 
+{{< highlight Objective-C >}}
     CGRect originRect = (CGRect){ 10.0f, 10.0f, 80.0f, 80.0f };
     CGRect outsetRect = CGRectOffset(originRect, 10.0f, 10.0f);
 
@@ -49,6 +54,7 @@ Sure, if you actually look at the frame I've built there it makes no sense, but 
     UIView *secondView = [[UIView alloc] initWithFrame:outsetRect];
     [secondView setBackgroundColor:tealishColor];
     [self.view addSubview:secondView];
+{{< / highlight >}}
 
 ![CGRectOffset](/assets/images/cggeometry/cgrect-offset.png)
 
@@ -56,6 +62,7 @@ Sure, if you actually look at the frame I've built there it makes no sense, but 
 
 `CGRectUnion` provides a way to get a new CGRect by combining the bounds of the two provided CGRect values:
 
+{{< highlight Objective-C >}}
     CGRect originRect = (CGRect){ 10.0f, 10.0f, 80.0f, 80.0f };
     CGRect otherRect = CGRectOffset(originRect, 20.0f, 14.0f);
     CGRect unionRect = CGRectUnion(originRect, otherRect);
@@ -72,6 +79,7 @@ Sure, if you actually look at the frame I've built there it makes no sense, but 
     [unionView setBackgroundColor:grayishColor];
     [unionView setAlpha:0.5f];
     [self.view addSubview:unionView];
+{{< / highlight >}}
 
 ![CGRectUnion](/assets/images/cggeometry/cgrect-union.png)
 
@@ -79,6 +87,7 @@ Sure, if you actually look at the frame I've built there it makes no sense, but 
 
 `CGRectIntersection` provides a method for taking overlapping area of two CGRects and creating an intersection CGRect of that intersection:
 
+{{< highlight Objective-C >}}
     CGRect originRect = (CGRect){ 10.0f, 10.0f, 80.0f, 80.0f };
     CGRect intRect1 = (CGRect){ originRect.origin, { 80.0f, 80.0f } ;
     UIView *rect1View = [[UIView alloc] initWithFrame:intRect1];
@@ -94,6 +103,7 @@ Sure, if you actually look at the frame I've built there it makes no sense, but 
     UIView *intersectView = [[UIView alloc] initWithFrame:intersectRect];
     [intersectView setBackgroundColor:pinkishColor];
     [self.view addSubview:intersectView];    
+{{< / highlight >}}
 
 ![CGRectIntersect](/assets/images/cggeometry/cgrect-intersect.png)
 
@@ -101,6 +111,7 @@ Sure, if you actually look at the frame I've built there it makes no sense, but 
 
 `CGRectDivide` is a fascinating function. It will take a CGRect and divide it into two CGRects with a specified offset from a specified edge:
 
+{{< highlight Objective-C >}}
     CGRect bigFrame = (CGRect){ CGPointZero, { 160.0f, 260.0f } };
 
     UIView *bigView = [[UIView alloc] initWithFrame:bigFrame];
@@ -134,6 +145,7 @@ Sure, if you actually look at the frame I've built there it makes no sense, but 
     UIView *split3View = [[UIView alloc] initWithFrame:split3];
     [split3View setBackgroundColor:pinkishColor];
     [self.view addSubview:split3View];
+{{< / highlight >}}
 
 ![CGRectDivide](/assets/images/cggeometry/cgrect-divide.png)
 

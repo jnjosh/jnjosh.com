@@ -1,18 +1,11 @@
 <header>
-  <h1><a href="/">@{{ .Site.Author.Handle }}</a>’s internet weblog.</h1>
-
-  <ul>
-    <li><a href="/posts">Posts</a></li>
-    <li><a href="/posts/rss">RSS</a></li>
-
-    <li><a href="/microposts">Microposts</a></li>
-    <li><a href="/microposts/rss">RSS</a></li>
-
-    <li><a href="/photos">Photos</a></li>
-    <li><a href="/photos/rss">RSS</a></li>
-
-    <li><a href="http://github.com/jnjosh">Github</a></li>
-    <li><a href="http://twitter.com/jnjosh">Twitter</a></li>
-    <li><a href="http://instagram.com/jnjosh">Instagram</a></li>
-  </ul>
+  <nav>
+    <h1><a href="/">@{{ .Site.Author.Handle }}</a>’s internet weblog.</h1>
+    <ul>
+      <li><a href="/posts">Posts</a> <a href="/posts/index.xml"><img src="/img/rss.svg" class="rss-icon" /></a></li>
+      <li><a href="/microposts">Microposts</a> <a href="/microposts/index.xml"><img src="/img/rss.svg" class="rss-icon" /></a></li>
+      <li><a href="/photos">Photos</a> <a href="/photos/index.xml"><img src="/img/rss.svg" class="rss-icon" /></a></li>
+      {{ with .Site.Author.AboutPage }}<li><a href="{{ . }}">About</a></li>{{ end }}
+    </ul>
+  </nav>
 </header>

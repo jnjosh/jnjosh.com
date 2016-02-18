@@ -8,10 +8,11 @@
     <meta name="description" content="{{ with .Site.Params.Description }}{{ . }}{{ end }}">
     {{ .Hugo.Generator }}
 
-    <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+    <title>{{ with .Title }}{{ . }} &middot; {{ end }}{{ .Site.Title }}</title>
 
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/weblog.css" media="screen" charset="utf-8" />
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/lightgallery.min.css" type="text/css" />
+    {{ partial "custom_stylesheets.html" . }}
 
     {{ if .Site.Params.RSSEnabled }}
 		<link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />

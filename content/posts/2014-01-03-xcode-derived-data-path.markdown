@@ -16,4 +16,4 @@ When I first started this project back in the early days of Xcode 4, I decided t
 
 Our build scripts usually use Rake so the below sample is built with Ruby.
 
-{% gist 7837207 %}
+<script src="https://gist.github.com/jnjosh/7837207.js"></script>

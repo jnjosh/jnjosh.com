@@ -17,11 +17,10 @@ My latest project has been for a client that was looking for a focused percentag
 
 Keep reading for a video showing the process of designing the app from sketch, to final product. Or just check out the app on iTunes (iTunes link)
 
-More on Inspiration
-
+### More on Inspiration
 
 Ok, I said the post would be about inspiration. You don't have to look far to see the inspiration for the design of 100percent. Tapbots create wonderful apps that are "utility robots designed and engineered for your iPhone and iPod Touch". Now, 100percent is not a robot and not a direct clone, but you have to give credit when its due.
 
-[Video can be viewed on vimeo]("http://vimeo.com/6843889")
+[Video can be viewed on vimeo](http://vimeo.com/6843889)
 
-Learn more about 100percent at [Triple D Design]("http://www.tripleddesign.com/") or [buy it now on the iTunes App Store]("http://www.itunes.com/apps/100percent")
+Learn more about 100percent at [Triple D Design](http://www.tripleddesign.com/) or [buy it now on the iTunes App Store](http://www.itunes.com/apps/100percent)

@@ -14,4 +14,6 @@ To make this more handy I decided to include a global hotkey. For Leopard and ea
 
 Luckily, I found that starting with OS X Snow Leopard, Apple added a new method to NSEvent:
 
-`addGlobalMonitorForEventsMatchingMask:maskhandler:`
+{{< highlight Objective-C >}}
+ -addGlobalMonitorForEventsMatchingMask:maskhandler:
+{{< / highlight >}}
