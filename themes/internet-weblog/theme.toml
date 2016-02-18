@@ -1,0 +1,12 @@
+name = "Internet Weblog"
+license = "MIT"
+licenselink = "https://github.com/jnjosh/internet-weblog/blob/master/LICENSE.md"
+description = "A personal, minimal blog theme for Hugo."
+homepage = "http://jnjosh.com"
+tags = ["", ""]
+features = ["", ""]
+min_version = 0.14
+
+[author]
+  name = "Josh Johnson"
+  homepage = "http://jnjosh.com"

@@ -1,0 +1,24 @@
+baseurl = "http://jnjosh.com"
+languageCode = "en-us"
+title = "jnjosh's internet weblog"
+theme = "internet-weblog"
+Paginate = 10
+
+[author]
+	Handle = "jnjosh"
+	FirstName = "Josh"
+	LastName = "Johnson"
+	AboutPage = "/about"
+	Location = "Durham, NC"
+	FlickrID = "87151163@N00"
+
+[params]
+	Name = "internet weblog"
+	Description = "Internet weblog of Software (Mac, iOS, Web) Developer, Josh Johnson."
+	ShowCopyright = true
+	RSSEnabled = true
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	series = "series"

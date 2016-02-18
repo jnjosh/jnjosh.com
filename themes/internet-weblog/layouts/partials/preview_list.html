@@ -1,0 +1,18 @@
+{{ range .Paginator.Pages }}
+  {{ $url := replace .Permalink .Site.BaseURL "" }}
+
+  {{ if eq .Type "microposts" }}
+    {{ partial "preview_micropost.html" . }}
+  {{ end }}
+
+  {{ if eq .Type "photos" }}
+    {{ partial "preview_photo_post.html" . }}
+  {{ end }}
+
+  {{ if eq .Type "posts" }}
+    {{ partial "preview_post.html" . }}
+  {{ end }}
+
+{{ end }}
+
+{{ partial "pagination.html" . }}
