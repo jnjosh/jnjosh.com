@@ -3,3 +3,10 @@ build:
   steps:
     - arjen/hugo-build@1.8.1:
         theme: internet-weblog
+deploy:
+  steps:
+    - sjoerdmulder/rsync-deploy@0.1.0:
+        user: $username
+        host: jnjosh.webfactional.com
+        directory: ~/webapps/jnjosh_weblog/testing
+        sshkey: $identity_PRIVATE
