@@ -119,6 +119,7 @@ nav ul > li {
 
 .post h2 {
   margin: 0;
+  line-height: 32px;
 }
 
 article.photo {
