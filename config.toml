@@ -5,6 +5,7 @@ theme = "internet-weblog"
 googleAnalytics = "UA-17240422-2"
 pygmentsstyle = "emacs"
 Paginate = 10
+SectionPagesMenu = "main"
 
 [author]
 	Handle = "jnjosh"
@@ -24,3 +25,21 @@ Paginate = 10
 	tag = "tags"
 	category = "categories"
 	series = "series"
+
+[[menu.main]]
+  name = "Posts"
+  weight = 1
+	identifier = "posts"
+  url = "/posts/"
+
+[[menu.main]]
+	name = "Microposts"
+	weight = 2
+	identifier = "microposts"
+	url = "/microposts/"
+
+[[menu.main]]
+	name = "Photos"
+	weight = 3
+	identifier = "photos"
+	url = "/photos/"

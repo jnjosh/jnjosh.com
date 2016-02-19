@@ -4,7 +4,7 @@ title = "About"
 
 # About Me
 
-<div style="float:right;margin:10px 0 10px 30px;">
+<div style="float:right; margin:10px 0 10px 30px;">
   <figure>
     <img src="/assets/josh.jpg" style="width: 300px;" />
     <figcaption>Photo by <a href="http://fuadkamal.org">Fuad Kamal</a>. Used with permission.</figcaption>
@@ -27,7 +27,7 @@ My passion is writing software for Mac and iOS. For years I wrote software for W
 
 #### 2014
 
-  - Started leading the iOS (and later Android) team at Two Toasters.
+  - Started leading the iOS (and later Android) team at [Two Toasters](http://twotoasters.com) as Director of Development.
 
 #### 2012
 

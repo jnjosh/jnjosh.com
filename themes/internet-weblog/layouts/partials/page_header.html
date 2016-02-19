@@ -2,9 +2,9 @@
   <nav>
     <h1><a href="/">@{{ .Site.Author.Handle }}</a>’s internet weblog.</h1>
     <ul>
-      <li><a href="/posts">Posts</a> <a href="/posts/index.xml"><img src="/img/rss.svg" class="rss-icon" /></a></li>
-      <li><a href="/microposts">Microposts</a> <a href="/microposts/index.xml"><img src="/img/rss.svg" class="rss-icon" /></a></li>
-      <li><a href="/photos">Photos</a> <a href="/photos/index.xml"><img src="/img/rss.svg" class="rss-icon" /></a></li>
+      {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a> <a href="{{ .URL }}index.xml"><img src="/img/rss.svg" class="rss-icon" /></a></li>
+      {{ end }}
       {{ with .Site.Author.AboutPage }}<li><a href="{{ . }}">About</a></li>{{ end }}
     </ul>
   </nav>
