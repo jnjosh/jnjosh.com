@@ -280,9 +280,11 @@ footer {
   color: #cccccc;
 }
 
-@media screen and (max-width: 780px) {
+@media screen
+and (max-width: 780px) {
+
   .footer_text {
-    width: 100vw;
+    width: 100%;
   }
 
   .footer_text > div {
@@ -291,15 +293,8 @@ footer {
     text-align: justify;
   }
 
-  header, main, footer {
-    margin: auto;
-    width: 100%;
-  }
-
   #photos {
     justify-content: center;
-    margin: auto;
-    width: 100%;
   }
 
   article {
@@ -322,17 +317,20 @@ footer {
     padding: 0;
   }
 
-  nav li {
-    width: 100%;
-    border: #f2f2f2 1px solid;
+  nav ul > li {
+    background-color: #fafafa;
+    display:list-item;
+    float: none;
+    margin: 0;
+    padding: 10px;
+    border-bottom: #f2f2f2 1px solid;
   }
 
-  .micropost {
-    border-radius: 0px;
+  nav ul:first-child {
+    border-top: #f2f2f2 1px solid;
   }
 
   .post-group-item {
     width: 100%;
   }
-
 }

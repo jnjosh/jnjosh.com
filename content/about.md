@@ -17,6 +17,13 @@ Hi, I’m Josh Johnson. I’m a software developer, wannabe designer, filmmaker,
 
 My passion is writing software for Mac and iOS. For years I wrote software for Windows and the Web, but when the iPhone was introduced in 2007 I dusted off my old 12” PowerBook and started learning Cocoa. I've worked with many teams building iOS apps, led teams of iOS developers at Two Toasters (later Ticketmaster), and I’m the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally speak at conferences about Cocoa development. Now I'm working with the team at BA3 building an amazing mapping engine for GIS applications.
 
+<br />
+
+<figure>
+  <img src="https://camo.githubusercontent.com/24ef8f1ca1c7ba39e00ea19dfdd2daf2cc863c74/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f636f6d2d6a6e6a6f73682d6173736574732f636f636f6168656164732d6e6f76656d6265722e6a7067" />
+  <figcaption>The biggest CocoaHeads we've ever had. We had over 60 people that month and we had a talk from the founder of CocoaHeads.</figcaption>
+</figure>
+
 ### Previously
 
 #### 2015
