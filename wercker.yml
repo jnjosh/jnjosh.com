@@ -5,8 +5,8 @@ build:
         theme: internet-weblog
 deploy:
   steps:
-    - sjoerdmulder/rsync-deploy@0.1.0:
-        user: $username
+    - anka-sirota/rsync-deploy@0.1.12:
         host: jnjosh.webfactional.com
+        user: $username
         directory: ~/webapps/jnjosh_weblog/testing
         sshkey: $identity_PRIVATE
