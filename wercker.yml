@@ -1,10 +1,13 @@
-box: ubuntu
+box: busybox
 build:
   steps:
     - arjen/hugo-build@1.8.1:
         theme: internet-weblog
 deploy:
   steps:
+    - wercker/add-ssh-key@1.0.3:
+        keyname: identity
+        host: jnjosh.webfactional.com
     - anka-sirota/rsync-deploy@0.1.12:
         host: jnjosh.webfactional.com
         user: $username
