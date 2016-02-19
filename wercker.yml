@@ -8,7 +8,7 @@ deploy:
     - wercker/add-ssh-key@1.0.3:
         keyname: identity
         host: jnjosh.webfactional.com
-    - rsync-deploy:
+    - pwwebdev/rsync-deploy@0.1.3:
         host: jnjosh.webfactional.com
         user: $username
         directory: ~/webapps/jnjosh_weblog/testing
