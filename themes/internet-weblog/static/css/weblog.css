@@ -288,9 +288,22 @@ footer {
   .footer_text > div {
     flex: auto;
     width: 100%;
+    text-align: justify;
+  }
+
+  header, main, footer {
+    margin: auto;
+    width: 100%;
+  }
+
+  #photos {
+    justify-content: center;
+    margin: auto;
+    width: 100%;
   }
 
   article {
+    margin: 0;
     padding: 20px;
   }
 
