@@ -1,4 +1,4 @@
-box: busybox
+box: golang
 build:
   steps:
     - arjen/hugo-build@1.8.1:
