@@ -1,6 +1,6 @@
 baseurl = "http://jnjosh.com/"
 languageCode = "en-us"
-title = "jnjosh's internet weblog"
+title = "internet weblog"
 theme = "internet-weblog"
 googleAnalytics = "UA-17240422-2"
 pygmentsstyle = "emacs"
@@ -16,10 +16,10 @@ SectionPagesMenu = "main"
 	FlickrID = "87151163@N00"
 
 [params]
-	Name = "internet weblog"
 	Description = "Internet weblog of Software (Mac, iOS, Web) Developer, Josh Johnson."
 	ShowCopyright = true
 	RSSEnabled = true
+	RSSSections = [ "Posts", "Microposts", "Photos" ]
 
 [taxonomies]
 	tag = "tags"
