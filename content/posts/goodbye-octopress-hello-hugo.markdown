@@ -4,7 +4,8 @@ title = "Goodbye Octopress, Hello Hugo"
 categories = [
   "Blogging",
   "Web Development",
-  "Go"
+  "Go",
+  "Hugo"
 ]
 +++
 
