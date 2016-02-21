@@ -14,5 +14,5 @@ A few months ago, Hockey was announced that brought a similar workflow to beta t
 
 TestFlight App seems to wrap this process in a web application that makes the whole process even less of a hassle. I haven’t received a beta invitation yet so I can’t talk about it any more than that. Here’s hoping for a fast beta release!
 
-[TestFlightApp]("http://www.testflightapp.com/")   
-[TestFlightApp on Twitter.]("http://twitter.com/testflightapp")
+[TestFlightApp](http://www.testflightapp.com/)   
+[TestFlightApp on Twitter](http://twitter.com/testflightapp)

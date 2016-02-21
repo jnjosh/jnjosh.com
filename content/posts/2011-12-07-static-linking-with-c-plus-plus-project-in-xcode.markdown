@@ -16,7 +16,10 @@ Thinking this must be a settings issue, I dived into his project settings lookin
 
 `$ otool -L StaticLink`
 
-![otool is a small tool that ships with Xcode. It gives you the ability to display specified parts of object files or libraries. Using the -L switch, I'm asking the object file to show me the shared libraries this object file uses.](/assets/images/otool.png)
+<figure>
+  <img src="/assets/images/otool.png" />
+  <figcaption>otool is a small tool that ships with Xcode. It gives you the ability to display specified parts of object files or libraries. Using the -L switch, I'm asking the object file to show me the shared libraries this object file uses.</figcaption>
+</figure>
 
 In his case, however, otool showed me that the library was still dynamically linking against the dylib version of the library. The interesting part is that both the static library and the dynamic library lived in the same location on disk. Xcode seems to prefer linking against dynamic libraries over static libraries so it just loaded the dylib.
 

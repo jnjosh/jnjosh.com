@@ -8,7 +8,7 @@ categories = [
 slug = "moleskine-for-ipad-equals-dodocase"
 +++
 
-I’m generally not a _case type_ person. I try to find the smallest case possible for my iPhone. Still, I wanted something that protected my iPad when tossed in my bag. Generally a fan of the Moleskine, the [Dodocase]("http://www.dodocase.com/") was the top of my list. So how is it? I like it, and it actually makes me want to carry the iPad around more.
+I’m generally not a _case type_ person. I try to find the smallest case possible for my iPhone. Still, I wanted something that protected my iPad when tossed in my bag. Generally a fan of the Moleskine, the [Dodocase](http://www.dodocase.com/) was the top of my list. So how is it? I like it, and it actually makes me want to carry the iPad around more.
 
 ## The Good
 

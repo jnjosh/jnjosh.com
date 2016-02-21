@@ -4,6 +4,7 @@ title = "Global hotkeys in Cocoa on Snow Leopard"
 categories = [
   "Cocoa",
   "Programming",
+  "AppKit"
 ]
 slug = "global-hotkeys-in-cocoa-on-snow-leopard"
 +++
