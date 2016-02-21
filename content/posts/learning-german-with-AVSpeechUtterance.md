@@ -11,7 +11,7 @@ categories = [
 ]
 +++
 
-For the last couple of months I've been studying German with my wife. We both have always wanted to become polyglots so we decided to stop waiting around an just start learning. We both have some ancestors from Germany and would love to visit. One thing I've been struggling with is numbers in German. I can count well, but hearing a number in conversation requires a lot of thought. The problem is it is backwards from English, Twenty-One in German would be One-and-Twenty (einundzwanzig). So what's an iOS Developer to do? I made an app for me to practice.
+For the last couple of months I've been studying German with my wife. We both have always wanted to become polyglots so we decided to stop waiting around an just start learning. We both have some ancestors from Germany and would love to visit, so that was a great place to start. One thing I've been struggling with is numbers in German. I can count well, but hearing a number in conversation requires a lot of thought. The problem is it is backwards from English, Twenty-One in German would be One-and-Twenty (einundzwanzig). So what's an iOS Developer to do? I made an app for me to practice.
 
 <!--more-->
 
