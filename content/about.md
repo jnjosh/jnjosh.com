@@ -38,6 +38,7 @@ My passion is writing software for Mac and iOS. For years I wrote software for W
 
 #### 2012
 
+  - Switched to the [Dvorak Keyboard Layout] quickly [and began tracking speed](/dvorak).
   - Launched [CocoaHeads.TV](http://cocoaheads.tv) to share CocoaHeads meetup videos from groups around the world.
   - Shipped [iOS App for the Bad Movie Podcast](/posts/bad-movie-podcast-app/).
 
