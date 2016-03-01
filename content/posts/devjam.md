@@ -16,14 +16,14 @@ The basic idea of the event was for Ticketmaster to get eyes on it's APIs and fi
 So… what did I build? I worked with [Ticketmaster Mobile Studio](http://tmsdurham.com) developer, [Peter Foti](http://twitter.com/peterjfoti) to build something that the world really needs. The “Justin Bieber Warning System”.
 
 <figure>
-  <img src="https://photos.jnjosh.com/hackathon-february2016/world.jpg" />
+  <img src="http://photos.jnjosh.com/hackathon-february2016/world.jpg" />
   <figcaption>Events with Justin Bieber</figcaption>
 </figure>
 
 We pretty quickly mixed the data coming from the [Ticketmaster Discovery API](http://developer.ticketmaster.com) with the mapping engine we are building at [BA3](http://ba3.us). By finding the specific ID of Justin Bieber, we were able to generate a list of events and their venue's location. Now you can know what areas you can avoid this pop star.
 
 <figure>
-  <img src="https://photos.jnjosh.com/hackathon-february2016/north-america.jpg" />
+  <img src="http://photos.jnjosh.com/hackathon-february2016/north-america.jpg" />
   <figcaption>We are not Beliebers. There are few places to avoid him in North America.</figcaption>
 </figure>
 
