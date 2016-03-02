@@ -4,9 +4,8 @@ go:
 sudo: required
 git:
   submodules: false
-addons:
-  ssh_known_hosts: $DEPLOY_HOST
 before_install:
+  - echo -e "Host ${DEPLOY_HOST}\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
   - sudo apt-get -qq update
   - sudo apt-get install -y sshpass
   - sudo pip install Pygments
