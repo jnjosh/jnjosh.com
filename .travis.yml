@@ -4,16 +4,18 @@ go:
 sudo: required
 git:
   submodules: false
+addons:
+  ssh_known_hosts: $DEPLOY_HOST
 before_install:
   - sudo apt-get -qq update
   - sudo apt-get install -y sshpass
+  - sudo pip install Pygments
 install:
-- sudo pip install Pygments
 - go get github.com/spf13/hugo
 script: bash ./deploy.sh
 after_success:
   - export SSHPASS=$DEPLOY_PASS
-  - sshpass -e rsync -az --force --progress -e "ssh" public/ $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
+  - sshpass -p $DEPLOY_PASS rsync -az --force --progress -e "ssh" public/ $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
 env:
   global:
   - secure: E0z2s0RN2cLAPVcM3HFhT/Q5Z9t+UEjHngwud3dbp/9w6ch774KWqboyvtTcZ60h9pZurVARPmfGp26fvH1U4oOtlg0TCVzmwQlyzvadkKUw2GGgHmlqgLMa7650/jw2h8C04s4WaOUYMuPZ/iSZKibJarNVNmTOKW6AuunTyGC/LaZyuGDqX+9mCu2vMpV4oG/nMau5kJMvWX6v7+M4VzcaujfFRs5h6EXP88ts7PDb1KeUjRK+f5U4oEbEd9mg1G+E8bJxl/JVvuAllmJU2gnVUj6VH8JJyTJA5Gi6g3327ZANU+uK0I52CJbxN7veSvC1Zb30bqnqrF9bzk5xBgR986h6xPEQS1iksXsDC6Is3Y88Ja8BeFJF0OHiLQ1+gHALUbmF495jnooebvDCLWhm5Lg6TL4LZV92oUJa5YcD/d7IcHRXe9sFYVkpmHK4f0xZ3NlAvxF5xcjH0zPL3JHeAvToRZd0lsNWdNDGlCm49xnr6C6QcaC7jbf50eudt8q+T/oSdbvyu/sWuWP6IZ01pp+W8nla35WyuZaTN5Pod2JKDihtMZ8wPDiNVtkc/iLGqa7DnRgwjuRLa85HhsTu0hX1UR0NnNvy8P9qjxEOAWxsGw6ndConlyb2+vUmqWvisY9MgQ7A+RB/6bMWeuToPTkhXYjhRbYlSfHrCuk=
