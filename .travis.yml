@@ -1,0 +1,13 @@
+language: go
+go:
+  - 1.5.3
+sudo: required
+env:
+  global:
+    secure: vepQNkbkKiBReG1eOFKiNuXdZFV5wW53RXKA2aeUXQisV2UiIjR8PgiLONVspTp+NhFio//vjQiUlyFNYjuGlOKbnQxAX12/yUwJbCp37HhFeC9Z/ZT6jETXPkxfLk3om3XJdfzZRDYgrvbZHIArsD7/ENF8piiZVQghsxGymbiZ3rglxcLVsfHgAlYe9GTA60K9FPpZ1WKAc8H8P2kw3E2RgFrRHPmWQa7Zr4GGcthxkPJ18rtj0GHcSh3p/C87ateLjOQUUqZMZqz9IVkUgixoD2pZrwruVF2vAqLcdm8HAmuPmT9aUFIwg0mn07Op7xcskS7onUulaMOGUng05ub7NwBjxz8xAXZDd0qPH9IdpROsh+oniIYBbGbpHzxClSD4opbKtwEyuDqTL6y8G+eV7mpiFuJiE9byDASOYP4tp6C7wkiiNWqVhLK+47G1ARiI51tnKcrVBh47Msdil3yX3gfRHUHiEU33y5CLNky5F1J3xx2KEU/FMHEzeMUiye7mHKDsdH1No/fu4XJ857lwM3LxaqCuB0ay7UZvfKYSxrWAKjuwsfmNF1nq/N7fhyXw6bl5E4kAtHgB7W/I1hD6wmOyyiOgbO4sjD0yHMnXJ72Wf+kApxXvU4dV6Rd/HDgtkBNZsunIDi7rdXcl4jcEs7jnfUp8vky4D15KbT8=
+git:
+  submodules: false
+install:
+  - sudo pip install Pygments
+  - go get github.com/spf13/hugo
+script: bash ./deploy.sh
