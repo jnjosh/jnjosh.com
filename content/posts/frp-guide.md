@@ -3,7 +3,8 @@ date = "2016-03-01T10:43:07-05:00"
 title = "Guide to Functional Reactive Programming"
 categories = [
   "Programming",
-  "iOS"
+  "iOS",
+  "Functional"
 ]
 externalurl = "https://realm.io/news/frp-ios-guide/"
 +++
