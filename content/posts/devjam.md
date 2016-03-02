@@ -11,7 +11,7 @@ This weekend I spent some time at the Ticketmaster DevJam in Durham. They are wo
 
 <!--more-->
 
-The basic idea of the event was for Ticketmaster to get eyes on their new APIs and find things wrong with it. They'd like to obviously get people giving feedback and building things. Several groups broke up and build some cool things and demo them at the end of the day.
+The basic idea of the event was for Ticketmaster to get eyes on their new APIs and find things wrong with it. They'd like to get people giving feedback and building things. Several groups broke up and build some cool things and demo them at the end of the day.
 
 So… what did I build? I worked with [Ticketmaster Mobile Studio](http://tmsdurham.com) developer, [Peter Foti](http://twitter.com/peterjfoti) to build something that the world really needs. The “Justin Bieber Warning System”.
 
