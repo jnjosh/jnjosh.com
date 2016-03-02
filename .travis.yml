@@ -15,4 +15,4 @@ install:
   - go get github.com/spf13/hugo
 script: bash ./deploy.sh
 after_success:
-  - rsync -az --force --progress -e "ssh" . $USER:$PASS@$URL:$PATH
+  - rsync -az --force --progress -e "ssh" public/ $USER:$PASS@$URL:$PATH
