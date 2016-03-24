@@ -11,7 +11,7 @@ title = "About"
   </figure>
 </div>
 
-Hi, I’m Josh Johnson. I’m a software developer, wannabe designer, filmmaker, and podcaster living in Durham, NC with my wife, my two teenagers (!), a comfort retriever named Ruby, and two cats. I’ve been developing software since I was about 10 when my Dad gave me a Macintosh Plus with some form of BASIC. I still have that Macintosh to this day; and it works.
+Hi, I’m Josh Johnson. I’m a software developer living in Durham, NC with my wife, my two teenagers, a dog named Ruby, and two cats (Cinnamon and Ginger). I’ve been developing software since I was about 10 when my Dad gave me a Macintosh Plus with some form of BASIC. I still have that Macintosh to this day; and it works.
 
 <br />
 
