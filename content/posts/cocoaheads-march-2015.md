@@ -67,7 +67,7 @@ Rob talked about a small Gist he put up that provides a Observable pattern for S
 
 ---
 
-## [Carlos Santana](http://twitter.com/___) on the work he's doing at [IBM on OpenWhisk](https://developer.ibm.com/openwhisk/)
+## Carlos Santana on the work he's doing at [IBM on OpenWhisk](https://developer.ibm.com/openwhisk/)
 
 Finally, Carlos talked a little bit about a project he's working on at IBM. [OpenWhisk](https://developer.ibm.com/openwhisk/) aims to provide a service much like AWS Lambda but will support Swift and Docker out of the box. Having done some work with Lambda, this is great news.
 
