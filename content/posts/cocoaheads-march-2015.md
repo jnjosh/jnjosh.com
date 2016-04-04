@@ -9,7 +9,7 @@ categories = [
 ]
 +++
 
-For CocoaHeads March I was inspired by one of our member's other meetup groups, [Triangle Open Source Open Mic](http://www.meetup.com/Triangle-Open-Source-Open-Mic/), and decided to have ⚡️lightning talks ⚡️. We actually did this once before in [December of 2015](https://github.com/cocoaheads/raleigh#previous-meetings) and I've been wanting to do it again since then. Considering I only gave the community a one week heads up, I think this we had a great selection of talks.
+For CocoaHeads March I was inspired by one of our member's other meetup groups, [Triangle Open Source Open Mic](http://www.meetup.com/Triangle-Open-Source-Open-Mic/), and decided to have ⚡️lightning talks ⚡️. We actually did this once before in [December of 2013](https://github.com/cocoaheads/raleigh#previous-meetings) and I've been wanting to do it again since then. Considering I only gave the community a one week heads up, I think this we had a great selection of talks.
 
 <!--more-->
 
