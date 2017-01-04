@@ -11,11 +11,15 @@ title = "About"
   </figure>
 </div>
 
-Hi, I’m Josh Johnson. I’m a software developer living in Durham, NC with my wife, my two teenagers, a dog named Ruby, and two cats (Cinnamon and Ginger). I’ve been developing software since I was about 10 when my Dad gave me a Macintosh Plus with some form of BASIC. I still have that Macintosh to this day; and it works.
+Hi, I’m Josh Johnson. I’m a software developer living in Raleigh-Durham, NC. Most people don't call it that but I actually live in two zipcodes. It's weird. My congressional district changes pretty much every voting cycle.
 
 <br />
 
-My passion is writing software for Mac and iOS. For years I wrote software for Windows and the Web, but when the iPhone was introduced in 2007 I dusted off my old 12” PowerBook and started learning Cocoa. I've worked with many teams building iOS apps, led teams of iOS developers at Two Toasters (later Ticketmaster), and I’m the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally speak at conferences about Cocoa development. Now I'm working with the team at BA3 building an amazing mapping engine for GIS applications.
+I love creating software for Mac and iOS. For years I wrote software for Windows and the Web, but when the iPhone was introduced in 2007 I dusted off my old 12” PowerBook and started learning Cocoa. I've worked with many teams building iOS apps, led teams of iOS developers at Two Toasters (later Ticketmaster), and I’m the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally speak at conferences about Cocoa development. Now I'm working with the team at BA3 building an amazing mapping engine for GIS applications.
+
+<br />
+
+In my spare time, I've been [learning to draw](https://instagram.com/jnjosh) and [learning German](https://www.duolingo.com/jnjosh). I also really enjoy cooking and [keyboards](/categories/keyboards). I'm basically a nerd that has too many interests and spend a lot of my time trying to prioritize them. I watch too many Star Wars fan theories on YouTube.
 
 <br />
 
