@@ -27,10 +27,10 @@ SectionPagesMenu = "main"
 	series = "series"
 
 [[menu.main]]
-  name = "Posts"
-  weight = 1
+	name = "Posts"
+	weight = 1
 	identifier = "posts"
-  url = "/posts/"
+	url = "/posts/"
 
 [[menu.main]]
 	name = "Microposts"
