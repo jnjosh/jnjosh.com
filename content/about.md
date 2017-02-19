@@ -30,6 +30,10 @@ In my spare time, I've been [learning to draw](https://instagram.com/jnjosh) and
 
 ### Previously
 
+#### 2017
+
+  - Relaunched [CocoaHeads.TV](https://cocoaheads.tv).
+
 #### 2015
 
   - Joined [BA3](http://ba3.us) as Senior Software Developer.  
