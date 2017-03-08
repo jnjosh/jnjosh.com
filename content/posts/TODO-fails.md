@@ -7,7 +7,7 @@ categories = [
 ]
 +++
 
-TODO lists never seem to work for me. I've tried most of them from [OmniFocus](https://www.omnigroup.com/omnifocus/) to the [Bullet Journal](http://bulletjournal.com) to scheduling every moment of every day on a calendar. Between my work at [BA3](http://ba3.us), side projects, [CocoaHeads and CocoaHeads.tv](http://bulletjournal.com), and just normal home tasks; I struggle with this daily. This afternoon I decided to try another brand of TODO list, [Remember the Milk](https://www.rememberthemilk.com) and I think I realized _why_ I don't stick with it.
+TODO lists never seem to work for me. I've tried most of them from [OmniFocus](https://www.omnigroup.com/omnifocus/) to the [Bullet Journal](http://bulletjournal.com) to scheduling every moment of every day on a calendar. Between my work at [BA3](http://ba3.us), side projects, [CocoaHeads and CocoaHeads.tv](https://cocoaheads.tv), and just normal home tasks; I struggle with this daily. This afternoon I decided to try another brand of TODO list, [Remember the Milk](https://www.rememberthemilk.com) and I think I realized _why_ I don't stick with it.
 
 <!-- more -->
 
