@@ -32,6 +32,7 @@ In my spare time, I've been [learning to draw](https://instagram.com/jnjosh) and
 
 #### 2017
 
+  - Joined [Highrise](http://www.highrisegame.com) as Lead Mobile Developer.
   - Relaunched [CocoaHeads.TV](https://cocoaheads.tv).
 
 #### 2015
