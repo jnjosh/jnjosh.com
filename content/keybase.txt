@@ -1,14 +1,15 @@
-### Keybase proof
+==================================================================
+https://keybase.io/jnjosh
+--------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am jnjosh on github.
+  * I am an admin of http://jnjosh.com
   * I am jnjosh (https://keybase.io/jnjosh) on keybase.
   * I have a public key ASBonVU4HBox2F61fNe_kewxSiugPmfAUV_2kG0BeBkKfQo
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
-```json
 {
   "body": {
     "key": {
@@ -19,14 +20,14 @@ To claim this, I am signing this object:
       "username": "jnjosh"
     },
     "merkle_root": {
-      "ctime": 1507143367,
-      "hash": "4761c11e6da30cc068acfa2d23206b378fda98839e870c8c03221b8542c8524df568ea3f933be18f79003d638aad93fc50c4dc224ed308a8c71d278387883aba",
-      "hash_meta": "346fc9f39d34169629d399da8123ec03391c67760aec65e15a930ffb57e9cdf9",
-      "seqno": 1497480
+      "ctime": 1507146679,
+      "hash": "cf1ba546a6808871842adab26af89213fa2a62cd2df6202ff39da139a82915803e160612a04ef09aa27a7c9f00534e8075effc83b1cfe0ce3d1f410a9d19f844",
+      "hash_meta": "30e8f04834e890edac7e58e5014419f332ccd60982fd510d07db48e34be9e4a9",
+      "seqno": 1498744
     },
     "service": {
-      "name": "github",
-      "username": "jnjosh"
+      "hostname": "jnjosh.com",
+      "protocol": "http:"
     },
     "type": "web_service_binding",
     "version": 1
@@ -35,32 +36,20 @@ To claim this, I am signing this object:
     "name": "keybase.io go client",
     "version": "1.0.33"
   },
-  "ctime": 1507143372,
+  "ctime": 1507146686,
   "expire_in": 504576000,
-  "prev": "61cac0389fcd9bee7fa9a99dca2125313a6795ec9baa85b1bb37958d1ed60c83",
-  "seqno": 6,
+  "prev": "fe3d0495ac082e0a1c2e6e5169faaa8d1ff3065df3a84e71e00df24f4bfbf7e7",
+  "seqno": 18,
   "tag": "signature"
 }
-```
 
-with the key [ASBonVU4HBox2F61fNe_kewxSiugPmfAUV_2kG0BeBkKfQo](https://keybase.io/jnjosh), yielding the signature:
+which yields the signature:
 
-```
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgaJ1VOBwaMdhetXzXv5HsMUoroD5nwFFf9pBtAXgZCn0Kp3BheWxvYWTFAzh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjg5ZDU1MzgxYzFhMzFkODVlYjU3Y2Q3YmY5MWVjMzE0YTJiYTAzZTY3YzA1MTVmZjY5MDZkMDE3ODE5MGE3ZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjg5ZDU1MzgxYzFhMzFkODVlYjU3Y2Q3YmY5MWVjMzE0YTJiYTAzZTY3YzA1MTVmZjY5MDZkMDE3ODE5MGE3ZDBhIiwidWlkIjoiMDUwYjFjOWRmZWJiOTQ4ZWIyMjY5MjkwZTlhOGYyMDAiLCJ1c2VybmFtZSI6Impuam9zaCJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwNzE0MzM2NywiaGFzaCI6IjQ3NjFjMTFlNmRhMzBjYzA2OGFjZmEyZDIzMjA2YjM3OGZkYTk4ODM5ZTg3MGM4YzAzMjIxYjg1NDJjODUyNGRmNTY4ZWEzZjkzM2JlMThmNzkwMDNkNjM4YWFkOTNmYzUwYzRkYzIyNGVkMzA4YThjNzFkMjc4Mzg3ODgzYWJhIiwiaGFzaF9tZXRhIjoiMzQ2ZmM5ZjM5ZDM0MTY5NjI5ZDM5OWRhODEyM2VjMDMzOTFjNjc3NjBhZWM2NWUxNWE5MzBmZmI1N2U5Y2RmOSIsInNlcW5vIjoxNDk3NDgwfSwic2VydmljZSI6eyJuYW1lIjoiZ2l0aHViIiwidXNlcm5hbWUiOiJqbmpvc2gifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzMifSwiY3RpbWUiOjE1MDcxNDMzNzIsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiNjFjYWMwMzg5ZmNkOWJlZTdmYTlhOTlkY2EyMTI1MzEzYTY3OTVlYzliYWE4NWIxYmIzNzk1OGQxZWQ2MGM4MyIsInNlcW5vIjo2LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQDzN6YpJDVmAHRGftblGWizXig5RjBtBoFlfLM/tAWUyiun8KvJMFVnP9XsfvjGniDK9qK9codpn9teHj3fDOw6oc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCC7LcCrQ5/HdmaMPIvhBeGZAWxHsyvXLApWW/LeOsaet6N0YWfNAgKndmVyc2lvbgE=
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgaJ1VOBwaMdhetXzXv5HsMUoroD5nwFFf9pBtAXgZCn0Kp3BheWxvYWTFA0B7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjg5ZDU1MzgxYzFhMzFkODVlYjU3Y2Q3YmY5MWVjMzE0YTJiYTAzZTY3YzA1MTVmZjY5MDZkMDE3ODE5MGE3ZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjg5ZDU1MzgxYzFhMzFkODVlYjU3Y2Q3YmY5MWVjMzE0YTJiYTAzZTY3YzA1MTVmZjY5MDZkMDE3ODE5MGE3ZDBhIiwidWlkIjoiMDUwYjFjOWRmZWJiOTQ4ZWIyMjY5MjkwZTlhOGYyMDAiLCJ1c2VybmFtZSI6Impuam9zaCJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwNzE0NjY3OSwiaGFzaCI6ImNmMWJhNTQ2YTY4MDg4NzE4NDJhZGFiMjZhZjg5MjEzZmEyYTYyY2QyZGY2MjAyZmYzOWRhMTM5YTgyOTE1ODAzZTE2MDYxMmEwNGVmMDlhYTI3YTdjOWYwMDUzNGU4MDc1ZWZmYzgzYjFjZmUwY2UzZDFmNDEwYTlkMTlmODQ0IiwiaGFzaF9tZXRhIjoiMzBlOGYwNDgzNGU4OTBlZGFjN2U1OGU1MDE0NDE5ZjMzMmNjZDYwOTgyZmQ1MTBkMDdkYjQ4ZTM0YmU5ZTRhOSIsInNlcW5vIjoxNDk4NzQ0fSwic2VydmljZSI6eyJob3N0bmFtZSI6Impuam9zaC5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjMzIn0sImN0aW1lIjoxNTA3MTQ2Njg2LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6ImZlM2QwNDk1YWMwODJlMGExYzJlNmU1MTY5ZmFhYThkMWZmMzA2NWRmM2E4NGU3MWUwMGRmMjRmNGJmYmY3ZTciLCJzZXFubyI6MTgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAt5yWjA1w10xd90iZJ0ggHjNfCU2pMyC3cSxVrLoFLSsllohDcQ/I2cs9cclAkmBb8nf6m9vK3jV30VOGVw/4DahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKXzBpCN4+qOxmw4oYTlOYPgZmB2JON1AVniSbbFaRf+o3RhZ80CAqd2ZXJzaW9uAQ==
 
-```
+And finally, I am proving ownership of this host by posting or
+appending to this document.
 
-And finally, I am proving ownership of the github account by posting this as a gist.
+View my publicly-auditable identity here: https://keybase.io/jnjosh
 
-### My publicly-auditable identity:
-
-https://keybase.io/jnjosh
-
-### From the command line:
-
-Consider the [keybase command line program](https://keybase.io/download).
-
-```bash
-# look me up
-keybase id jnjosh
-```
+==================================================================
