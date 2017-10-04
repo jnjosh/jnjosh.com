@@ -1,0 +1,66 @@
+### Keybase proof
+
+I hereby claim:
+
+  * I am jnjosh on github.
+  * I am jnjosh (https://keybase.io/jnjosh) on keybase.
+  * I have a public key ASBonVU4HBox2F61fNe_kewxSiugPmfAUV_2kG0BeBkKfQo
+
+To claim this, I am signing this object:
+
+```json
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120689d55381c1a31d85eb57cd7bf91ec314a2ba03e67c0515ff6906d0178190a7d0a",
+      "host": "keybase.io",
+      "kid": "0120689d55381c1a31d85eb57cd7bf91ec314a2ba03e67c0515ff6906d0178190a7d0a",
+      "uid": "050b1c9dfebb948eb2269290e9a8f200",
+      "username": "jnjosh"
+    },
+    "merkle_root": {
+      "ctime": 1507143367,
+      "hash": "4761c11e6da30cc068acfa2d23206b378fda98839e870c8c03221b8542c8524df568ea3f933be18f79003d638aad93fc50c4dc224ed308a8c71d278387883aba",
+      "hash_meta": "346fc9f39d34169629d399da8123ec03391c67760aec65e15a930ffb57e9cdf9",
+      "seqno": 1497480
+    },
+    "service": {
+      "name": "github",
+      "username": "jnjosh"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1507143372,
+  "expire_in": 504576000,
+  "prev": "61cac0389fcd9bee7fa9a99dca2125313a6795ec9baa85b1bb37958d1ed60c83",
+  "seqno": 6,
+  "tag": "signature"
+}
+```
+
+with the key [ASBonVU4HBox2F61fNe_kewxSiugPmfAUV_2kG0BeBkKfQo](https://keybase.io/jnjosh), yielding the signature:
+
+```
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgaJ1VOBwaMdhetXzXv5HsMUoroD5nwFFf9pBtAXgZCn0Kp3BheWxvYWTFAzh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjg5ZDU1MzgxYzFhMzFkODVlYjU3Y2Q3YmY5MWVjMzE0YTJiYTAzZTY3YzA1MTVmZjY5MDZkMDE3ODE5MGE3ZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjg5ZDU1MzgxYzFhMzFkODVlYjU3Y2Q3YmY5MWVjMzE0YTJiYTAzZTY3YzA1MTVmZjY5MDZkMDE3ODE5MGE3ZDBhIiwidWlkIjoiMDUwYjFjOWRmZWJiOTQ4ZWIyMjY5MjkwZTlhOGYyMDAiLCJ1c2VybmFtZSI6Impuam9zaCJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwNzE0MzM2NywiaGFzaCI6IjQ3NjFjMTFlNmRhMzBjYzA2OGFjZmEyZDIzMjA2YjM3OGZkYTk4ODM5ZTg3MGM4YzAzMjIxYjg1NDJjODUyNGRmNTY4ZWEzZjkzM2JlMThmNzkwMDNkNjM4YWFkOTNmYzUwYzRkYzIyNGVkMzA4YThjNzFkMjc4Mzg3ODgzYWJhIiwiaGFzaF9tZXRhIjoiMzQ2ZmM5ZjM5ZDM0MTY5NjI5ZDM5OWRhODEyM2VjMDMzOTFjNjc3NjBhZWM2NWUxNWE5MzBmZmI1N2U5Y2RmOSIsInNlcW5vIjoxNDk3NDgwfSwic2VydmljZSI6eyJuYW1lIjoiZ2l0aHViIiwidXNlcm5hbWUiOiJqbmpvc2gifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzMifSwiY3RpbWUiOjE1MDcxNDMzNzIsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiNjFjYWMwMzg5ZmNkOWJlZTdmYTlhOTlkY2EyMTI1MzEzYTY3OTVlYzliYWE4NWIxYmIzNzk1OGQxZWQ2MGM4MyIsInNlcW5vIjo2LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQDzN6YpJDVmAHRGftblGWizXig5RjBtBoFlfLM/tAWUyiun8KvJMFVnP9XsfvjGniDK9qK9codpn9teHj3fDOw6oc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCC7LcCrQ5/HdmaMPIvhBeGZAWxHsyvXLApWW/LeOsaet6N0YWfNAgKndmVyc2lvbgE=
+
+```
+
+And finally, I am proving ownership of the github account by posting this as a gist.
+
+### My publicly-auditable identity:
+
+https://keybase.io/jnjosh
+
+### From the command line:
+
+Consider the [keybase command line program](https://keybase.io/download).
+
+```bash
+# look me up
+keybase id jnjosh
+```
