@@ -18,6 +18,15 @@ If you would like me to speak at your event, please contact via email – <span
 class="yellow-highlight">you can reach me at jnjosh at jnjosh.com, or
 [@jnjosh](http://twitter.com/jnjosh) on twitter</span>.
 
+## Cross Platform Shenanigans, Part 1: iOS
+<div class="postmeta">October 26, 2017 at CocoaHeads October in Raleigh, NC – <a href="https://speakerdeck.com/jnjosh/cross-platform-shenanigans-part-1-ios">View Slides</a></div>
+
+In my new role as a game developer, I've had to approach the world of cross platform development. This talk, from CocoaHeads October 2017 in Raleigh, NC covers my thoughts on cross platform and some lessons learned. It's also a two-parter, the Android version of the talk is in December 2017.
+
+<br />
+<script async class="speakerdeck-embed" data-id="065a3143362f402ca3ff95c92054407c" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<br />
+
 ## How to Lose an iOS Developer in 10 Days
 <div class="postmeta">August 19, 2015 at 360|iDev in Denver, CO – <a href="https://speakerdeck.com/jnjosh/how-to-lose-an-ios-developer-in-10-days">View Slides</a></div>
 
@@ -29,10 +38,6 @@ do you make an environment that drives iOS Developers away? What are the traits
 that lead to horrible workplaces? In talking about building a horrible
 environment for iOS developers, this session showed what actually makes a great
 environment.
-
-<script async class="speakerdeck-embed" data-id="da5a0ab995a44d4f9cb782a2cb845490" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
-<br />
 
 ## Clean Bill of HealthKit: Making the Most of Health Data
 <div class="postmeta">October 7, 2014 at <a href="http://min.360idev.com">360|iDev Min</a> in Greenville, SC — <a href="https://speakerdeck.com/jnjosh/clean-bill-of-healthkit">View Slides</a> or <a href="https://vimeo.com/108835313">Watch Video</a></div>
