@@ -7,7 +7,7 @@ categories = [
 ]
 +++
 
-I just realized that I've owned [jnjosh.com](http://jnjosh.com) for 10 years now. For the first couple years I tried to make it a blog about all my stuff from filmmaking to app development. Then it just became that thing I kind of updated now and then. It's a constant struggle where I don't write for awhile, then *really* want to write so I “reboot” it. I think my best year was 2012, It wasn't consistent through the year, but I seemed to share quite a lot that year.
+I just realized that I've owned [jnjosh.com](/) for 10 years now. For the first couple years I tried to make it a blog about all my stuff from filmmaking to app development. Then it just became that thing I kind of updated now and then. It's a constant struggle where I don't write for awhile, then *really* want to write so I “reboot” it. I think my best year was 2012, It wasn't consistent through the year, but I seemed to share quite a lot that year.
 
 <!-- more -->
 

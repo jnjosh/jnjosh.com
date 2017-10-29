@@ -71,4 +71,4 @@ In my spare time, I've been [learning to draw](https://instagram.com/jnjosh) and
 
 #### 2007
 
-  - Registered [jnjosh.com](http://jnjosh.com)  
+  - Registered [jnjosh.com](/)  

@@ -9,12 +9,12 @@ categories = [
 slug = "whitefox-keyboard"
 +++
 
-In 2013 I fell in love with mechanical keyboards. More specifically I fell in love with small mechanical keyboards. I still don't really like big keyboards which is why I was so happy to learn about 60% sizes like the [Poker II](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=458). That was my first, then in 2015 I picked up the [Poker III](https://www.massdrop.com/buy/vortex-poker-iii-compact-keyboard). The one problem with the 60% size is there are no arrow keys. This wasn't a big deal because I stubbornly used [Karabiner](https://pqrs.org/osx/karabiner/) to reconfigure certain key combinations to be arrow keys. This grew uncomfortable which really defeated the purpose of my [Dvorak](http://jnjosh.com/dvorak/) learning but the software also stopped working with macOS Sierra.
+In 2013 I fell in love with mechanical keyboards. More specifically I fell in love with small mechanical keyboards. I still don't really like big keyboards which is why I was so happy to learn about 60% sizes like the [Poker II](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=458). That was my first, then in 2015 I picked up the [Poker III](https://www.massdrop.com/buy/vortex-poker-iii-compact-keyboard). The one problem with the 60% size is there are no arrow keys. This wasn't a big deal because I stubbornly used [Karabiner](https://pqrs.org/osx/karabiner/) to reconfigure certain key combinations to be arrow keys. This grew uncomfortable which really defeated the purpose of my [Dvorak](/dvorak/) learning but the software also stopped working with macOS Sierra.
 
 Earlier this year I learned about the [WhiteFox Keyboard](https://input.club/whitefox/) and ordered it on [Massdrop](https://www.massdrop.com). It arrived today. 
 
 <figure>
-  <img src="http://photos.jnjosh.com/whitefox-december2016/whitefox.jpg" />
+  <img src="https://photos.jnjosh.com/whitefox-december2016/whitefox.jpg" />
   <figcaption>So luxurious and very customizable!</figcaption>
 </figure>
 
