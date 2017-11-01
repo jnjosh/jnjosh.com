@@ -28,6 +28,13 @@ article div.postmeta {
   margin: 0 0 10px 0;
 }
 
+article.micropost p > img {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  padding: 10px;
+}
+
 /* Post */
 
 figure {
