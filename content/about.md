@@ -15,7 +15,7 @@ Hi, I’m Josh Johnson. I’m a software developer living in Raleigh-Durham, NC.
 
 <br />
 
-I love creating software for Mac and iOS. For years I wrote software for Windows and the Web, but when the iPhone was introduced in 2007 I dusted off my old 12” PowerBook and started learning Cocoa. I've worked with many teams building iOS apps, led teams of iOS developers at Two Toasters (later Ticketmaster), and I’m the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally speak at conferences about Cocoa development. Now I'm working with the team at BA3 building an amazing mapping engine for GIS applications.
+I love creating software for Mac and iOS. For years I wrote software for Windows and the Web, but when the iPhone was introduced in 2007 I dusted off my old 12” PowerBook and started learning Cocoa. I've worked with many teams building iOS apps, led teams of iOS developers at Two Toasters (later Ticketmaster), and I’m the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally speak at conferences about Cocoa development. Now I'm working with the team at [Highrise](http://www.highrisegame.com) building a cross-platform iOS and Android social network video game.
 
 <br />
 
@@ -34,6 +34,10 @@ In my spare time, I've been [learning to draw](https://instagram.com/jnjosh) and
 
   - Joined [Highrise](http://www.highrisegame.com) as Lead Mobile Developer.
   - Relaunched [CocoaHeads.TV](https://cocoaheads.tv).
+
+#### 2016
+
+  - Shipped [open source theme, “internet weblog”](https://github.com/jnjosh/internet-weblog) for the [Hugo static generator](https://gohugo.io).
 
 #### 2015
 
