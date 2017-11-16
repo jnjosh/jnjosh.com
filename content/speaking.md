@@ -19,13 +19,18 @@ class="yellow-highlight">you can reach me at jnjosh at jnjosh.com, or
 [@jnjosh](http://twitter.com/jnjosh) on twitter</span>.
 
 ## Cross Platform Shenanigans, Part 1: iOS
+<div class="postmeta">November 15, 2017 at TriDroid in Durham, NC – <a href="https://speakerdeck.com/jnjosh/cross-platform-shenanigans-part-2-android">View Slides</a></div>
+
+In my new role as a game developer, I've had to approach the world of cross platform development. This talk—part 2 in a series—from TriDroid November 2017 in Durham, NC covers my thoughts on cross platform and some lessons learned.
+
+<br />
+<script async class="speakerdeck-embed" data-id="b8deac46aedb4aefb689b07e04b68395" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<br />
+
+## Cross Platform Shenanigans, Part 1: iOS
 <div class="postmeta">October 26, 2017 at CocoaHeads October in Raleigh, NC – <a href="https://speakerdeck.com/jnjosh/cross-platform-shenanigans-part-1-ios">View Slides</a></div>
 
 In my new role as a game developer, I've had to approach the world of cross platform development. This talk, from CocoaHeads October 2017 in Raleigh, NC covers my thoughts on cross platform and some lessons learned. It's also a two-parter, the Android version of the talk is in December 2017.
-
-<br />
-<script async class="speakerdeck-embed" data-id="065a3143362f402ca3ff95c92054407c" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-<br />
 
 ## How to Lose an iOS Developer in 10 Days
 <div class="postmeta">August 19, 2015 at 360|iDev in Denver, CO – <a href="https://speakerdeck.com/jnjosh/how-to-lose-an-ios-developer-in-10-days">View Slides</a></div>
