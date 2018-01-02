@@ -32,6 +32,7 @@ In my spare time, I've been [learning to draw](https://instagram.com/jnjosh) and
 
 #### 2017
 
+  - Started [One Charge Trips](http://onechargetrips.com) making trips from our home to nearby areas on a single charge of our electric vehicles.
   - Speaker at two local meetups—a “meetup crossover”—[CocoaHeads](https://speakerdeck.com/jnjosh/cross-platform-shenanigans-part-1-ios) and [TriDroid](https://speakerdeck.com/jnjosh/cross-platform-shenanigans-part-2-android) talking about Cross Platform development.
   - Joined [Highrise](http://www.highrisegame.com) as Lead Mobile Developer.
   - Relaunched [CocoaHeads.TV](https://cocoaheads.tv).
