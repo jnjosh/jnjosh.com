@@ -18,7 +18,7 @@ If you would like me to speak at your event, please contact via email – <span
 class="yellow-highlight">you can reach me at jnjosh at jnjosh.com, or
 [@jnjosh](http://twitter.com/jnjosh) on twitter</span>.
 
-## Cross Platform Shenanigans, Part 1: iOS
+## Cross Platform Shenanigans, Part 2: Android
 <div class="postmeta">November 15, 2017 at TriDroid in Durham, NC – <a href="https://speakerdeck.com/jnjosh/cross-platform-shenanigans-part-2-android">View Slides</a></div>
 
 In my new role as a game developer, I've had to approach the world of cross platform development. This talk—part 2 in a series—from TriDroid November 2017 in Durham, NC covers my thoughts on cross platform and some lessons learned.
