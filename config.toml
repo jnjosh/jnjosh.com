@@ -20,6 +20,7 @@ SectionPagesMenu = "main"
 	ShowCopyright = true
 	RSSEnabled = true
 	RSSSections = [ "Posts", "Microposts", "Photos" ]
+	RSSMicropostTitles = false
 
 [taxonomies]
 	tag = "tags"
