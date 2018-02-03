@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://jnjosh.com"
 languageCode = "en-us"
 title = "internet weblog"
 theme = "internet-weblog"
