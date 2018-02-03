@@ -2,7 +2,6 @@ baseurl = "https://jnjosh.com/"
 languageCode = "en-us"
 title = "internet weblog"
 theme = "internet-weblog"
-googleAnalytics = "UA-17240422-2"
 pygmentsstyle = "emacs"
 Paginate = 10
 SectionPagesMenu = "main"
