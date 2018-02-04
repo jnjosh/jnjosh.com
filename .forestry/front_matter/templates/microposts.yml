@@ -6,18 +6,3 @@ fields:
   type: datetime
   hidden: false
   default: ''
-- name: title
-  label: Title
-  type: text
-  hidden: false
-  default: ''
-- name: slug
-  label: Slug
-  type: text
-  hidden: false
-  default: ''
-- name: type
-  label: Type
-  type: text
-  hidden: false
-  default: ''
