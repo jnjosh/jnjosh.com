@@ -4,14 +4,16 @@ title = "Now"
 
 # What I'm doing now
 
-- Working at [Highrise](http://www.highrisegame.com) building out a social networking game. Getting to learn a lot about game engine development, C++, and more.
+- Working at [Highrise](http://www.highrisegame.com) building out a social networking called [#me](https://hashtagme.app). We just launched out of Y Combinator last month (YC S18).
 
-- Organizing [CocoaHeads](https://meetup.com/nscoderrtp). This year already has had some great talks and there is more to come.
+- Organizing [CocoaHeads](https://meetup.com/nscoderrtp). We are currently doing a bi-weekly meetup—A Swift Dinner—but I'm starting to think about restarting CocoaHeads.
 
-- Getting back into gaming on the PC. I built a new desktop for this and playing things from Overwatch to Doom. 
+- Learning to play the guitar… again. When I was a teenager my Dad bought me a cheap Squier Stratocaster. I learned the Nirvana nevermind tabs and some others, then let it go dormant. This time I'm trying to actually learn to play the instrument.
 
-- Learning to Draw! After years of not doing film-making, I've been diving into drawing so that I can tell visual stories in comic book form. I have an idea for a small comic strip to start and am working on building out how do to that.
+- Learning to Draw. This has taken a second seat to guitar, but I still try to draw at least once a day.
 
-- Learning German for both my love of the language and a potential future trip to Germany. I'm currently trying to do at least one lesson on [Duolingo](http://duolingo.com)
+- Volunteering at [Code for Durham](http://codefordurham.com) to help build things to make lives better for people in Durham.
 
-- (This is a [now page](http://nownownow.com/about), last updated on July 29, 2017)
+- I've switched from learning German to learning Spanish. I love languages and want to learn them all. I did Spanish in High School so I'm remembering a lot. I'm currently doing daily lessons on [Duolingo](http://duolingo.com)
+
+- (This is a [now page](http://nownownow.com/about), last updated on September 5, 2018)
