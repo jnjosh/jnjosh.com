@@ -20,4 +20,4 @@ I'm really excited, because this will be the first time since 2008 that I've rel
 
 I also made a small video showing the app work with AirPlay.
 
-<iframe src="http://player.vimeo.com/video/43224636?byline=0&amp;portrait=0&amp;color=ff9933" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="https://player.vimeo.com/video/43224636?color=ff9933&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

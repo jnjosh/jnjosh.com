@@ -17,6 +17,6 @@ I first learned about Calabash when seeing a video of one of the blitz talks fro
 
 I think the talk went over pretty well, and since I record the presentations from CocoaHeads you can see for yourself:
 
-<iframe src="http://player.vimeo.com/video/46555160?byline=0&amp;portrait=0&amp;color=ff9933" width="500" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="https://player.vimeo.com/video/46555160?color=ff9933&byline=0&portrait=0" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 You can also [download the presentation as a keynote file](http://jsh.in/IOHx).
