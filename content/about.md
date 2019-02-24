@@ -15,7 +15,7 @@ Hi, I’m Josh Johnson. I’m a software developer living in Raleigh-Durham, NC.
 
 <br />
 
-I love creating software for Mac and iOS. For years I wrote software for Windows and the Web, but when the iPhone was introduced in 2007 I dusted off my old 12” PowerBook and started learning Cocoa. I've worked with many teams building iOS apps, led teams of iOS developers at Two Toasters (later Ticketmaster), and I’m the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally speak at conferences about Cocoa development. Now I'm working with the team at [Highrise](http://www.highrisegame.com) building a cross-platform iOS and Android social network video game.
+I love creating software for Mac and iOS. For years I wrote software for Windows and the Web, but when the iPhone was introduced in 2007 I dusted off my old 12” PowerBook and started learning Cocoa. I've worked with many teams building iOS apps, led teams of iOS developers at Two Toasters (later Ticketmaster), and I’m the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally speak at conferences about Cocoa development. Now I'm working with the team at [Grubhub](https://www.grubhub.com) working on the iOS Diner app.
 
 <br />
 
@@ -30,6 +30,11 @@ In my spare time, I've been [learning to draw](https://instagram.com/jnjosh) and
 
 ### Previously
 
+#### 2019
+
+ - Joined [Grubhub](https://www.grubhub.com) as an iOS Team Lead.
+ 
+ 
 #### 2017
 
   - Started [One Charge Trips](http://onechargetrips.com) making trips from our home to nearby areas on a single charge of our electric vehicles.
