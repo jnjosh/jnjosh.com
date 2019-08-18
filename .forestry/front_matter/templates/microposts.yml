@@ -1,8 +1,0 @@
----
-hide_body: false
-fields:
-- name: date
-  label: Date
-  type: datetime
-  hidden: false
-  default: ''
