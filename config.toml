@@ -4,7 +4,6 @@ title = "internet weblog"
 theme = "internet-weblog"
 pygmentsstyle = "emacs"
 Paginate = 10
-SectionPagesMenu = "main"
 
 [author]
 	Handle = "jnjosh"
@@ -18,7 +17,6 @@ SectionPagesMenu = "main"
 	Description = "Internet weblog of Software (Mac, iOS, Web) Developer, Josh Johnson."
 	ShowCopyright = true
 	RSSEnabled = true
-	RSSSections = [ "Posts", "Microposts", "Photos" ]
 	RSSMicropostTitles = false
 	mainSections = [ "posts", "microposts", "photos" ]
 
@@ -28,19 +26,7 @@ SectionPagesMenu = "main"
 	series = "series"
 
 [[menu.main]]
-	name = "Posts"
+	name = "Post Archive"
 	weight = 1
 	identifier = "posts"
 	url = "/posts/"
-
-[[menu.main]]
-	name = "Microposts"
-	weight = 2
-	identifier = "microposts"
-	url = "/microposts/"
-
-[[menu.main]]
-	name = "Photos"
-	weight = 3
-	identifier = "photos"
-	url = "/photos/"
