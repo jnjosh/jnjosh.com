@@ -1,6 +1,6 @@
 +++
 title = "Cross Platform Thoughts"
-date = "2019-08-18T22:27:06-05:00"
+date = "2019-08-18T12:27:06-05:00"
 categories = [
   "Programming"
 ]
