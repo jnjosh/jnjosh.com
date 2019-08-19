@@ -32,6 +32,8 @@ In my spare time, I've been [learning to draw](https://instagram.com/jnjosh) and
 
 #### 2019
 
+ - Built a new web portfolio for [aravind.media](https://aravind.media).
+ - Worked on production and post-production on [Aravind Ragupathi's](https://aravind.media) short film, ["8:46"](https://aravind.media/portfolio/eight46/).
  - Joined [Grubhub](https://www.grubhub.com) as an iOS Team Lead.
  
  

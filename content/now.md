@@ -10,6 +10,6 @@ title = "Now"
 
 - Getting back into filmmaking and working on a couple projects with my friend [Aravind](https://Aravind.media).
 
-- Following the [Marie Kondo] method and tidying up our house. It's been life changing so far and we've made a small dent in all the stuff we own that doesn't bring us joy.
+- Following the [Marie Kondo](https://en.m.wikipedia.org/wiki/Marie_Kondo) method and tidying up our house. It's been life changing so far and we've made a small dent in all the stuff we own that doesn't bring us joy.
 
 - (This is a [now page](http://nownownow.com/about), last updated on August 18, 2019)
