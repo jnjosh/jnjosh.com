@@ -6,10 +6,10 @@ title = "Now"
 
 - Working at [Grubhub](https://www.grubhub.com) as a team lead on the Foundation team for the Diner facing iOS app.
 
-- Organizing [CocoaHeads](https://meetup.com/nscoderrtp). We are currently doing a bi-weekly meetup—A Swift Dinner—but I'm starting to think about restarting CocoaHeads.
+- Organizing [Triangle CocoaHeads](https://www.meetup.com/trianglecocoa/). We are currently doing a bi-weekly meetup—Swift Dinner.
 
-- Learning to play the guitar… again. When I was a teenager my Dad bought me a cheap Squier Stratocaster. I learned the Nirvana nevermind tabs and some others, then let it go dormant. This time I'm trying to actually learn to play the instrument.
+- Getting back into filmmaking and working on a couple projects with my friend [Aravind](https://Aravind.media).
 
-- Learning to Draw. This has taken a second seat to guitar, but I still try to draw at least once a day.
+- Following the [Marie Kondo] method and tidying up our house. It's been life changing so far and we've made a small dent in all the stuff we own that doesn't bring us joy.
 
-- (This is a [now page](http://nownownow.com/about), last updated on February 24, 2019)
+- (This is a [now page](http://nownownow.com/about), last updated on August 18, 2019)
