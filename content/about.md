@@ -32,6 +32,7 @@ In my spare time, I've been [learning to draw](https://instagram.com/jnjosh) and
 
 #### 2019
 
+ - Relaunched [One Charge Trips](https://onechargetrips.com) as a [YouTube channel](https://www.youtube.com/channel/UCC8fBUpS6nt3G4jW23PAI0Q)
  - Built a new web portfolio for [aravind.media](https://aravind.media).
  - Worked on production and post-production on [Aravind Ragupathi's](https://aravind.media) short film, ["8:46"](https://aravind.media/portfolio/eight46/).
  - Joined [Grubhub](https://www.grubhub.com) as an iOS Team Lead.
@@ -39,7 +40,7 @@ In my spare time, I've been [learning to draw](https://instagram.com/jnjosh) and
  
 #### 2017
 
-  - Started [One Charge Trips](http://onechargetrips.com) making trips from our home to nearby areas on a single charge of our electric vehicles.
+  - Started [One Charge Trips](https://onechargetrips.com) making trips from our home to nearby areas on a single charge of our electric vehicles.
   - Speaker at two local meetups—a “meetup crossover”—[CocoaHeads](https://speakerdeck.com/jnjosh/cross-platform-shenanigans-part-1-ios) and [TriDroid](https://speakerdeck.com/jnjosh/cross-platform-shenanigans-part-2-android) talking about Cross Platform development.
   - Joined [Highrise](http://www.highrisegame.com) as Lead Mobile Developer.
   - Relaunched [CocoaHeads.TV](https://cocoaheads.tv).
