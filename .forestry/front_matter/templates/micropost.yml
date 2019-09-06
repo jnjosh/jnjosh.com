@@ -1,0 +1,7 @@
+---
+label: Micropost
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
