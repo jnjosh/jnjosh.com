@@ -5,3 +5,5 @@ fields:
 - type: datetime
   name: date
   label: date
+pages:
+- content/microposts/2019-09-05-09-55.md
