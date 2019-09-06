@@ -30,3 +30,9 @@ Paginate = 10
 	weight = 1
 	identifier = "posts"
 	url = "/posts/"
+
+[[menu.main]]
+	name = "Photos"
+	weight = 2
+	identifier = "photos"
+	url = "/photos/"
