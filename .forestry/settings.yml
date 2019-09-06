@@ -12,17 +12,17 @@ sections:
 - type: directory
   path: content/photos
   label: Photos
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
   path: content/posts
   label: Posts
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
   path: content/microposts
   label: Microposts
-  create: all
+  create: documents
   match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
