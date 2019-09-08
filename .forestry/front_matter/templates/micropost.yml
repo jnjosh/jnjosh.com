@@ -6,4 +6,5 @@ fields:
   name: date
   label: date
 pages:
+- content/microposts/New-camera-2019.md
 - content/microposts/2019-09-05-09-55.md
