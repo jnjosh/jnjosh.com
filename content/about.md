@@ -73,6 +73,7 @@ In my spare time, I've been [learning to draw](https://instagram.com/jnjosh) and
 #### 2010
 
   - Started [CocoaHeads Raleigh](http://meetup.com/nscoderrtp) after attending NSConference Atlanta.
+  - Speaker at Autodesk University in Las Vegas about AutoCAD for Mac.
 
 #### 2009
 
@@ -81,8 +82,33 @@ In my spare time, I've been [learning to draw](https://instagram.com/jnjosh) and
 #### 2008
 
   - Shipped [iAdvent for iPhone](/iadvent).
-  - Shipped [RealPass for iPhone](/realpass), my first iPhone application.
+  - Shipped [RealPass for iPhone](/realpass).
+  - Joined Captive-Aire Systems as a Sr. Software Engineer building an automated drawing web service using RealDWG in C#; front-end web development in ASP.NET; designed and built iPhone, iPad, and Mac apps in Objective-C.
 
 #### 2007
 
   - Registered [jnjosh.com](/)  
+  - Started Guest Blogger with my wife, a website meant to connect bloggers with people interested in writing guest posts.
+
+#### 2006
+
+  - Started [Cinekids TV](https://youtu.be/00ACN0eugQQ)—a movie review web series—with my kids.
+  - Directed a short film ["How to Be a Girl"](https://www.imdb.com/title/tt0947023) and was selected to play at Carrboro Film Festival.
+  
+#### 2005
+
+  - Directed live TV show "Hardcore Live" on Raleigh Public Access featuring the best of the local music scene.
+  - Comtrex acquired by Avatach Solutions, continue building custom automation for AutoCAD using C#, VB/VBA, C++/ObjectARX. 
+
+#### 2000
+
+  - Rejoined Comtrex as a Software Developer building AutoCAD automation (in C++, AutoLISP, J++, and .NET) and web-based sales tools (in PHP).
+    
+#### 1999
+
+  - Joined McGee Corp as a Junior Programmer building automated drawing applications for AutoCAD.
+  
+#### 1998
+
+  - Joined Comtrex as an Applications Engineer providing support and building custom AutoCAD applications in AutoLISP, VB, and C++ with ObjectARX.
+  
