@@ -7,7 +7,7 @@ categories = [
 ]
 +++
 
-Organizing **Triangle Cocoa**—*CocoaHeads and NSCoder Nights*—changed my life.
+Organizing **Triangle Cocoa**—CocoaHeads and NSCoder Nights—changed my life.
 My career was mostly focused on .NET programming for AutoCAD and I dabbled with
 Mac programming on the side. When the iPhone SDK was released I fell in love
 with it. I started learning as soon as it was possible—I went from dabbling to
