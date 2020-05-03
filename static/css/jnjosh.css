@@ -1,16 +1,28 @@
 
 /* Page Updates */
 
+.page ul li::before {
+  content: "\2794"; 
+  color: #c0c0c0;
+  font-weight: bold;
+  display: inline-block;
+  width: 1.25em; 
+  margin-left: -1.25em; /* Also needed for space (tweak if needed) */
+}
+
 .page ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
 }
 
 .page li {
   margin: 0;
   padding: 0;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+.page li a {
+	text-decoration: underline;
 }
 
 .page h4 {

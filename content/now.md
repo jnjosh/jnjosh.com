@@ -4,9 +4,12 @@ title = "Now"
 +++
 # What I'm doing now
 
-* Working at [Grubhub](https://www.grubhub.com) as a team lead on the Foundation team for the Diner facing iOS app.
-* Organizing [Triangle CocoaHeads](https://www.meetup.com/trianglecocoa/). We are currently doing a bi-weekly meetup—Swift Dinner.
-* Getting back into filmmaking and working on a couple projects with my friend [Aravind](https://Aravind.media).
-* Publishing [One Charge Trips](https://www.youtube.com/channel/UCC8fBUpS6nt3G4jW23PAI0Q) videos on YouTube.
-* Following the [Marie Kondo](https://en.m.wikipedia.org/wiki/Marie_Kondo) method and tidying up our house. It's been life changing so far and we've made a small dent in all the stuff we own that doesn't bring us joy.
-* (This is a [now page](http://nownownow.com/about), last updated on September 5, 2019)
+This is a [now page](http://nownownow.com/about), last updated on May 3, 2020.
+
+* Working at [Grubhub](https://www.grubhub.com) as a team lead on the Platform team for the Diner facing iOS app.
+* [Photography](https://www.flickr.com/photos/87151163@N00/) and filmmaking—working on a couple projects with my friend [Aravind](https://aravind.media).
+* Working on a couple small [app ideas](/numeralingual/) that I've been keeping in my mind.
+* Learning Guitar… again!
+* Studying Languages using the [Mass Immersion Approach](https://massimmersionapproach.com). Focusing on maintaining and improving my German and starting Japanese. Also dabbling with Ukrainian and French.
+* Streaming Mon, Wed, and Fri on Twitch with my wife, [we play Geoguessr](https://twitch.tv/jnjoshplays).
+ 

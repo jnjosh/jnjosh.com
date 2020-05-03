@@ -19,7 +19,7 @@ I love creating software for Mac and iOS. For years I wrote software for Windows
 
 <br />
 
-In my spare time, I've been [learning to draw](https://instagram.com/jnjosh) and [learning German](https://www.duolingo.com/jnjosh). I also really enjoy cooking and [keyboards](/categories/keyboards). I'm basically a nerd that has too many interests and spend a lot of my time trying to prioritize them. I watch too many Star Wars fan theories on YouTube.
+In my spare time, I've started doing more [photography](https://instagram.com/jnjosh) and some more filmmaking. I'm learning German and Japanese (and dabbling in Ukrainian). I also really enjoy cooking and [keyboards](/categories/keyboards). I'm basically a nerd that has too many interests and spend a lot of my time trying to prioritize them. I watch too much content on YouTube.
 
 <br />
 
@@ -29,6 +29,10 @@ In my spare time, I've been [learning to draw](https://instagram.com/jnjosh) and
 </figure>
 
 ### Previously
+
+#### 2020
+
+ - May: Started learning Japanese 🇯🇵
 
 #### 2019
 
