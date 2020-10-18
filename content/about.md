@@ -15,7 +15,7 @@ Hi, I’m Josh Johnson. I’m a software developer living in Raleigh-Durham, NC.
 
 <br />
 
-I love creating software for Mac and iOS. For years I wrote software for Windows and the Web, but when the iPhone was introduced in 2007 I dusted off my old 12” PowerBook and started learning Cocoa. I've worked with many teams building iOS apps, led teams of iOS developers at Two Toasters (later Ticketmaster), and I’m the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally speak at conferences about Cocoa development. Now I'm working with the team at [Grubhub](https://www.grubhub.com) working on the iOS Diner app.
+I love creating software for Mac and iOS. For years I wrote software for Windows and the Web, but when the iPhone was introduced in 2007 I dusted off my old 12” PowerBook and started to seriously learn Cocoa. I've worked with many teams building iOS apps, led teams of iOS developers at Two Toasters (later Ticketmaster), and previously I was the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally speak at conferences about Cocoa development. Now I'm working with the team at [Grubhub](https://www.grubhub.com) working on the iOS Diner app.
 
 <br />
 
@@ -36,6 +36,7 @@ In my spare time, I've started doing more [photography](https://instagram.com/jn
 
 #### 2019
 
+ - November: Visited Kyiv, Ukraine and started learning Ukrainian 🇺🇦
  - Relaunched [One Charge Trips](https://onechargetrips.com) as a [YouTube channel](https://www.youtube.com/channel/UCC8fBUpS6nt3G4jW23PAI0Q)
  - Built a new web portfolio for [aravind.media](https://aravind.media).
  - Worked on production and post-production on [Aravind Ragupathi's](https://aravind.media) short film, ["8:46"](https://aravind.media/portfolio/eight46/).
@@ -57,6 +58,7 @@ In my spare time, I've started doing more [photography](https://instagram.com/jn
 
   - Joined [BA3](http://ba3.us) as Senior Software Developer.  
   - Speaker at [360|iDev](http://360idev.com) about [being a manager](/posts/360idev-2015/).  
+  - Started learning German 🇩🇪
   - Two Toasters acquired by Ticketmaster; continued leading the new [Ticketmaster Mobile Studio](http://tmsdurham.com) development team.
 
 #### 2014
