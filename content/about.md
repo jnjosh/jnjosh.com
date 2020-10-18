@@ -21,13 +21,6 @@ I love creating software for Mac and iOS. For years I wrote software for Windows
 
 In my spare time, I've started doing more [photography](https://instagram.com/jnjosh) and some more filmmaking. I'm learning German and Japanese (and dabbling in Ukrainian). I also really enjoy cooking and [keyboards](/categories/keyboards). I'm basically a nerd that has too many interests and spend a lot of my time trying to prioritize them. I watch too much content on YouTube.
 
-<br />
-
-<figure>
-  <img src="https://camo.githubusercontent.com/24ef8f1ca1c7ba39e00ea19dfdd2daf2cc863c74/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f636f6d2d6a6e6a6f73682d6173736574732f636f636f6168656164732d6e6f76656d6265722e6a7067" />
-  <figcaption>The biggest CocoaHeads we've ever had. We had over 60 people that month and we had a talk from the founder of CocoaHeads.</figcaption>
-</figure>
-
 ### Previously
 
 #### 2020
