@@ -11,7 +11,7 @@ title = "About"
   </figure>
 </div>
 
-Hi, I’m Josh Johnson. I’m a software developer living in Raleigh-Durham, NC. Most people don't call it that but I actually live in two zipcodes. It's weird. My congressional district changes pretty much every voting cycle.
+Hi, I’m Josh Johnson. I’m a software developer living in Raleigh-Durham, NC. Most people don't call it that but I actually live in two zip codes. It's weird. My congressional district changes pretty much every voting cycle.
 
 <br />
 
@@ -23,6 +23,10 @@ In my spare time, I've started doing more [photography](https://instagram.com/jn
 
 ### Previously
 
+#### 2021
+
+ - Continuing at [Grubhub](https://www.grubhub.com), role reframed from an iOS Team Lead to an Engineering Manager for Diner Apps. Working with teams of iOS and Android engineers.
+ 
 #### 2020
 
  - May: Started learning Japanese 🇯🇵
