@@ -11,21 +11,21 @@ title = "About"
   </figure>
 </div>
 
-Hi, I’m Josh Johnson. I’m a software developer living in Raleigh-Durham, NC. Most people don't call it that but I actually live in two zip codes. It's weird. My congressional district changes pretty much every voting cycle.
+Hi, I’m Josh Johnson. I’m a software developer and engineering leader living in Raleigh-Durham, NC. Most people don't call it that but I actually live in two zip codes. It's weird. My congressional district changes pretty much every voting cycle.
 
 <br />
 
-I love creating software for Mac and iOS. For years I wrote software for Windows and the Web, but when the iPhone was introduced in 2007 I dusted off my old 12” PowerBook and started to seriously learn Cocoa. I've worked with many teams building iOS apps, led teams of iOS developers at Two Toasters (later Ticketmaster), and previously I was the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally speak at conferences about Cocoa development. Now I'm working with the team at [Grubhub](https://www.grubhub.com) working on the iOS Diner app.
+I love creating software for Mac and iOS. For years I wrote software for Windows and the Web, but when the iPhone was introduced in 2007 I dusted off my old 12” PowerBook and started to seriously learn Cocoa. I've worked with many teams building iOS apps, led teams of iOS developers at Two Toasters (later Ticketmaster), and previously I was the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally speak at conferences about Cocoa development. Now I'm working with the team at [Grubhub](https://www.grubhub.com) working on the Diner Apps (iOS, Android, Web) team.
 
 <br />
 
-In my spare time, I've started doing more [photography](https://instagram.com/jnjosh) and some more filmmaking. I'm learning German and Japanese (and dabbling in Ukrainian). I also really enjoy cooking and [keyboards](/categories/keyboards). I'm basically a nerd that has too many interests and spend a lot of my time trying to prioritize them. I watch too much content on YouTube.
+In my spare time, I've started doing more [photography](https://instagram.com/jnjosh) and some more filmmaking. I'm learning German and Japanese (and dabbling in Ukrainian, Spanish, and Portuguese). I also really enjoy cooking and [keyboards](/categories/keyboards). I'm basically a nerd that has too many interests and spend a lot of my time trying to prioritize them. I watch too much content on YouTube.
 
 ### Previously
 
 #### 2021
 
- - Continuing at [Grubhub](https://www.grubhub.com), role reframed from an iOS Team Lead to an Engineering Manager for Diner Apps. Working with teams of iOS and Android engineers.
+ - Continuing at [Grubhub](https://www.grubhub.com), role reframed from an iOS Team Lead to an Engineering Manager for Diner Apps. Working with teams of Android, iOS, and web engineers.
  
 #### 2020
 
