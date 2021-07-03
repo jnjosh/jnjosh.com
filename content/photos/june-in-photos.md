@@ -10,6 +10,8 @@ camera = "Sony α7S II"
   <figcaption>It was hot at Eno River State Park, but the sky was beautiful!</figcaption>
 </figure>
 
+<!--more-->
+
 We didn’t do too many photography trips in June, only going to a few places—but those places were great!
 
 It had been more than 5 years since we went down to the beach, which is absurd—it’s only about 2 hours drive from here. We finally fixed this with a day trip to Kure Beach, NC.
