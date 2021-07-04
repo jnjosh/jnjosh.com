@@ -29,6 +29,7 @@ In my spare time, I've started doing more [photography](https://instagram.com/jn
  
 #### 2020
 
+ - After 10 years, [stepped down as organizer](/posts/goodbye-triangle-cocoa/) of Triangle Cocoa Meetup
  - May: Started learning Japanese 🇯🇵
 
 #### 2019
@@ -55,6 +56,7 @@ In my spare time, I've started doing more [photography](https://instagram.com/jn
 
   - Joined [BA3](http://ba3.us) as Senior Software Developer.  
   - Speaker at [360|iDev](http://360idev.com) about [being a manager](/posts/360idev-2015/).  
+  - Attended WWDC 2015
   - Started learning German 🇩🇪
   - Two Toasters acquired by Ticketmaster; continued leading the new [Ticketmaster Mobile Studio](http://tmsdurham.com) development team.
 
@@ -72,10 +74,11 @@ In my spare time, I've started doing more [photography](https://instagram.com/jn
 
   - Speaker at CocoaConf Raleigh
   - Joined Two Toasters as Senior iOS Developer.
+  - Attended WWDC 2011
 
 #### 2010
 
-  - Started [CocoaHeads Raleigh](http://meetup.com/nscoderrtp) after attending NSConference Atlanta.
+  - Started [CocoaHeads Raleigh](http://meetup.com/nscoderrtp) after attending NSConference Atlanta. Later renamed to "Triangle Cocoa".
   - Speaker at Autodesk University in Las Vegas about AutoCAD for Mac.
 
 #### 2009
