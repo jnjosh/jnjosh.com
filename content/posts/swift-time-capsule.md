@@ -19,7 +19,7 @@ I was curious lately how much has changed since the beginning and [found a proje
 
 ## Opening the Time Capsule
 
-Of course, I was immediately prompted with “WeatherApp contains sourc code developed with Swift 3.x” and I’d need to migrate to Swift 4. Of course I was opening a Swift 1.2 project and have no interest in stopping at Swift 4, so let’s continue.
+Of course, I was immediately prompted with “WeatherApp contains source code developed with Swift 3.x” and I’d need to migrate to Swift 4. Of course I was opening a Swift 1.2 project and have no interest in stopping at Swift 4, so let’s continue.
 
 Oh… well I guess I can’t really go on. FIrst thing is obviously this app could not run as it targeted iOS 8 and iOS 9 is as far back as Xcode 13 cares to think about. However, the real problem was I decided to use a custom JSON parsing system (this was all before `Codable`!). [Runes](https://github.com/thoughtbot/Runes) and [Argo](https://github.com/thoughtbot/Argo) were used with this incredibly expressive syntax that I did not completely forget about. /sarcasm.
 

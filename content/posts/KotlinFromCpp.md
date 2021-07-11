@@ -2,7 +2,7 @@
 title = "Calling Kotlin from C++"
 date = "2018-02-05T23:37:13-05:00"
 categories = [
-  "Android Development",
+  "Android",
   "C++",
   "Kotlin",
   "Programming"
