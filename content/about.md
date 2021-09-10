@@ -26,6 +26,7 @@ In my spare time, I've started doing more [photography](https://instagram.com/jn
 #### 2021
 
  - Continuing at [Grubhub](https://www.grubhub.com), role reframed from an iOS Team Lead to an Engineering Manager for Diner Apps. Working with teams of Android, iOS, and web engineers.
+ - Rebooted our YouTube channel "One Charge Trips" to be less EV focused and just be a place we can have fun making videos about travel. Now called ["Two Human People"](http://twohumanpeople.com).
  
 #### 2020
 
