@@ -19,9 +19,13 @@ I love creating software for Mac and iOS. For years I wrote software for Windows
 
 <br />
 
-In my spare time, I've started doing more [photography](https://instagram.com/jnjosh) and some more filmmaking. I'm learning German and Japanese (and dabbling in Ukrainian, Spanish, and Portuguese). I also really enjoy cooking and [keyboards](/categories/keyboards). I'm basically a nerd that has too many interests and spend a lot of my time trying to prioritize them. I watch too much content on YouTube.
+In my spare time, I've started doing more [photography](https://jnjosh.photography) and some more filmmaking. I'm learning German and Japanese (and dabbling in Ukrainian, Spanish, and Portuguese). I also really enjoy cooking and [keyboards](/categories/keyboards). I'm basically a nerd that has too many interests and spend a lot of my time trying to prioritize them. I watch too much content on YouTube.
 
 ### Previously
+
+#### 2022
+
+- Started a new [portfolio site for my photography](https://jnjosh.photography). My intent is to post photos that are my favorite or >4 stars in Lightroom there.
 
 #### 2021
 

@@ -32,7 +32,7 @@ Paginate = 10
 	url = "/posts/"
 
 [[menu.main]]
-	name = "Photos"
+	name = "Photography"
 	weight = 2
-	identifier = "photos"
-	url = "/photos/"
+	identifier = "photoography"
+	url = "https://jnjosh.photography"

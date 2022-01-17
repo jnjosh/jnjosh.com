@@ -4,8 +4,8 @@ title = "Now"
 +++
 # What I'm doing now
 
-This is a [now page](http://nownownow.com/about), last updated on February 9, 2021.
+This is a [now page](http://nownownow.com/about), last updated on January 17, 2022.
 
 * Working at [Grubhub](https://www.grubhub.com) as an Engineering Manager on the Diner Core team.
-* [Photography](https://www.flickr.com/photos/87151163@N00/) and filmmaking—working on a couple projects with my friend [Aravind](https://aravind.media).
-* Studying Languages still. Focusing on Japanese and maintaining German. Also dabbling with Ukrainian and Spanish. 
+* [Photography](https://jnjosh.photography) and filmmaking.
+* Working on [Two Human People](http://twohumanpeople.com) YouTube channel.
