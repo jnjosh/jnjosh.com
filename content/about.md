@@ -15,16 +15,17 @@ Hi, I’m Josh Johnson. I’m a software developer and engineering leader living
 
 <br />
 
-I love creating software for Mac and iOS. For years I wrote software for Windows and the Web, but when the iPhone was introduced in 2007 I dusted off my old 12” PowerBook and started to seriously learn Cocoa. I've worked with many teams building iOS apps, led teams of iOS developers at Two Toasters (later Ticketmaster), and previously I was the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally speak at conferences about Cocoa development. Now I'm working with the team at [Grubhub](https://www.grubhub.com) working on the Diner Apps (iOS, Android, Web) team.
+I love creating software for Mac and iOS. For years I wrote software for Windows and the Web, but when the iPhone was introduced in 2007 I dusted off my old 12” PowerBook and started to seriously learn Cocoa. I've worked with many teams building iOS apps, led teams of iOS developers at Two Toasters (later Ticketmaster) and [Grubhub](https://www.grubhub.com). Previously, I was the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally speak at conferences about Cocoa development. Currently a Sr. Design Engineering Manager at [Adobe](https://www.adobe.com).
 
 <br />
 
-In my spare time, I've started doing more [photography](https://jnjosh.photography) and some more filmmaking. I'm learning German and Japanese (and dabbling in Ukrainian, Spanish, and Portuguese). I also really enjoy cooking and [keyboards](/categories/keyboards). I'm basically a nerd that has too many interests and spend a lot of my time trying to prioritize them. I watch too much content on YouTube.
+In my spare time, I've started doing more [photography](https://jnjosh.photography) and some more filmmaking. I enjoy learning languages but currently not studying—Previously focused an many languages including German, Japanese, Ukrainian, Spanish, and Portuguese. I also really enjoy cooking and [keyboards](/categories/keyboards). I'm basically a nerd that has too many interests and spend a lot of my time trying to prioritize them. I watch too much on YouTube.
 
 ### Previously
 
 #### 2022
 
+- Joined [Adobe](https://www.adobe.com) as a Sr. Design Engineering Manager.
 - Started a new [portfolio site for my photography](https://jnjosh.photography). My intent is to post photos that are my favorite or >4 stars in Lightroom there.
 
 #### 2021

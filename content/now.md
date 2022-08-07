@@ -4,8 +4,9 @@ title = "Now"
 +++
 # What I'm doing now
 
-This is a [now page](http://nownownow.com/about), last updated on January 17, 2022.
+This is a [now page](http://nownownow.com/about), last updated on August 7, 2022.
 
-* Working at [Grubhub](https://www.grubhub.com) as an Engineering Manager on the Diner Core team.
+* As of 8/8/2022, working at [Adobe](https://www.adobe.com) as a Sr. Design Engineering Manager.
 * [Photography](https://jnjosh.photography) and filmmaking.
-* Working on [Two Human People](http://twohumanpeople.com) YouTube channel.
+* Camping a lot after buying a camper van. Playing with an app idea for estimating battery usage.
+* Thinking about YouTube channels as either or new photography-based channel or returning to [Two Human People](http://twohumanpeople.com) YouTube channel.
