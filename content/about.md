@@ -15,7 +15,7 @@ Hi, I’m Josh Johnson. I’m a software developer and engineering leader living
 
 <br />
 
-I love creating software for Mac and iOS. For years I wrote software for Windows and the Web, but when the iPhone was introduced in 2007 I dusted off my old 12” PowerBook and started to seriously learn Cocoa. I've worked with many teams building iOS apps, led teams of iOS developers at Two Toasters (later Ticketmaster) and [Grubhub](https://www.grubhub.com). Previously, I was the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally speak at conferences about Cocoa development. Currently a Sr. Design Engineering Manager at [Adobe](https://www.adobe.com).
+I love creating software for Mac and iOS. For years I wrote software for Windows and the Web, but when the iPhone was introduced in 2007 I dusted off my old 12” PowerBook and started to seriously learn Cocoa. I've worked with many teams building iOS apps, led teams of iOS developers at Two Toasters (later Ticketmaster) and [Grubhub](https://www.grubhub.com). Previously, I was the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally [speak at conferences](/speaking) about Cocoa development. Currently a Sr. Design Engineering Manager at [Adobe](https://www.adobe.com).
 
 <br />
 
@@ -45,8 +45,7 @@ In my spare time, I've started doing more [photography](https://jnjosh.photograp
  - Built a new web portfolio for [aravind.media](https://aravind.media).
  - Worked on production and post-production on [Aravind Ragupathi's](https://aravind.media) short film, ["8:46"](https://aravind.media/portfolio/eight46/).
  - Joined [Grubhub](https://www.grubhub.com) as an iOS Team Lead.
- 
- 
+
 #### 2017
 
   - Started [One Charge Trips](https://onechargetrips.com) making trips from our home to nearby areas on a single charge of our electric vehicles.
@@ -63,22 +62,30 @@ In my spare time, I've started doing more [photography](https://jnjosh.photograp
   - Joined [BA3](http://ba3.us) as Senior Software Developer.  
   - Speaker at [360|iDev](http://360idev.com) about [being a manager](/posts/360idev-2015/).  
   - Attended WWDC 2015
-  - Started learning German 🇩🇪
+  - Started learnisng German 🇩🇪
   - Two Toasters acquired by Ticketmaster; continued leading the new [Ticketmaster Mobile Studio](http://tmsdurham.com) development team.
 
 #### 2014
 
-  - Started leading the iOS (and later Android) team at [Two Toasters](http://twotoasters.com) as Director of Development.
+  - Started leading the iOS (and later Android) team at [Two Toasters](http://twotoasters.com) as Director of Development.  
+  - Speaker at [360|iDev Min](http://360idev.com) about [using HealthKit](https://vimeo.com/108835313).  
+  - Speaker at [CocoaConf Mini](http://cocoaconf.com/raleigh-2014/home) in Raleigh about Working with [Web Services](https://speakerdeck.com/jnjosh/fake-it-til-you-make-it-staying-productive-when-working-with-web-services)
+
+#### 2013
+
+  - Attended 360|iDev
+  - Speaker at [iOSDevCampDC] about [AVFoundation](https://speakerdeck.com/jnjosh/building-a-playlist-with-av-foundation)
 
 #### 2012
 
   - Switched to the [Dvorak Keyboard Layout](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) quickly [and began tracking speed](/dvorak).
+  - Speaker at [CocoaConf](http://cocoaconf.com/) Raleigh about [Automated Acceptance Testing](http://cocoaheads.tv/automated-acceptance-testing-by-josh-johnson/)
   - Launched [CocoaHeads.TV](http://cocoaheads.tv) to share CocoaHeads meetup videos from groups around the world.
   - Shipped [iOS App for the Bad Movie Podcast](/posts/bad-movie-podcast-app/).
 
 #### 2011
 
-  - Speaker at CocoaConf Raleigh
+  - Speaker at [CocoaConf](http://cocoaconf.com/) Raleigh about [Core Data Concurrency](https://speakerdeck.com/jnjosh/concurrency-with-core-data)
   - Joined Two Toasters as Senior iOS Developer.
   - Attended WWDC 2011
 
@@ -86,6 +93,7 @@ In my spare time, I've started doing more [photography](https://jnjosh.photograp
 
   - Started [CocoaHeads Raleigh](http://meetup.com/nscoderrtp) after attending NSConference Atlanta. Later renamed to "Triangle Cocoa".
   - Speaker at Autodesk University in Las Vegas about AutoCAD for Mac.
+  - Attended NSConference Atlanta
 
 #### 2009
 
