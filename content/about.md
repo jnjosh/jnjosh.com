@@ -74,7 +74,7 @@ In my spare time, I've started doing more [photography](https://jnjosh.photograp
 #### 2013
 
   - Attended 360|iDev
-  - Speaker at [iOSDevCampDC] about [AVFoundation](https://speakerdeck.com/jnjosh/building-a-playlist-with-av-foundation)
+  - Speaker at [iOSDevCampDC](https://iosdevcampdc.com) about [AVFoundation](https://speakerdeck.com/jnjosh/building-a-playlist-with-av-foundation)
 
 #### 2012
 
