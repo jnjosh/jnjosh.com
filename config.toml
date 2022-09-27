@@ -5,6 +5,9 @@ theme = "internet-weblog"
 pygmentsstyle = "emacs"
 Paginate = 10
 
+[markup.goldmark.renderer]
+unsafe=true
+
 [author]
 	Handle = "jnjosh"
 	FirstName = "Josh"
