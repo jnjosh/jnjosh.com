@@ -23,9 +23,14 @@ In my spare time, I've started doing more [photography](https://jnjosh.photograp
 
 ### Previously
 
+#### 2023
+
+- March: Started the process of gaining Italian Dual Citizenship and started learning Italian 🇮🇹
+- YouTube channel changed from "Two Human People" to just [Nat and Josh](https://www.youtube.com/@natandjosh).
+
 #### 2022
 
-- Joined [Adobe](https://www.adobe.com) as a Sr. Design Engineering Manager.
+- August: Joined [Adobe](https://www.adobe.com) as a Sr. Design Engineering Manager.
 - Started a new [portfolio site for my photography](https://jnjosh.photography). My intent is to post photos that are my favorite or >4 stars in Lightroom there.
 
 #### 2021
