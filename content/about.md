@@ -23,6 +23,10 @@ In my spare time, I've started doing more [photography](https://jnjosh.photograp
 
 ### Previously
 
+#### 2024
+
+- January: [Started new blog](https://italy.jnjosh.com) about learning Italian, cooking Italian, and Dual Citizenship
+
 #### 2023
 
 - March: Started the process of gaining Italian Dual Citizenship and started learning Italian 🇮🇹
