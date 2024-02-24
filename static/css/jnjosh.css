@@ -70,3 +70,7 @@ figcaption {
   padding: 2px;
   border-radius: 6px;
 }
+
+.yellow-highlight a {
+  color: var(--joshin-color-black);
+}
