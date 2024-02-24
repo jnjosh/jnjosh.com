@@ -20,6 +20,7 @@ unsafe=true
 	Description = "Internet weblog of Software (Mac, iOS, Web) Developer, Josh Johnson."
 	ShowCopyright = true
 	RSSEnabled = true
+	EnablePreferredDarkAppearance = true
 	RSSMicropostTitles = false
 	mainSections = [ "posts", "microposts", "photos" ]
 

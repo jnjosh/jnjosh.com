@@ -1,9 +1,7 @@
-
 /* Page Updates */
 
 .page ul li::before {
   content: "\2794"; 
-  color: #eee;
   font-weight: bold;
   display: inline-block;
   width: 1.25em; 
@@ -27,9 +25,8 @@
 
 .page h4 {
   margin: 20px 0 0 0;
-  color: #a0a0a0;
   font-size: 16pt;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .page h2 {
@@ -61,7 +58,6 @@ figcaption {
   margin: auto;
   text-align: center;
   font-size: 12px;
-  color: #999999;
 }
 
 .highlight {
@@ -69,5 +65,8 @@ figcaption {
 }
 
 .yellow-highlight {
-  background-color: #FFFEDC;
+  background-color: #ffed9b;
+  color: var(--joshin-color-black);
+  padding: 2px;
+  border-radius: 6px;
 }
