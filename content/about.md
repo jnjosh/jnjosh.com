@@ -25,6 +25,7 @@ In my spare time, I've started doing more [photography](https://jnjosh.photograp
 
 #### 2024
 
+- September: Started a new hobby, Watchmaking. 
 - January: [Started new blog](https://italy.jnjosh.com) about learning Italian, cooking Italian, and Dual Citizenship
 
 #### 2023
