@@ -4,9 +4,8 @@ title = "Now"
 +++
 # What I'm doing now
 
-This is a [now page](http://nownownow.com/about), last updated on November 19, 2024.
+This is a [now page](http://nownownow.com/about), last updated on April 2026.
 
-* Working at [Adobe](https://www.adobe.com) as part of the Spectrum team as a Sr. Design Engineering Manager.
-* Studying Italian 🇮🇹, working on claiming my Dual Citizenship in Italy, and lots of cooking.
-* Camping, [Photography](https://jnjosh.photography) and filmmaking when possible.
+* Working at [Adobe](https://www.adobe.com) as part of the Spectrum team as a Group Design Engineering Manager leading implementations of the design system.
 * Watchmaking! I've started a new hobby where I buy watches that need repair and fix them. Follow along on [Instagram](https://www.instagram.com/jnjosh/)
+* Music! I've started actually learning guitar, bass, synthesizers. Trying to learn how to make music! Follow along on [Instagram](https://www.instagram.com/jnjosh.jams/)
