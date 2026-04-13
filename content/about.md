@@ -23,6 +23,15 @@ In my spare time, I've started doing more [photography](https://jnjosh.photograp
 
 ### Previously
 
+#### 2026
+
+- February: Still at Adobe, but role expanded to Group Design Engineering Manager leading implementation teams of the Spectrum Design System.
+
+#### 2025
+
+- June: Started playing Guitar again. Traded my old guitars in for a new one and really learning this time. From actually learning music theory to taking lessons.
+- July: Travel! First time to London 🇬🇧, Seattle, and Vancouver 🇨🇦 this year.
+
 #### 2024
 
 - September: Started a new hobby, Watchmaking. 
