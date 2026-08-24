@@ -1,12 +1,17 @@
 baseurl = "https://jnjosh.com/"
 title = "internet weblog"
 theme = "internet-weblog-2"
-pygmentsstyle = "emacs"
-Paginate = 10
 
 disableAliases = true
+
+[services.rss]
+  limit = 20
+
 [pagination]
   disableAliases = true
+
+[caches.getresource]
+  maxAge = "4h"
 
 [params]
   handle = "@jnjosh"
@@ -43,6 +48,7 @@ See what else I'm [doing now](/now/).
   [[params.footer.social]]
     name = "GitHub"
     url = "https://github.com/jnjosh"
+    rel = "me"
 
 [taxonomies]
   tag = "tags"
