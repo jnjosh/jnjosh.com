@@ -118,11 +118,26 @@ poster = ""
 +++
 ```
 
-## 5. Open it
+## 5. Open it — only if BBEdit is actually there
+
+Check first:
+
+```bash
+command -v bbedit
+```
+
+If it resolves, open the file:
 
 ```bash
 bbedit "content/<space>/<type-dir>/<slug>.md"
 ```
+
+If it does not resolve, the shell is not Josh's Mac — some environments mount the repo into a
+sandbox that has the files but none of his applications. That is expected, not a failure.
+**Skip the open step silently.** Do not run `bbedit` anyway to see what happens, do not hunt
+for another editor, and do not offer computer use, Finder, or any other route to get the file
+open — he has BBEdit in front of him. Report the path as usual and add that he'll need to open
+it himself. One clause, not an apology.
 
 ## 6. Report, briefly
 
