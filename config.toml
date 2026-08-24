@@ -1,42 +1,68 @@
 baseurl = "https://jnjosh.com/"
-languageCode = "en-us"
 title = "internet weblog"
-theme = "internet-weblog"
+theme = "internet-weblog-2"
 pygmentsstyle = "emacs"
 Paginate = 10
 
-[markup.goldmark.renderer]
-unsafe=true
-
-[author]
-	Handle = "jnjosh"
-	FirstName = "Josh"
-	LastName = "Johnson"
-	AboutPage = "/about"
-	Location = "Durham, NC"
-	FlickrID = "87151163@N00"
+disableAliases = true
+[pagination]
+  disableAliases = true
 
 [params]
-	Description = "Internet weblog of Software (Mac, iOS, Web) Developer, Josh Johnson."
-	ShowCopyright = true
-	RSSEnabled = true
-	EnablePreferredDarkAppearance = true
-	RSSMicropostTitles = false
-	mainSections = [ "posts", "microposts", "photos" ]
+  handle = "@jnjosh"
+  description = "Internet weblog of Software (Mac, iOS, Web) Developer, Josh Johnson."
+  mainSections = ["workshop", "studio"]
+  migratedBefore = 2026-08-12
+  [params.glass]
+    postsURL = "https://glass.photo/api/v2/users/jnjosh/posts"
+    profileURL = "https://glass.photo/jnjosh"
+  [params.author]
+    Handle = "jnjosh"
+    FirstName = "Josh"
+    LastName = "Johnson"
+    Location = "Raleigh, NC"
+
+[params.footer]
+  greeting = "Hi, [I'm Josh](/about/)"
+  bio = """
+I'm an Engineering Manager at [Adobe](https://adobe.com), a [photographer](https://jnjosh.photography)
+sharing photos on [Glass](https://glass.photo/jnjosh), and I
+[watch a lot of movies](https://letterboxd.com/jnjosh/films/diary/).
+See what else I'm [doing now](/now/).
+"""
+  followIntro = "Follow me on"
+  colophon = "Made in Raleigh, NC"
+
+  [[params.footer.social]]
+    name = "Mastodon"
+    url = "https://mastodon.social/@jnjosh"
+    rel = "me"
+  [[params.footer.social]]
+    name = "Instagram"
+    url = "https://instagram.com/jnjosh"
+  [[params.footer.social]]
+    name = "GitHub"
+    url = "https://github.com/jnjosh"
 
 [taxonomies]
-	tag = "tags"
-	category = "categories"
-	series = "series"
+  tag = "tags"
+  category = "categories"
+  series = "series"
 
-[[menu.main]]
-	name = "Post Archive"
-	weight = 1
-	identifier = "posts"
-	url = "/posts/"
+[privacy]
+  [privacy.youtube]
+    privacyEnhanced = true
+  [privacy.vimeo]
+    enableDNT = true
 
-[[menu.main]]
-	name = "Photography"
-	weight = 2
-	identifier = "photoography"
-	url = "https://jnjosh.photography"
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark.parser]
+  wrapStandAloneImageWithinParagraph = false
+
+[outputs]
+  home = ["HTML", "RSS", "REDIRECTS"]

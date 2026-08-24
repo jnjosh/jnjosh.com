@@ -14,7 +14,7 @@ In 2013 I fell in love with mechanical keyboards. More specifically I fell in lo
 Earlier this year I learned about the [WhiteFox Keyboard](https://input.club/whitefox/) and ordered it on [Massdrop](https://www.massdrop.com). It arrived today. 
 
 <figure>
-  <img src="https://photos.jnjosh.com/whitefox-december2016/whitefox.jpg" />
+  <img src="/assets/images/whitefox-december2016/whitefox.jpg" />
   <figcaption>So luxurious and very customizable!</figcaption>
 </figure>
 

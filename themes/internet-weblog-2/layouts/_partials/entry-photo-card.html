@@ -1,0 +1,19 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- $page := .page -}}
+{{- $level := .level | default "h2" -}}
+{{- $img := "" }}{{ $alt := "" -}}
+{{- with findRESubmatch `src="([^"]+)"` $page.Summary 1 }}{{ $img = index (index . 0) 1 | htmlUnescape }}{{ end -}}
+{{- with findRESubmatch `alt="([^"]*)"` $page.Summary 1 }}{{ $alt = index (index . 0) 1 | htmlUnescape }}{{ end -}}
+{{- if $img }}
+<article class="entry-summary entry-summary--photos"><a class="entry-summary__frame" href="{{ $page.RelPermalink }}" tabindex="-1" aria-hidden="true">
+    <img class="entry-summary__image" src="{{ $img | safeURL }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+  </a>
+  <div class="entry-summary__head">
+    {{ partial "entry-title.html" (dict "page" $page "level" $level "linkSelf" true "class" "entry-summary__title") }}
+    {{- with $page.Date }}
+    <p class="entry-summary__date">
+      <time datetime="{{ .Format "2006-01-02" }}">{{ .Format (partial "date-format.html" "short") }}</time>
+    </p>
+    {{- end }}
+  </div>
+</article>
+{{- end }}

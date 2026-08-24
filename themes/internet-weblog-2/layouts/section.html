@@ -1,0 +1,42 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{ define "main" }}
+  
+  <h1 class="visually-hidden">{{ .Title }}</h1>
+
+  
+  {{ $entries := .RegularPagesRecursive }}
+
+  
+  {{ $pin := "" }}
+  {{ if in site.Params.mainSections .Section }}
+    {{ $pin = partial "space-pin.html" $entries }}
+  {{ end }}
+
+  
+  {{ $rest := $entries }}
+  {{ with $pin }}{{ $rest = where $entries "RelPermalink" "!=" .RelPermalink }}{{ end }}
+
+  
+  {{ $paginator := .Paginate $rest }}
+
+  
+  {{ if eq $paginator.PageNumber 1 }}
+    {{ with $pin }}
+      
+      <div class="space-pin{{ if .Params.featured }} space-pin--featured{{ end }}">
+        
+        {{ if .Params.featured }}<p class="pin-label">Featured</p>{{ end }}
+        {{ partial "entry-summary.html" (dict "page" .) }}
+      </div>
+    {{ end }}
+  {{ end }}
+
+  {{ with $paginator.Pages }}
+    <ul class="entry-summaries">
+      {{ range . }}
+        <li class="entry-summaries__item">{{ partial "entry-summary.html" (dict "page" .) }}</li>
+      {{ end }}
+    </ul>
+  {{ end }}
+
+  {{ partial "pager.html" $paginator }}
+{{ end }}

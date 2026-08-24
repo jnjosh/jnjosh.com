@@ -1,0 +1,39 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{ define "main" }}
+  
+  {{/**/}}
+
+  {{- $items := slice -}}
+  {{- range site.Params.mainSections -}}
+    {{- with site.GetPage . -}}
+      {{- $entries := .RegularPagesRecursive -}}
+      
+      {{- with $entries -}}
+        {{- $pin := partial "space-pin.html" . -}}
+        {{- $items = $items | append $pin -}}
+        
+        {{- with first 1 (where . "RelPermalink" "!=" $pin.RelPermalink) -}}
+          {{- $items = $items | append (index . 0) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{/**/}}
+  {{/**/}}
+  {{- $flagged := sort (where $items "Params.featured" true) "Date" "desc" -}}
+  {{- $rest := sort (where $items "Params.featured" "!=" true) "Date" "desc" -}}
+
+  <div class="front-door">
+    {{- range $flagged | append $rest }}
+    {{- $page := . }}{{ $space := site.GetPage .Section }}
+    <div class="front-door__item{{ if $page.Params.featured }} is-raised{{ end }}">
+      
+      <p class="front-door__chip">
+        <a href="{{ $space.RelPermalink }}">{{ $space.Title }}</a>
+        {{- if $page.Params.featured }} <span aria-hidden="true">·</span> <span class="front-door__flag">Featured</span>{{ end -}}
+      </p>
+      {{ partial "entry-summary.html" (dict "page" $page "level" "h2") }}
+    </div>
+    {{- end }}
+  </div>
+{{ end }}

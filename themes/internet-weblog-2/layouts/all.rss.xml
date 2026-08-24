@@ -1,0 +1,39 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- $pages := .Pages -}}
+{{- if .IsHome -}}{{- $pages = where site.RegularPages "Section" "in" site.Params.mainSections -}}
+{{- else if .IsSection -}}{{- $pages = .RegularPagesRecursive -}}
+{{- end -}}
+{{- $pages = $pages.ByDate.Reverse -}}
+{{- $limit := site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 }}{{ $pages = $pages | first $limit }}{{ end -}}{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    {{- $siteName := partial "site-name.html" . }}
+    <title>{{ if .IsHome }}{{ $siteName }}{{ else }}{{ .Title }} · {{ $siteName }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    {{- with or .Description site.Params.description }}
+    <description>{{ . }}</description>
+    {{- end }}{{- with site.Language.Locale }}
+    <language>{{ . }}</language>
+    {{- end }}
+    {{- with index $pages 0 }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{- end }}
+    {{- with .OutputFormats.Get "rss" }}
+    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
+    {{- end }}
+    {{- range $pages }}
+    {{- $permalink := .Permalink }}
+    {{- $external := .Params.externalurl }}
+    {{- $body := .Content }}
+    {{- with $external }}{{- $body = printf "%s\n<p><a href=%q>Permalink</a></p>" $body $permalink }}
+    {{- end }}
+    <item>{{- with .Title }}
+      <title>{{ . }}</title>
+      {{- end }}
+      <link>{{ or $external $permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate><guid isPermaLink="false">{{ $permalink }}</guid>
+      <description>{{ $body | transform.XMLEscape | safeHTML }}</description>
+    </item>
+    {{- end }}
+  </channel>
+</rss>

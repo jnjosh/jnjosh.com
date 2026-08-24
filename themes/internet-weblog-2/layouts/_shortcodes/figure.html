@@ -1,0 +1,36 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- if not .IsNamedParams -}}
+  {{- errorf "figure shortcode takes named params only — %s" .Position -}}
+{{- end -}}
+
+{{- $src := .Get "src" -}}
+{{- if not $src -}}
+  {{- errorf "figure shortcode requires a `src` — %s" .Position -}}
+{{- end -}}
+
+{{- if not (isset .Params "alt") -}}
+  {{- erroridf "figure-missing-alt" "figure shortcode requires an `alt` (use alt=\"\" for a decorative image) — %s" .Position -}}
+{{- end -}}
+
+{{- $alt := .Get "alt" | default "" -}}
+{{- $link := .Get "link" -}}
+
+{{- if and $link (not $alt) -}}
+  {{- erroridf "figure-link-without-alt" "figure shortcode: a linked image needs a non-empty `alt` to name the link — %s" .Position -}}
+{{- end -}}
+
+{{- $caption := .Get "caption" -}}
+
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+  {{- with $link }}<a href="{{ . }}">{{ end -}}
+  <img
+    src="{{ $src }}"
+    alt="{{ $alt }}"
+    {{- with .Get "width" }} width="{{ . }}"{{ end }}
+    {{- with .Get "height" }} height="{{ . }}"{{ end }}
+    loading="lazy"
+    decoding="async">
+  {{- with $link }}</a>{{ end -}}
+  {{- with $caption }}
+  <figcaption>{{ $.Page.RenderString . }}</figcaption>
+  {{- end }}
+</figure>

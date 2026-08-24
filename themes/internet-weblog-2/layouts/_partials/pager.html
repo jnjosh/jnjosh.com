@@ -1,0 +1,16 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- $pager := . -}}
+{{- if gt $pager.TotalPages 1 }}
+<nav class="pager" aria-label="Pagination">
+  {{- with $pager.Prev }}
+  <a class="pager__link pager__link--newer" href="{{ .URL }}" rel="prev">
+    {{- partial "icon-arrow.html" "prev" }}&#160;Newer<span class="visually-hidden"> entries, page {{ .PageNumber }}</span>
+  </a>
+  {{- end }}
+  <p class="pager__count">Page {{ $pager.PageNumber }} of {{ $pager.TotalPages }}</p>
+  {{- with $pager.Next }}
+  <a class="pager__link pager__link--older" href="{{ .URL }}" rel="next">
+    Older<span class="visually-hidden"> entries, page {{ .PageNumber }}</span>&#160;{{ partial "icon-arrow.html" "next" -}}
+  </a>
+  {{- end }}
+</nav>
+{{- end }}

@@ -1,0 +1,88 @@
+/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */
+
+@layer tokens {
+  :root {
+    --_jnj-color-neutral-0: oklch(1 0 0);
+    --_jnj-color-neutral-100: oklch(0.97 0 0);
+    --_jnj-color-neutral-200: oklch(0.834 0.014 214);
+    --_jnj-color-neutral-300: oklch(0.87 0.02 232);
+    --_jnj-color-neutral-600: oklch(0.5 0 0);
+    --_jnj-color-neutral-700: oklch(0.45 0.043 247);
+    --_jnj-color-neutral-800: oklch(0.32 0 0);
+    --_jnj-color-neutral-900: oklch(0.25 0 0);
+    --_jnj-color-neutral-1000: oklch(0 0 0);
+    --_jnj-color-ground-blue-500: oklch(0.28 0.058 247);
+    --_jnj-color-ground-blue-700: oklch(0.19 0.04 247);
+    --_jnj-color-ground-shade-035: oklch(0 0 0 / 0.035);
+    --_jnj-color-ground-shade-050: oklch(0 0 0 / 0.05);
+    --_jnj-color-ground-shade-250: oklch(0 0 0 / 0.25);
+    --_jnj-color-ground-shade-340: oklch(0 0 0 / 0.34);
+    --_jnj-color-ground-blue-100: oklch(0.942 0.03 214);
+    --_jnj-color-syntax-keyword-400: oklch(0.78 0.12 300);
+    --_jnj-color-syntax-keyword-600: oklch(0.46 0.15 300);
+    --_jnj-color-syntax-type-400: oklch(0.8 0.09 195);
+    --_jnj-color-syntax-type-600: oklch(0.46 0.07 195);
+    --_jnj-color-syntax-function-400: oklch(0.78 0.11 250);
+    --_jnj-color-syntax-function-600: oklch(0.48 0.13 250);
+    --_jnj-color-syntax-string-400: oklch(0.8 0.12 145);
+    --_jnj-color-syntax-string-600: oklch(0.46 0.11 145);
+    --_jnj-color-syntax-comment-400: oklch(0.71 0.01 70);
+    --_jnj-color-syntax-comment-600: oklch(0.5 0.01 70);
+    --_jnj-color-syntax-error-400: oklch(0.72 0.15 25);
+    --_jnj-color-syntax-error-600: oklch(0.5 0.17 25);
+    --_jnj-color-syntax-punct-400: oklch(0.78 0 0);
+    --_jnj-color-syntax-punct-600: oklch(0.5 0 0);
+    --_jnj-color-accent-500: oklch(0.74 0.14 247);
+    --_jnj-color-accent-600: oklch(0.5 0.132 247);
+    --jnj-color-text: light-dark(var(--_jnj-color-neutral-900), var(--_jnj-color-neutral-100));
+    --jnj-color-muted: light-dark(var(--_jnj-color-neutral-600), var(--_jnj-color-neutral-300));
+    --jnj-color-syntax-keyword: light-dark(var(--_jnj-color-syntax-keyword-600), var(--_jnj-color-syntax-keyword-400));
+    --jnj-color-syntax-type: light-dark(var(--_jnj-color-syntax-type-600), var(--_jnj-color-syntax-type-400));
+    --jnj-color-syntax-function: light-dark(var(--_jnj-color-syntax-function-600), var(--_jnj-color-syntax-function-400));
+    --jnj-color-syntax-string: light-dark(var(--_jnj-color-syntax-string-600), var(--_jnj-color-syntax-string-400));
+    --jnj-color-syntax-comment: light-dark(var(--_jnj-color-syntax-comment-600), var(--_jnj-color-syntax-comment-400));
+    --jnj-color-syntax-error: light-dark(var(--_jnj-color-syntax-error-600), var(--_jnj-color-syntax-error-400));
+    --jnj-color-syntax-punct: light-dark(var(--_jnj-color-syntax-punct-600), var(--_jnj-color-syntax-punct-400));
+    --jnj-color-link: light-dark(var(--_jnj-color-accent-600), var(--_jnj-color-accent-500));
+    --jnj-color-border: light-dark(var(--_jnj-color-neutral-200), var(--_jnj-color-neutral-700));
+    --jnj-layer-0-color-background-start: light-dark(var(--_jnj-color-neutral-0), var(--_jnj-color-ground-blue-500));
+    --jnj-layer-0-color-background-end: light-dark(var(--_jnj-color-ground-blue-100), var(--_jnj-color-ground-blue-700));
+    --jnj-layer-1-color-background: light-dark(var(--_jnj-color-ground-shade-050), var(--_jnj-color-ground-shade-340));
+    --jnj-layer-2-color-background: light-dark(var(--_jnj-color-ground-shade-035), var(--_jnj-color-ground-shade-250));
+    --jnj-line-height-flat: 1;
+    --jnj-line-height-tight: 1.25;
+    --jnj-line-height-snug: 1.5;
+    --jnj-line-height-body: 1.7;
+    --jnj-underline-offset: 0.25;
+    --jnj-paragraph-spacing: 1.2;
+    --jnj-space-1: 0.25rem;
+    --jnj-space-2: 0.5rem;
+    --jnj-space-3: 0.75rem;
+    --jnj-space-4: 1rem;
+    --jnj-space-5: 1.5rem;
+    --jnj-space-6: 2rem;
+    --jnj-space-7: 3rem;
+    --jnj-space-gutter: var(--jnj-space-4);
+    --jnj-space-inset: var(--jnj-space-2);
+    --jnj-space-target-clearance: var(--jnj-space-3);
+    --jnj-target-min: 44px;
+    --jnj-font-size-caption: 0.75rem;
+    --jnj-font-size-small: 0.875rem;
+    --jnj-font-size-body: 1.0625rem;
+    --jnj-font-size-lead: 1.25rem;
+    --jnj-font-size-section: 1.5rem;
+    --jnj-font-size-title: 1.75rem;
+    --jnj-font-family-text: 'Plus Jakarta Sans', 'Avenir Next', 'Helvetica Neue', Arial, sans-serif;
+    --jnj-font-family-mono: ui-monospace, 'SF Mono', Menlo, monospace;
+    --jnj-measure: 42rem;
+
+    
+    --jnj-screen: compact;
+  }
+
+  @media (min-width: 48rem) {
+    :root {
+      --jnj-screen: regular;
+    }
+  }
+}

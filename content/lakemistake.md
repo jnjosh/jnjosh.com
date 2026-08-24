@@ -2,8 +2,6 @@
 title = "The Lake Mistake"
 +++
 
-# The Lake Mistake
-
 I grew up near Cleveland in the 80s, pretty much right near the lake. Lake Erie was a well-documented mess in the 70s and I heard all sorts of stories from my Dad about flicking cigarettes into the river only to see a flash of fire as it hit the surface. The Cuyahoga River, which drains into it, famously caught fire in 1969. Not once. Multiple times. The most famous fire made the national news but outside of my Dad's stories, it wasn't something I thought about. I moved out of Northeast Ohio in the late 90s.
 <br /><br />
 About a year ago I started playing music. Guitar mostly, messing around with samplers and synthesizers. I work and play music in my home office. My closet in here was packed. Full of stuff from years of living here, and I had a few of those boxes full of stuff I haven't looked at in years. My Cedar Point employee badge, photos of my sister as a baby, and a weird glass sphere that someone in my family had handed me at some point (that's a guess, I honestly couldn't tell you where it came from). It was sealed, looked like something an old fisherman would use to weigh down his nets. I never gave it any attention, it was just a thing in that box of stuff.

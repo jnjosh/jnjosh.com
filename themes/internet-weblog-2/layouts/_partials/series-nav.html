@@ -1,0 +1,32 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- if index site.Taxonomies "series" }}
+  {{- $entry := . }}
+  {{- $all := .GetTerms "series" }}
+  {{- range $all }}
+    {{- $ordered := .Pages.ByDate }}
+    {{- $total := len $ordered }}
+    {{- $part := 0 }}
+    {{- range $i, $p := $ordered }}
+      {{- if eq $p.RelPermalink $entry.RelPermalink }}{{ $part = add $i 1 }}{{ end }}
+    {{- end }}
+    {{- if and (gt $part 0) (gt $total 1) }}{{- $prev := "" }}
+      {{- $next := "" }}
+      {{- if gt $part 1 }}{{ $prev = index $ordered (sub $part 2) }}{{ end }}
+      {{- if lt $part $total }}{{ $next = index $ordered $part }}{{ end }}<nav class="series-nav" aria-label="{{ .LinkTitle }} series">
+    {{- if gt (len $all) 1 }}
+    <p class="series-nav__label">{{ .LinkTitle }}</p>
+    {{- end }}{{- with $prev }}
+    <a class="series-nav__link series-nav__link--prev" href="{{ .RelPermalink }}">
+      <span class="series-nav__direction">{{ partial "icon-arrow.html" "prev" }}&#160;Previous</span>
+      <span class="series-nav__title">{{ if .Title }}{{ .Title }}{{ else }}{{ .Date.Format (partial "date-format.html" "short") }}{{ end }}</span>
+    </a>
+    {{- end }}
+    {{- with $next }}
+    <a class="series-nav__link series-nav__link--next" href="{{ .RelPermalink }}">
+      <span class="series-nav__direction">Next&#160;{{ partial "icon-arrow.html" "next" }}</span>
+      <span class="series-nav__title">{{ if .Title }}{{ .Title }}{{ else }}{{ .Date.Format (partial "date-format.html" "short") }}{{ end }}</span>
+    </a>
+    {{- end }}
+  </nav>
+    {{- end }}
+  {{- end }}
+{{- end }}

@@ -1,0 +1,25 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- $page := . -}}
+{{- $groups := slice -}}{{- $hidden := slice "categories" "tags" "series" -}}
+{{- range $name, $_ := site.Taxonomies -}}
+  {{- if not (in $hidden $name) -}}
+  {{- with $page.GetTerms $name -}}
+    {{- $groups = $groups | append (dict "name" $name "terms" .) -}}
+  {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $groups }}
+  <footer class="entry__footer">
+    <nav class="entry__terms" aria-label="Topics">
+      {{- range . }}
+      <div class="entry__term-group">
+        <span class="entry__term-label" aria-hidden="true">{{ .name | humanize }}</span>
+        <ul class="entry__term-list" aria-label="{{ .name | humanize }}">
+          {{- range .terms }}
+          <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+          {{- end }}
+        </ul>
+      </div>
+      {{- end }}
+    </nav>
+  </footer>
+{{- end -}}

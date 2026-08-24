@@ -2,8 +2,6 @@
 title = "Speaking"
 +++
 
-# Speaking
-
 In 2006 I was given my first opportunity to speak at a technical conference. I was scared out of my
 mind. I had never done this sort of thing before and this was a [huge
 conference](http://au.autodesk.com). After starting the local CocoaHeads chapter and having many

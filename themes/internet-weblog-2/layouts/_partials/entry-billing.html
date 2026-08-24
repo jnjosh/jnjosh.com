@@ -1,0 +1,28 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- $entry := .page -}}
+{{- $cats := slice -}}
+{{- if index site.Taxonomies "categories" }}{{ $cats = $entry.GetTerms "categories" }}{{ end -}}
+{{- $series := slice -}}
+{{- if index site.Taxonomies "series" }}{{ $series = $entry.GetTerms "series" }}{{ end -}}
+{{- if or $cats $series }}
+  <nav class="entry-billing" aria-label="Terms">
+    {{- with $cats }}<p class="entry-billing__label">{{ if eq (len .) 1 }}Category{{ else }}Categories{{ end }}</p>
+    <p class="entry-billing__cats">
+      {{- range $i, $term := . }}
+        {{- if $i }} <span aria-hidden="true">·</span> {{ end -}}
+        <a href="{{ $term.RelPermalink }}">{{ $term.LinkTitle }}</a>
+      {{- end -}}
+    </p>
+    {{- end }}{{- range $series }}
+      {{- $ordered := .Pages.ByDate }}
+      {{- $total := len $ordered }}
+      {{- $part := 0 }}
+      {{- range $i, $p := $ordered }}
+        {{- if eq $p.RelPermalink $entry.RelPermalink }}{{ $part = add $i 1 }}{{ end }}
+      {{- end }}
+    <p class="entry-billing__series">
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      {{- if and (gt $part 0) (gt $total 1) }} <span aria-hidden="true">·</span> Part {{ $part }} of {{ $total }}{{ end -}}
+    </p>
+    {{- end }}
+  </nav>
+{{- end }}

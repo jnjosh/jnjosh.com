@@ -1,0 +1,19 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- with site.Params.footer }}
+<section class="site-footer__about">
+  {{- with .greeting }}
+  <h2 class="site-footer__heading">{{ $.RenderString . }}</h2>
+  {{- end }}
+  {{- with .bio }}
+  <div class="site-footer__bio">{{ $.RenderString (dict "display" "block") . }}</div>
+  {{- end }}
+  {{- with .social }}{{- $social := . }}
+  <p class="site-footer__social">
+    {{- with $.Page.Site.Params.footer.followIntro }}{{ . }} {{ end -}}
+    {{- range $i, $s := $social -}}
+      {{- if $i }}{{ if eq (add $i 1) (len $social) }}, or {{ else }}, {{ end }}{{ end -}}
+      <a href="{{ $s.url }}"{{ with $s.rel }} rel="{{ . }}"{{ end }}>{{ $s.name }}</a>
+    {{- end -}}
+  </p>
+  {{- end }}
+</section>
+{{- end }}

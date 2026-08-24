@@ -1,0 +1,53 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- $page := .page -}}
+{{- $level := .level | default "h2" -}}{{- $media := "" -}}
+{{- if eq $page.Type "photos" -}}
+  {{- if findRESubmatch `src="([^"]+)"` $page.Summary 1 }}{{ $media = "photo" }}{{ end -}}
+{{- else if eq $page.Type "videos" -}}{{- if $page.Params.poster }}{{ $media = "video" }}
+  {{- else if findRESubmatch `youtube-nocookie\.com/embed/([A-Za-z0-9_-]+)` $page.Summary 1 }}{{ $media = "video" }}{{ end -}}
+{{- end -}}
+{{- if eq $media "photo" -}}
+{{ partial "entry-photo-card.html" (dict "page" $page "level" $level) }}
+{{- else if eq $media "video" -}}
+{{ partial "entry-video-card.html" (dict "page" $page "level" $level) }}
+{{- else -}}
+<article class="entry-summary entry-summary--{{ $page.Type }}">{{- $micro := eq $page.Type "microposts" -}}
+  {{- $excerpt := $page.Summary -}}
+  {{- $cut := $page.Truncated -}}
+  {{- $plain := strings.TrimSpace (replaceRE `\s+` " " ($page.Summary | plainify | htmlUnescape)) -}}
+  {{- $words := split $plain " " -}}
+  {{- if and (not $micro) (gt (len $words) 70) -}}
+    {{- $cut = true -}}
+    {{- $head := delimit (first 70 $words) " " -}}{{- $tail := "…" -}}
+    {{- with findRE `^[^.!?]*[.!?]+["”’»)]*` (strings.TrimPrefix $head $plain) 1 -}}
+      {{- $tail = index . 0 -}}
+    {{- end -}}
+    {{- $excerpt = printf "<p>%s%s</p>" (htmlEscape $head) (htmlEscape $tail) | safeHTML -}}
+  {{- end }}
+
+  {{- $dateline := partial "entry-dateline.html" (dict "page" $page "class" "entry-summary__meta" "dateLink" (not $page.Title)) -}}
+
+  {{- if $page.Title }}{{ partial "entry-title.html" (dict "page" $page "level" $level "linkSelf" true "class" "entry-summary__title") }}<div class="entry-summary__excerpt">
+    {{ $excerpt }}
+  </div>
+  {{- else }}
+  <div class="entry-summary__excerpt">
+    {{ $excerpt }}
+  </div>
+  {{ $dateline }}
+  {{- end }}{{- $more := and (not $micro) (or $cut $page.Params.externalurl) -}}
+  {{- if or $more (and $page.Title $page.Date) }}
+  <div class="entry-summary__foot">
+    {{- if $more }}
+    <p class="entry-summary__more">
+      <a href="{{ $page.RelPermalink }}">Continue reading{{ with $page.Title }}<span class="visually-hidden"> {{ . }}</span>{{ end }}&#160;{{ partial "icon-arrow.html" "next" }}</a>
+    </p>
+    {{- end }}
+    {{- if $page.Title }}{{ with $page.Date }}
+    <p class="entry-summary__date">
+      <time datetime="{{ .Format "2006-01-02" }}">{{ .Format (partial "date-format.html" "short") }}</time>
+    </p>
+    {{- end }}{{ end }}
+  </div>
+  {{- end }}
+</article>
+{{- end -}}

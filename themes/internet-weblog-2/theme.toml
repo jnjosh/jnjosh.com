@@ -1,0 +1,22 @@
+# Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here.
+name = "internet-weblog-2"
+
+version = "1.0.0-beta.1"
+license = "MIT"
+description = "A modern, accessible Hugo theme for posts, microposts, and photos — with a first-class, extractable design system."
+homepage = "https://jnjosh.com"
+demosite = "https://jnjosh.com"
+min_version = "0.165.0"
+tags = ["blog", "personal", "photos", "minimal", "accessible"]
+features = ["posts", "microposts", "photos", "dark-mode", "design-system"]
+
+[author]
+  name = "Josh Johnson"
+  homepage = "https://jnjosh.com"
+
+
+
+
+
+[params]
+  designSystem = "^1.0.0-beta.1"

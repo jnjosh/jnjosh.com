@@ -1,0 +1,36 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- $entry := .page -}}
+{{- $class := .class | default "entry__dateline" -}}
+{{- $dateLink := .dateLink | default false -}}
+{{- $cats := slice }}
+{{- if index site.Taxonomies "categories" }}{{ $cats = $entry.GetTerms "categories" }}{{ end }}
+{{- $series := slice }}
+{{- if index site.Taxonomies "series" }}{{ $series = $entry.GetTerms "series" }}{{ end }}{{- $fmt := partial "date-format.html" "short" -}}
+{{- $machine := "2006-01-02" -}}
+{{- if eq $entry.Type "microposts" -}}
+  {{- $fmt = partial "date-format.html" "long" -}}
+  {{- $machine = "2006-01-02T15:04:05Z07:00" -}}
+{{- end -}}
+{{- with $entry.Date }}
+  <p class="{{ $class }}">
+    Posted on
+    {{- if $dateLink }}
+      <a class="entry-summary__date-link" href="{{ $entry.RelPermalink }}"><time class="entry__date" datetime="{{ .Format $machine }}">{{ .Format $fmt }}</time></a>
+    {{- else }}
+      <time class="entry__date" datetime="{{ .Format $machine }}">{{ .Format $fmt }}</time>
+    {{- end }}
+    {{- with $cats }} in
+      {{- range $i, $term := . }}
+        {{- if $i }},{{ end }} <a href="{{ $term.RelPermalink }}">{{ $term.LinkTitle }}</a>
+      {{- end }}
+    {{- end }}{{- range $series }}
+      {{- $ordered := .Pages.ByDate }}
+      {{- $total := len $ordered }}{{- $part := 0 }}
+      {{- range $i, $p := $ordered }}
+        {{- if eq $p.RelPermalink $entry.RelPermalink }}{{ $part = add $i 1 }}{{ end }}
+      {{- end }}{{- if and (gt $part 0) (gt $total 1) }}, part {{ $part }} of {{ $total }} in
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      {{- else }}, part of the <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> series
+      {{- end }}
+    {{- end }}
+  </p>
+{{- end }}

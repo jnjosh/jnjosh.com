@@ -1,0 +1,87 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}<!DOCTYPE html>
+<html lang="{{ or site.Language.Locale "en" }}">
+  <head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    {{- $siteName := partial "site-name.html" . }}{{- $pageName := .Title }}
+    {{- if and (not $pageName) (not .IsHome) }}{{ $pageName = partial "page-label.html" . }}{{ end }}
+    <title>{{ if .IsHome }}{{ $siteName }}{{ else }}{{ with $pageName }}{{ . }} · {{ end }}{{ $siteName }}{{ end }}</title>{{- $desc := .Description }}
+    {{- if and (not $desc) (not .IsHome) }}{{ $desc = .Summary | plainify | htmlUnescape | strings.TrimSpace | truncate 160 }}{{ end }}
+    {{ with $desc | default site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+
+    {{/**/}}
+    {{- $selfURL := .RelPermalink }}
+    {{- $feedPages := slice site.Home }}
+    {{- range site.Params.mainSections }}
+      {{- with site.GetPage . }}{{ $feedPages = $feedPages | append . }}{{ end }}
+    {{- end }}
+    {{- $ordered := slice }}
+    {{- with .OutputFormats.Get "rss" }}{{ $ordered = $ordered | append $.Page }}{{ end }}
+    {{- range $feedPages }}
+      {{- if ne .RelPermalink $selfURL }}{{ $ordered = $ordered | append . }}{{ end }}
+    {{- end }}
+    {{- range $ordered }}
+      {{- $feedTitle := cond .IsHome $siteName (printf "%s · %s" .Title $siteName) }}
+      {{- with .OutputFormats.Get "rss" }}
+      
+      {{ printf `<link rel="alternate" type=%q href=%q title=%q>` .MediaType.Type .Permalink $feedTitle | safeHTML }}
+      {{- end }}
+    {{- end }}
+
+    
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("jnj-theme");
+          if (t === "light" || t === "dark") document.documentElement.style.colorScheme = t;
+        } catch (e) {}
+      })();
+    </script>
+
+    
+    {{ $bodyFont := resources.Get "fonts/plus-jakarta-sans/latin.woff2" | fingerprint }}
+    <link rel="preload" href="{{ $bodyFont.RelPermalink }}" as="font" type="font/woff2" crossorigin>
+
+    
+    {{ $fonts := resources.Get "css/fonts.css" | resources.ExecuteAsTemplate "css/fonts.built.css" . }}
+    {{ $bundle := slice (resources.Get "css/app.css") (resources.Get "css/tokens.css") $fonts | resources.Concat "css/bundle.css" }}
+    {{ $css := $bundle | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    
+    <header class="site-masthead">
+      
+      {{ if .IsHome }}<h1 class="site-masthead__title">{{ else }}<p class="site-masthead__title">{{ end }}
+        {{- with site.Params.handle -}}
+          <a class="site-masthead__handle" href="{{ "/" | relURL }}">{{ . }}</a>’s {{ site.Title }}.
+        {{- else -}}
+          <a class="site-masthead__handle" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+        {{- end -}}
+      {{ if .IsHome }}</h1>{{ else }}</p>{{ end }}
+    </header>
+
+    <div class="site-toolbar">
+      <div class="site-toolbar__inner">
+        {{ partial "site-nav.html" . }}
+        
+        <jnj-theme-toggle></jnj-theme-toggle>
+      </div>
+    </div>
+
+    
+    <main id="main" class="site-main"{{ with .Section }}{{ if in site.Params.mainSections . }} data-space="{{ . }}"{{ end }}{{ end }}>
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    {{ partial "site-footer.html" . }}
+
+    {{ with resources.Get "js/app.js" }}
+      {{ $js := . | js.Build (dict "minify" true) | resources.Fingerprint }}
+      <script type="module" src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+    {{ end }}
+  </body>
+</html>

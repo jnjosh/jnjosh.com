@@ -1,0 +1,24 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- if eq .Type "photos" }}
+  {{- $p := .Params }}
+  {{- $fields := slice }}
+  {{- with $p.location }}{{ $fields = $fields | append (dict "label" "Location" "value" .) }}{{ end }}
+  {{- with $p.camera }}{{ $fields = $fields | append (dict "label" "Camera" "value" .) }}{{ end }}
+  {{- with $p.lens }}{{ $fields = $fields | append (dict "label" "Lens" "value" .) }}{{ end }}
+  {{- with $p.aperture }}{{ $fields = $fields | append (dict "label" "Aperture" "value" .) }}{{ end }}
+  {{- with $p.shutter }}{{ $fields = $fields | append (dict "label" "Shutter" "value" .) }}{{ end }}
+  {{- if $p.film }}
+    {{- $fields = $fields | append (dict "label" "Film" "value" $p.film) }}
+  {{- else }}
+    {{- with $p.iso }}{{ $fields = $fields | append (dict "label" "ISO" "value" .) }}{{ end }}
+  {{- end }}
+  {{- with $fields }}
+  <dl class="entry-capture">
+    {{- range . }}
+    <div class="entry-capture__field">
+      <dt>{{ .label }}</dt>
+      <dd>{{ .value }}</dd>
+    </div>
+    {{- end }}
+  </dl>
+  {{- end }}
+{{- end }}

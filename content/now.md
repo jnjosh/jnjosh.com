@@ -1,8 +1,7 @@
 +++
-title = "Now"
+title = "What I'm Doing Now"
 
 +++
-# What I'm doing now
 
 This is a [now page](http://nownownow.com/about), last updated on August 2026.
 

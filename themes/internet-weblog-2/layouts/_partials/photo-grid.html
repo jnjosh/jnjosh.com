@@ -1,0 +1,42 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- $glass := site.Params.glass }}
+{{- $posts := slice }}
+
+{{- with $glass.postsURL }}{{- $fetch := try (resources.GetRemote .) }}
+  {{- with $fetch.Err }}
+    {{- warnf "photo-grid: Glass fetch failed, omitting the grid (%s)" . }}
+  {{- else with $fetch.Value }}
+    {{- $data := . | transform.Unmarshal }}
+    {{- if reflect.IsSlice $data }}
+      {{- $posts = $data }}
+    {{- else }}
+      {{- warnf "photo-grid: Glass returned %T, expected a list of posts; omitting the grid" $data }}
+    {{- end }}
+  {{- else }}
+    {{- warnf "photo-grid: no response from %s (404?), omitting the grid" . }}
+  {{- end }}
+{{- end }}
+
+{{- with first 8 $posts }}<section class="photo-grid" aria-labelledby="photo-grid-heading">
+    <h2 class="photo-grid__heading visually-hidden" id="photo-grid-heading">Recent photos on Glass</h2>
+
+    <ul class="photo-grid__list">
+      {{- range . }}
+        {{- $post := . }}{{- with $post.image192x192 }}
+          <li class="photo-grid__item">
+            <a class="photo-grid__link" href="{{ $post.share_url | default "https://glass.photo" }}"><img
+                class="photo-grid__image"
+                src="{{ . }}"
+                {{- with $post.image640x640 }}
+                srcset="{{ $post.image192x192 }} 192w, {{ . }} 640w"
+                sizes="(min-width: 44rem) 161px, calc((100vw - 3.5rem) / 4)"
+                {{- end }}
+                alt="{{ $post.description | default "A photo on Glass" }}"
+                loading="lazy"
+                decoding="async"
+                {{- with $post.prominent_color }} style="background-color: #{{ . }}"{{ end }}>
+            </a>
+          </li>
+        {{- end }}
+      {{- end }}
+    </ul></section>
+{{- end }}

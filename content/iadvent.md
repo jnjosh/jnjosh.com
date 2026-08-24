@@ -2,8 +2,6 @@
 title = "iAdvent for iPhone"
 +++
 
-# iAdvent for iPhone
-
 The first iPhone application I designed and developed in the fall of 2008. I've removed it from sale in 2010 but it had some small successes and it's icon was featured in an [Apple Store window display](/posts/my-iphone-apps-icon-in-the-apple-storefront-display/).
 
 <br />

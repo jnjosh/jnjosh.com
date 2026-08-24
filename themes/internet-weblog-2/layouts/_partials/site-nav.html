@@ -1,0 +1,20 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- $page := . -}}
+<nav class="site-nav" aria-label="Primary">
+  <ul class="site-nav__list">
+    {{- range site.Params.mainSections }}
+      {{- with site.GetPage . }}{{- if .RegularPagesRecursive }}
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="{{ .RelPermalink }}"
+              {{- if eq $page.RelPermalink .RelPermalink }} aria-current="page"
+              {{- else if eq $page.Section .Section }} aria-current="true"{{ end }}>{{ .Title }}</a>
+          </li>
+        {{- end }}
+      {{- end }}
+    {{- end }}{{- with site.GetPage "/about" }}
+      <li class="site-nav__item">
+        <a class="site-nav__link" href="{{ .RelPermalink }}"
+          {{- if eq $page.RelPermalink .RelPermalink }} aria-current="page"{{ end }}>{{ .Title }}</a>
+      </li>
+    {{- end }}
+  </ul>
+</nav>

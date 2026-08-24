@@ -1,0 +1,11 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- $year := .Get 0 -}}
+{{- if not $year -}}
+  {{- errorf "timeline-year needs a year: {{< timeline-year 2026 >}} — %s" .Position -}}
+{{- end -}}
+
+{{- if not (trim .Inner "\n\r\t ") -}}
+  {{- errorf "timeline-year %s has no entries — %s" $year .Position -}}
+{{- end -}}
+
+<h3 class="timeline__year">{{ $year }}</h3>
+{{ .Inner | markdownify }}

@@ -2,8 +2,6 @@
 title = "RealPass for iPhone"
 +++
 
-# RealPass for iPhone
-
 This was my first real project to learn the iPhone SDK. I didn't release it until after iAdvent though. I removed it from sale in 2009.
 
 <br />

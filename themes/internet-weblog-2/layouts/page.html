@@ -1,0 +1,56 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{ define "main" }}
+  
+  <article class="entry entry--{{ .Type }}">
+    {{- if eq .Type "microposts" }}
+    
+    {{ partial "entry-title.html" (dict "page" .) }}
+
+    <div class="entry__content">
+      {{ .Content }}
+    </div>
+
+    {{ partial "entry-dateline.html" (dict "page" .) }}
+    {{- else }}
+    {{/**/}}<header class="entry__header">{{- if not (or (eq .Type "photos") (eq .Type "videos")) }}
+      {{ partial "entry-title.html" (dict "page" .) }}
+      {{- with .Date }}
+      <p class="entry__date">
+        <time datetime="{{ .Format "2006-01-02" }}">{{ .Format (partial "date-format.html" "short") }}</time>
+      </p>
+      {{- end }}
+      {{- else }}
+      <div class="entry__head">
+        {{ partial "entry-title.html" (dict "page" .) }}
+        {{- with .Date }}
+        <p class="entry__date">
+          <time datetime="{{ .Format "2006-01-02" }}">{{ .Format (partial "date-format.html" "short") }}</time>
+        </p>
+        {{- end }}
+      </div>
+      {{- end }}
+    </header>{{- $content := .Content -}}
+    {{- $capture := partial "entry-capture.html" . -}}
+    {{- $placed := false -}}
+    {{- if and (trim $capture " \n") (in $content "</figure>") -}}
+      {{- $parts := split $content "</figure>" -}}
+      {{- $head := index $parts 0 -}}
+      {{- $tail := delimit (after 1 $parts) "</figure>" -}}
+      {{- $content = printf "%s</figure>%s%s" $head $capture $tail | safeHTML -}}
+      {{- $placed = true -}}
+    {{- end }}
+
+    <div class="entry__content">
+      {{ $content }}
+    </div>
+
+    {{- if not $placed }}{{ $capture }}{{ end }}
+    {{- end }}
+
+    
+    {{ partial "entry-billing.html" (dict "page" .) }}
+
+    
+    {{ partial "series-nav.html" . }}
+
+  </article>
+{{ end }}

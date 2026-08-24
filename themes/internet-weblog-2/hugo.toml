@@ -1,0 +1,27 @@
+# Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here.
+
+
+
+
+
+
+
+
+[mediaTypes]
+  [mediaTypes."text/netlify"]
+    delimiter = ""
+    suffixes = [""]
+
+[outputFormats]
+  [outputFormats.REDIRECTS]
+    mediaType = "text/netlify"
+    baseName = "_redirects"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "RSS", "REDIRECTS"]
+
+
+
+disableAliases = true

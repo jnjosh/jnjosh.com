@@ -1,0 +1,13 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- $author := site.Params.author }}
+<footer class="site-footer">
+  <div class="site-footer__columns">
+    {{ partial "footer-about.html" . }}
+    {{ partial "photo-grid.html" . }}
+  </div>
+
+  <p class="site-footer__colophon">
+    &copy; {{ now.Year }}
+    {{- with $author }} <a href="{{ "/about/" | relURL }}">{{ .FirstName }} {{ .LastName }}</a>{{ end }}
+    {{- with site.Params.footer.colophon }} &middot; {{ . }}{{ end }}
+  </p>
+</footer>

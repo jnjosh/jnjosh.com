@@ -1,0 +1,7 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- if not (trim .Inner "\n\r\t ") -}}
+  {{- errorf "timeline shortcode is empty — it wraps one or more `timeline-year` blocks — %s" .Position -}}
+{{- end -}}
+
+<div class="timeline">
+{{ .Inner }}
+</div>
