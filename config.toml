@@ -30,9 +30,7 @@ disableAliases = true
 [params.footer]
   greeting = "Hi, [I'm Josh](/about/)"
   bio = """
-I'm an Engineering Manager at [Adobe](https://adobe.com), a [photographer](https://jnjosh.photography)
-sharing photos on [Glass](https://glass.photo/jnjosh), and I
-[watch a lot of movies](https://letterboxd.com/jnjosh/films/diary/).
+I'm an Engineering Manager at [Adobe](https://adobe.com), a [photographer](https://glass.photo/jnjosh), learning to be a [musician](https://on.soundcloud.com/VqAdiOOr6Yjy8f8MDA), and [learning watchmaking](/workshop/posts/elgin-watch/).
 See what else I'm [doing now](/now/).
 """
   followIntro = "Follow me on"
