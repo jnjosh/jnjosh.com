@@ -7,8 +7,7 @@ title = "whoami"
     <img 
       src="/assets/josh.jpg" 
       alt="Josh Johnson, photographed in three-quarter profile beside a window, wearing a red and white plaid shirt." 
-      style="width: 300px;">
-    />
+      style="width: 300px;" />
     <figcaption>Photo by <a href="https://fuadkamal.org">Fuad Kamal</a>. Used with permission.</figcaption>
   </figure>
 </div>
