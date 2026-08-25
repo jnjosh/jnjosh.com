@@ -1,0 +1,11 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- $icons := slice
+      (dict "file" "favicon.ico"          "rel" "icon"             "attrs" ` sizes="32x32"`)
+      (dict "file" "icon.svg"             "rel" "icon"             "attrs" ` type="image/svg+xml"`)
+      (dict "file" "apple-touch-icon.png" "rel" "apple-touch-icon" "attrs" "")
+      (dict "file" "site.webmanifest"     "rel" "manifest"         "attrs" "")
+-}}
+{{- range $icons }}
+  {{- if os.FileExists (printf "static/%s" .file) }}
+    {{ printf `<link rel=%q href=%q%s>` .rel (.file | relURL) .attrs | safeHTML }}
+  {{- end }}
+{{- end -}}

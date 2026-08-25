@@ -9,6 +9,7 @@
     <title>{{ if .IsHome }}{{ $siteName }}{{ else }}{{ with $pageName }}{{ . }} · {{ end }}{{ $siteName }}{{ end }}</title>{{- $desc := .Description }}
     {{- if and (not $desc) (not .IsHome) }}{{ $desc = .Summary | plainify | htmlUnescape | strings.TrimSpace | truncate 160 }}{{ end }}
     {{ with $desc | default site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+    {{- partial "site-icons.html" . }}
 
     {{/**/}}
     {{- $selfURL := .RelPermalink }}

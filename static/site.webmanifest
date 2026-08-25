@@ -1,0 +1,12 @@
+{
+  "name": "internet weblog",
+  "short_name": "jnjosh",
+  "start_url": "/",
+  "display": "browser",
+  "theme_color": "#0067a9",
+  "background_color": "#ffffff",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
