@@ -764,21 +764,6 @@
   }
 
   
-  .space-pin--featured .entry-summary--photos {
-    padding: 0;
-    background: none;
-    border-radius: 0;
-    
-    margin-inline: 0;
-  }
-
-  .space-pin--featured .entry-summary__frame {
-    margin-block-start: 0;
-    margin-inline: 0;
-    border-radius: var(--jnj-space-2);
-  }
-
-  
   .entry-summaries {
     padding-inline-start: 0;
     list-style: none;
@@ -1048,10 +1033,10 @@
     border-radius: 0;
   }
 
+  
   :is(.space-pin--featured, .is-raised) .entry-summary__frame {
     margin-block-start: 0;
-    margin-inline: 0;
-    border-radius: var(--jnj-space-2);
+    margin-inline: calc(var(--_jnj-photo-card-inset) - var(--jnj-space-5));
   }
 
   
