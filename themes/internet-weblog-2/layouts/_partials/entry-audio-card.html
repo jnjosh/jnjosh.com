@@ -1,0 +1,18 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.3 — do not edit here. */}}{{- $page := .page -}}
+{{- $level := .level | default "h2" -}}
+{{- $summary := $page.Summary -}}
+{{- $player := $page.Store.Get "audioEmbed" -}}
+{{- if $player }}
+<article class="entry-summary entry-summary--media entry-summary--audio"><div class="entry-summary__frame">
+    {{ $player }}
+  </div>
+  <div class="entry-summary__head">
+    {{ partial "entry-title.html" (dict "page" $page "level" $level "linkSelf" true "class" "entry-summary__title") }}
+    {{- with $page.Date }}
+    <p class="entry-summary__date">
+      <time datetime="{{ .Format "2006-01-02" }}">{{ .Format (partial "date-format.html" "short") }}</time>
+    </p>
+    {{- end }}
+  </div>
+</article>
+{{- end }}

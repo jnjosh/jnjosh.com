@@ -1,4 +1,4 @@
-/* Generated from internet-weblog-2 1.0.0-beta.2 — do not edit here. */
+/* Generated from internet-weblog-2 1.0.0-beta.3 — do not edit here. */
 
 @layer reset, tokens, base, components, utilities;
 
@@ -728,8 +728,7 @@
   }
 
   
-  .entry-summary--photos,
-  .entry-summary--videos {
+  .entry-summary--media {
     --_jnj-photo-card-radius: var(--_jnj-card-radius);
     --_jnj-photo-card-pad: var(--jnj-space-5);
     --_jnj-photo-card-inset: 10px;
@@ -759,7 +758,7 @@
   }
 
   
-  :is(.entry-summary--photos, .entry-summary--videos) .entry-summary__head {
+  .entry-summary--media .entry-summary__head {
     margin-block: var(--jnj-space-4) 0;
   }
 
@@ -1028,7 +1027,7 @@
   }
 
   
-  :is(.space-pin--featured, .is-raised) :is(.entry-summary--photos, .entry-summary--videos) {
+  :is(.space-pin--featured, .is-raised) .entry-summary--media {
     margin-inline: 0;
     padding: 0;
     background: none;
@@ -1130,9 +1129,10 @@
   }
 
   
+  
   .photo-grid__list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     
     gap: 0;
     margin-block: 0;
@@ -1243,6 +1243,13 @@
   
   .entry__content > :is(iframe, video, div:has(> iframe)) {
     margin-block: var(--jnj-space-5);
+  }
+
+  
+  .audio-embed__player {
+    display: block;
+    inline-size: 100%;
+    border: 0;
   }
 
   

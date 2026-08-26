@@ -1,4 +1,4 @@
-{{/* Generated from internet-weblog-2 1.0.0-beta.2 — do not edit here. */}}{{- $variant := . | default "short" -}}
+{{/* Generated from internet-weblog-2 1.0.0-beta.3 — do not edit here. */}}{{- $variant := . | default "short" -}}
 {{- $fmt := index (dict "short" "2 Jan 2006" "long" "2 Jan 2006 at 15:04") $variant -}}
 {{- if not $fmt }}{{ errorf "date-format.html: unknown variant %q — use \"short\" or \"long\"" $variant }}{{ end -}}
 {{- return $fmt -}}

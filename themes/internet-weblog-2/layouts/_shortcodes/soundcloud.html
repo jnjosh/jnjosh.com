@@ -1,0 +1,50 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.3 — do not edit here. */}}{{- if not .IsNamedParams -}}
+  {{- errorf "soundcloud shortcode takes named params only — %s" .Position -}}
+{{- end -}}
+
+{{- $url := .Get "url" -}}
+{{- if not $url -}}
+  {{- errorf "soundcloud shortcode requires a `url` — %s" .Position -}}
+{{- end -}}{{- if not (or (strings.HasPrefix $url "https://soundcloud.com/") (strings.HasPrefix $url "https://api.soundcloud.com/")) -}}
+  {{- erroridf "soundcloud-unrecognised-url" "soundcloud shortcode: `url` should be a track permalink like https://soundcloud.com/jnjosh/sketching-fuzz, not %q — %s" $url .Position -}}
+{{- end -}}{{- $title := .Get "title" -}}
+{{- if not $title -}}
+  {{- with .Page.Title -}}
+    {{- $title = printf "SoundCloud player: %s" . -}}
+  {{- else -}}
+    {{- errorf "soundcloud shortcode needs a `title` on a page that has none of its own — %s" $.Position -}}
+  {{- end -}}
+{{- end -}}{{- $clean := $url -}}
+{{- $parts := split $url "?" -}}
+{{- if gt (len $parts) 1 -}}
+  {{- $keep := slice -}}
+  {{- range (split (index $parts 1) "&") -}}
+    {{- $k := index (split . "=") 0 -}}
+    {{- if and . (not (or (eq $k "si") (strings.HasPrefix $k "utm_"))) -}}
+      {{- $keep = $keep | append . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $clean = index $parts 0 -}}
+  {{- with $keep }}{{ $clean = printf "%s?%s" $clean (delimit . "&") }}{{ end -}}
+{{- end -}}{{- $visual := in (slice true "true" "yes" "1") (.Get "visual") -}}{{- $isSet := strings.Contains (index (split $clean "?") 0) "/sets/" -}}
+{{- $height := .Get "height" | default (cond $isSet 450 (cond $visual 300 166)) -}}{{- $src := printf "https://w.soundcloud.com/player/?%s" (querify
+      "url" $clean
+      "color" "#0067a9"
+      "auto_play" "false"
+      "hide_related" "true"
+      "show_comments" "false"
+      "show_user" "true"
+      "show_reposts" "false"
+      "show_teaser" "false"
+      "visual" (cond $visual "true" "false")
+    ) -}}
+
+{{- $caption := .Get "caption" -}}{{- $player := printf `<iframe class="audio-embed__player" title="%s" height="%s" src="%s" loading="lazy" referrerpolicy="no-referrer" allow="autoplay; encrypted-media"></iframe>`
+      (htmlEscape $title) (htmlEscape (printf "%v" $height)) (htmlEscape $src) | safeHTML -}}
+{{- with .Page }}{{ if not (.Store.Get "audioEmbed") }}{{ .Store.Set "audioEmbed" $player }}{{ end }}{{ end -}}
+
+<figure class="audio-embed{{ with .Get "class" }} {{ . }}{{ end }}">
+  {{ $player }}{{- with $caption }}
+  <figcaption>{{ $.Page.RenderString . }}</figcaption>
+  {{- end }}
+</figure>

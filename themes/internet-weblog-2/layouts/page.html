@@ -1,4 +1,4 @@
-{{/* Generated from internet-weblog-2 1.0.0-beta.2 — do not edit here. */}}{{ define "main" }}
+{{/* Generated from internet-weblog-2 1.0.0-beta.3 — do not edit here. */}}{{ define "main" }}
   
   <article class="entry entry--{{ .Type }}">
     {{- if eq .Type "microposts" }}
@@ -11,7 +11,7 @@
 
     {{ partial "entry-dateline.html" (dict "page" .) }}
     {{- else }}
-    {{/**/}}<header class="entry__header">{{- if not (or (eq .Type "photos") (eq .Type "videos")) }}
+    {{/**/}}<header class="entry__header">{{- if not (in (slice "photos" "videos" "audio") .Type) }}
       {{ partial "entry-title.html" (dict "page" .) }}
       {{- with .Date }}
       <p class="entry__date">
