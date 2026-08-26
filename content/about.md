@@ -2,25 +2,44 @@
 title = "whoami"
 +++
 
-<div style="float:right; margin:10px 0 10px 30px;">
+<style>
+.about-photo {
+  float: right;
+  margin: 10px 0 10px 30px;
+  width: 300px;
+  max-width: 100%;
+}
+.about-photo figure {
+  margin: 0;
+}
+.about-photo img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 48rem) {
+  .about-photo {
+    float: none;
+    margin: 10px auto 20px;
+    text-align: center;
+  }
+}
+</style>
+
+<div class="about-photo">
   <figure>
-    <img 
-      src="/assets/josh.jpg" 
-      alt="Josh Johnson, photographed in three-quarter profile beside a window, wearing a red and white plaid shirt." 
-      style="width: 300px;" />
+    <img
+      src="/assets/josh.jpg"
+      alt="Josh Johnson, photographed in three-quarter profile beside a window, wearing a red and white plaid shirt." />
     <figcaption>Photo by <a href="https://fuadkamal.org">Fuad Kamal</a>. Used with permission.</figcaption>
   </figure>
 </div>
 
-Hi, I’m Josh Johnson. I’m a software developer and engineering leader living in Raleigh-Durham, NC. Most people don't call it that but I actually live in Raleigh city, but Durham county. It's weird. My congressional district changes pretty much every voting cycle. I enjoy Durham much more, so let's just say Durham.
+Hi, I’m Josh Johnson. I’m an engineering leader living in Raleigh, NC. Currently, I’m a _Group Design Engineering Manager_ at [Adobe](https://www.adobe.com/) focusing on implementations of the [Spectrum Design System](https://spectrum.adobe.com)on Android, iOS, and [Web](https://spectrum-web-components.adobe.com/?path=/docs/learn-about-swc-overview--docs).
 
-<br />
+**I love making software.** I've made a lot of products on iOS, macOS, Android, and the web. They all have unique design and engineering challenges that I love to work through. The first decade of my career I built AutoCAD plugins and web applications with C++ and .NET, while exploring macOS development as a hobby. When the iPhone shipped in 2007, I focused more on being serious about learning Objective-C and Cocoa—and eventually Swift. Through my career, I’ve worked with many teams building iOS apps, worked at start-ups and large companies, and led teams of engineers at Two Toasters (later Ticketmaster) and [Grubhub](https://www.grubhub.com/). Previously, I was the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally [speak at conferences](https://jnjosh.com/speaking) about engineering topics. 
 
-I love creating software for Mac and iOS, but have also been getting my mind back into modern web development. The first decade of my career I build AutoCAD plugins and web application with C++ and .NET, while exploring Mac development as a hobby. When the iPhone shipped in 2007, I focused more on being serious about learning Objective-C and Cocoa—leading to a few personal apps and an internal sales Mac app. Later, I've worked with many teams building iOS apps, led teams of iOS developers at Two Toasters (later Ticketmaster) and [Grubhub](https://www.grubhub.com). Previously, I was the organizer of Triangle CocoaHeads and NSCoder Nights and occasionally [speak at conferences](/speaking) about Cocoa development. Currently, I'm a Sr. Design Engineering Manager at [Adobe](https://www.adobe.com) focusing on Design Engineering.
-
-<br />
-
-In my spare time, I've started doing more [photography](https://jnjosh.photography) and some filmmaking. I enjoy learning languages, currently studying Italian 🇮🇹—Previously focused an many languages including German (Deutsch), Japanese (日本語), Ukrainian (українська мова), Spanish (Español), and European Portuguese (Portugués). I also really enjoy cooking and sometimes [keyboards](/categories/keyboards). I have too many interests and spend a lot of my time trying to prioritize them, which means I end up watching too much on YouTube.
+**I love creating and learning things.** [Making movies](https://www.imdb.com/name/nm2522715/?ref_=tt_ov_1_1)and [YouTube](https://www.youtube.com/@josh.johnson) [videos](https://www.youtube.com/@natandjosh), [making photos](https://glass.photo/jnjosh), [making music](https://soundcloud.com/jnjosh), and many other hobbies. I've been exploring printing zines of my photos and a little 3D printing. I've been learning how to create music—finally after 30 years of "playing guitar", I'm learning how to actually play guitar. Also learning the bass guitar and playing with synthesizers. I've also been learning how to [repair and service wrist watches](https://jnjosh.com/workshop/posts/elgin-watch/). I enjoy learning languages and cooking, currently studying Italian 🇮🇹 language and cuisine.
 
 ### Previously
 
