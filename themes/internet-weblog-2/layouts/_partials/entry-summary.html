@@ -1,14 +1,15 @@
-{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- $page := .page -}}
-{{- $level := .level | default "h2" -}}{{- $media := "" -}}
+{{/* Generated from internet-weblog-2 1.0.0-beta.2 — do not edit here. */}}{{- $page := .page -}}
+{{- $level := .level | default "h2" -}}
+{{- $eager := .eager | default false -}}{{- $media := "" -}}
 {{- if eq $page.Type "photos" -}}
   {{- if findRESubmatch `src="([^"]+)"` $page.Summary 1 }}{{ $media = "photo" }}{{ end -}}
 {{- else if eq $page.Type "videos" -}}{{- if $page.Params.poster }}{{ $media = "video" }}
   {{- else if findRESubmatch `youtube-nocookie\.com/embed/([A-Za-z0-9_-]+)` $page.Summary 1 }}{{ $media = "video" }}{{ end -}}
 {{- end -}}
 {{- if eq $media "photo" -}}
-{{ partial "entry-photo-card.html" (dict "page" $page "level" $level) }}
+{{ partial "entry-photo-card.html" (dict "page" $page "level" $level "eager" $eager) }}
 {{- else if eq $media "video" -}}
-{{ partial "entry-video-card.html" (dict "page" $page "level" $level) }}
+{{ partial "entry-video-card.html" (dict "page" $page "level" $level "eager" $eager) }}
 {{- else -}}
 <article class="entry-summary entry-summary--{{ $page.Type }}">{{- $micro := eq $page.Type "microposts" -}}
   {{- $excerpt := $page.Summary -}}

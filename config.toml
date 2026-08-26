@@ -4,6 +4,20 @@ theme = "internet-weblog-2"
 
 disableAliases = true
 
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static/assets"
+    target = "assets/assets"
+  [[module.mounts]]
+    source = "static/uploads"
+    target = "assets/uploads"
+  [[module.mounts]]
+    source = "static/img"
+    target = "assets/img"
+
 [services.rss]
   limit = 20
 
@@ -69,4 +83,4 @@ See what else I'm [doing now](/now/).
   wrapStandAloneImageWithinParagraph = false
 
 [outputs]
-  home = ["HTML", "RSS", "REDIRECTS"]
+  home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]

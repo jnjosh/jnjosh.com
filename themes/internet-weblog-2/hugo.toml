@@ -1,4 +1,4 @@
-# Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here.
+# Generated from internet-weblog-2 1.0.0-beta.2 — do not edit here.
 
 
 
@@ -19,8 +19,17 @@
     isPlainText = true
     notAlternative = true
 
+
+
+
+  [outputFormats.HEADERS]
+    mediaType = "text/netlify"
+    baseName = "_headers"
+    isPlainText = true
+    notAlternative = true
+
 [outputs]
-  home = ["HTML", "RSS", "REDIRECTS"]
+  home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
 
 
 

@@ -1,0 +1,59 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.2 — do not edit here. */}}{{- $page := .page -}}
+{{- $src := .src -}}
+{{- $alt := .alt | default "" -}}
+{{- $class := .class | default "" -}}
+{{- $eager := .eager | default false -}}
+{{- $maxWidth := .maxWidth | default 2400 -}}{{- $isRemote := or (strings.HasPrefix $src "http://") (strings.HasPrefix $src "https://") -}}
+{{- $isRemote = or $isRemote (strings.HasPrefix $src "//") (strings.HasPrefix $src "data:") -}}{{- $r := .resource | default "" -}}
+{{- $given := ne $r "" -}}
+{{- if and (not $given) (not $isRemote) -}}{{- with $page }}{{ $r = .Resources.GetMatch $src }}{{ end -}}{{- if not $r }}{{ with $page }}{{ $r = .Resources.GetMatch (path.Base $src) }}{{ end }}{{ end -}}{{- if not $r }}{{ $r = resources.Get (strings.TrimPrefix "/" $src) }}{{ end -}}{{- with $r }}{{ with $page }}{{ if not (.Store.Get "leadImage") }}{{ .Store.Set "leadImage" $r }}{{ end }}{{ end }}{{ end -}}
+{{- end -}}{{- $processable := false -}}
+{{- with $r -}}
+  {{- if eq .ResourceType "image" -}}
+    {{- $processable = in (slice "jpeg" "png" "webp" "tiff" "bmp") .MediaType.SubType -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $loading := cond $eager "eager" "lazy" -}}
+
+{{- if $processable -}}{{- $cap := cond (lt $r.Width $maxWidth) $r.Width $maxWidth -}}
+  {{- $targets := slice -}}
+  {{- range (slice 640 1000 1600 2400) -}}
+    {{- if lt . $cap }}{{ $targets = $targets | append . }}{{ end -}}
+  {{- end -}}
+  {{- $targets = $targets | append $cap -}}{{- $ratio := .ratio | default "" -}}
+  {{- $rends := slice -}}
+  {{- range $targets -}}
+    {{- if $ratio -}}
+      {{- $rw := int (index (split $ratio "x") 0) -}}
+      {{- $rh := int (index (split $ratio "x") 1) -}}
+      {{- $rends = $rends | append ($r.Fill (printf "%dx%d Center webp q80" . (div (mul . $rh) $rw))) -}}
+    {{- else -}}
+      {{- $rends = $rends | append ($r.Resize (printf "%dx q80 webp" .)) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $largest := index $rends (sub (len $rends) 1) -}}{{- $sizes := .sizes | default "(min-width: 42rem) 42rem, 100vw" -}}
+
+  {{- $srcset := slice -}}
+  {{- range $rends }}{{ $srcset = $srcset | append (printf "%s %dw" .RelPermalink .Width) }}{{ end -}}<img
+    {{ with $class }}class="{{ . }}" {{ end -}}
+    src="{{ $largest.RelPermalink }}"
+    {{ if gt (len $rends) 1 }}srcset="{{ delimit $srcset ", " }}"
+    sizes="{{ $sizes }}"
+    {{ end -}}
+    alt="{{ $alt }}"
+    width="{{ $largest.Width }}"
+    height="{{ $largest.Height }}"
+    loading="{{ $loading }}"
+    {{ if $eager }}fetchpriority="high" {{ end -}}
+    decoding="async">
+{{- else -}}{{- printf `<img %ssrc=%q alt=%q %s%sloading=%q %sdecoding="async">`
+        (cond (eq $class "") "" (printf "class=%q " $class))
+        $src
+        $alt
+        (cond (not .width) "" (printf "width=%q " (string .width)))
+        (cond (not .height) "" (printf "height=%q " (string .height)))
+        $loading
+        (cond $eager `fetchpriority="high" ` "")
+      | safeHTML -}}
+{{- end -}}

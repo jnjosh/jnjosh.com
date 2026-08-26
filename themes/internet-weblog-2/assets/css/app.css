@@ -1,4 +1,4 @@
-/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */
+/* Generated from internet-weblog-2 1.0.0-beta.2 — do not edit here. */
 
 @layer reset, tokens, base, components, utilities;
 
@@ -879,6 +879,8 @@
 
   
   .entry--photos .entry__content > figure img {
+    
+    inline-size: auto;
     max-block-size: 80dvh;
   }
 

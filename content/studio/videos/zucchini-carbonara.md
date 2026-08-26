@@ -1,6 +1,7 @@
 +++
 title = "Making Zucchini Carbonara"
 date = "2024-04-20T19:50:28-04:00"
+categories = ["Italy", "Cooking"]
 +++
 
 {{< youtube UrPmrDHrdgs >}}

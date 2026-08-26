@@ -1,4 +1,4 @@
-{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{ define "main" }}
+{{/* Generated from internet-weblog-2 1.0.0-beta.2 — do not edit here. */}}{{ define "main" }}
   
   {{/**/}}
 
@@ -24,7 +24,8 @@
   {{- $rest := sort (where $items "Params.featured" "!=" true) "Date" "desc" -}}
 
   <div class="front-door">
-    {{- range $flagged | append $rest }}
+    {{/**/}}
+    {{- range $i, $e := $flagged | append $rest }}
     {{- $page := . }}{{ $space := site.GetPage .Section }}
     <div class="front-door__item{{ if $page.Params.featured }} is-raised{{ end }}">
       
@@ -32,7 +33,7 @@
         <a href="{{ $space.RelPermalink }}">{{ $space.Title }}</a>
         {{- if $page.Params.featured }} <span aria-hidden="true">·</span> <span class="front-door__flag">Featured</span>{{ end -}}
       </p>
-      {{ partial "entry-summary.html" (dict "page" $page "level" "h2") }}
+      {{ partial "entry-summary.html" (dict "page" $page "level" "h2" "eager" (eq $i 0)) }}
     </div>
     {{- end }}
   </div>

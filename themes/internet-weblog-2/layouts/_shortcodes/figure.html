@@ -1,4 +1,4 @@
-{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- if not .IsNamedParams -}}
+{{/* Generated from internet-weblog-2 1.0.0-beta.2 — do not edit here. */}}{{- if not .IsNamedParams -}}
   {{- errorf "figure shortcode takes named params only — %s" .Position -}}
 {{- end -}}
 
@@ -18,17 +18,20 @@
   {{- erroridf "figure-link-without-alt" "figure shortcode: a linked image needs a non-empty `alt` to name the link — %s" .Position -}}
 {{- end -}}
 
-{{- $caption := .Get "caption" -}}
+{{- $caption := .Get "caption" -}}{{- $isPhoto := eq .Page.Type "photos" -}}
+{{- $eager := and $isPhoto (eq .Ordinal 0) -}}
+{{- $sizes := cond $isPhoto "(min-width: 84rem) 84rem, 100vw" "(min-width: 42rem) 42rem, 100vw" -}}
 
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
-  {{- with $link }}<a href="{{ . }}">{{ end -}}
-  <img
-    src="{{ $src }}"
-    alt="{{ $alt }}"
-    {{- with .Get "width" }} width="{{ . }}"{{ end }}
-    {{- with .Get "height" }} height="{{ . }}"{{ end }}
-    loading="lazy"
-    decoding="async">
+  {{- with $link }}<a href="{{ . }}">{{ end -}}{{ partial "image.html" (dict
+       "page" $.Page
+       "src" $src
+       "alt" $alt
+       "sizes" $sizes
+       "eager" $eager
+       "width" (.Get "width")
+       "height" (.Get "height")
+     ) }}
   {{- with $link }}</a>{{ end -}}
   {{- with $caption }}
   <figcaption>{{ $.Page.RenderString . }}</figcaption>

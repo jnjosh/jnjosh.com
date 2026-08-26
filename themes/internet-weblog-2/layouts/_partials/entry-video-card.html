@@ -1,5 +1,6 @@
-{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- $page := .page -}}
+{{/* Generated from internet-weblog-2 1.0.0-beta.2 — do not edit here. */}}{{- $page := .page -}}
 {{- $level := .level | default "h2" -}}
+{{- $eager := .eager | default false -}}
 {{- $thumb := "" -}}
 {{- $summary := $page.Summary -}}{{- with $page.Params.poster }}{{ $thumb = . }}{{ end -}}
 
@@ -10,8 +11,19 @@
 {{- end -}}
 
 {{- if $thumb }}
-<article class="entry-summary entry-summary--videos"><a class="entry-summary__frame" href="{{ $page.RelPermalink }}" tabindex="-1" aria-hidden="true">
-    <img class="entry-summary__image" src="{{ $thumb | safeURL }}" alt="" loading="lazy" decoding="async">
+<article class="entry-summary entry-summary--videos"><a class="entry-summary__frame" href="{{ $page.RelPermalink }}" tabindex="-1" aria-hidden="true">{{/**/}}
+    {{- $lead := $page.Store.Get "leadImage" -}}
+    {{ partial "image.html" (dict
+         "page" $page
+         "resource" $lead
+         "src" $thumb
+         "alt" ""
+         "class" "entry-summary__image"
+         "sizes" "(min-width: 42rem) 42rem, 100vw"
+         "ratio" "3x2"
+         "maxWidth" 1600
+         "eager" $eager
+       ) }}
   </a>
   <div class="entry-summary__head">
     {{ partial "entry-title.html" (dict "page" $page "level" $level "linkSelf" true "class" "entry-summary__title") }}

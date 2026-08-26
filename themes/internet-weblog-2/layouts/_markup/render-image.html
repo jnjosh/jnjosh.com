@@ -1,12 +1,21 @@
-{{/* Generated from internet-weblog-2 1.0.0-beta.1 — do not edit here. */}}{{- $img := printf `<img src=%q alt=%q loading="lazy" decoding="async">` .Destination .PlainText -}}
+{{/* Generated from internet-weblog-2 1.0.0-beta.2 — do not edit here. */}}{{- $isPhoto := eq .Page.Type "photos" -}}
+{{- $eager := and $isPhoto (eq .Ordinal 0) -}}{{- $sizes := cond $isPhoto "(min-width: 84rem) 84rem, 100vw" "(min-width: 42rem) 42rem, 100vw" -}}
+
+{{- $img := partial "image.html" (dict
+      "page" .Page
+      "src" .Destination
+      "alt" .PlainText
+      "sizes" $sizes
+      "eager" $eager
+    ) -}}
 
 {{- if .IsBlock -}}
   <figure>
-    {{ $img | safeHTML }}
+    {{ $img }}
     {{- with .Title }}
     <figcaption>{{ . }}</figcaption>
     {{- end }}
   </figure>
 {{- else -}}
-  {{- $img | safeHTML -}}
+  {{- $img -}}
 {{- end -}}
