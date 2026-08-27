@@ -2,8 +2,7 @@
 date = "2012-12-22T21:11:32-05:00"
 title = "My Developer Tools and Utilities List (2012 Edition)"
 categories = [
-  "Cocoa",
-  "Programming",
+  "Engineering",
   "Tools",
 ]
 slug = "my-developer-tools-for-mac-and-ios-development-2012-edition"

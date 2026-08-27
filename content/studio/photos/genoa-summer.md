@@ -1,6 +1,7 @@
 +++
 title = "Genoa in the Summer"
 date = "2026-08-24T11:48:57-04:00"
+categories = ["Photography"]
 location = "Genoa, Italy"
 camera = "Sony α7c II"
 aperture = "ƒ/9.0"

@@ -2,9 +2,9 @@
 date = "2017-02-18T23:37:38-05:00"
 title = "Relaunching CocoaHeads.TV"
 categories = [
-	"Cocoa",
 	"Community",
-	"Videos"
+	"Videos",
+	"CocoaHeads",
 ]
 +++
 

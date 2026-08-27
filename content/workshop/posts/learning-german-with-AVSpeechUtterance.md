@@ -3,9 +3,7 @@ date = "2016-02-21T01:43:16-05:00"
 title = "Learning German with AVSpeechUtterance"
 categories = [
   "Cocoa",
-  "Programming",
   "iOS",
-  "AV Foundation",
   "Swift",
   "German",
 ]

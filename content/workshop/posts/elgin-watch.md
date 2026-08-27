@@ -3,7 +3,6 @@ title = "Becoming an Amatuer Watchmaker: Servicing a Vintage Watch"
 date = "2025-02-09T16:00:10-05:00"
 categories = [
   "Watchmaking",
-  "Hobbies"
 ]
 featured = true
 

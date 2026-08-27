@@ -1,6 +1,7 @@
 +++
 title = "West Point on the Eno in October"
 date = "2020-10-18T13:16:11-04:00"
+categories = ["Photography"]
 location = "Durham, NC"
 camera = "Sony α7S II"
 +++

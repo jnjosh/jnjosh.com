@@ -2,7 +2,6 @@
 date = "2011-09-05T02:02:32-05:00"
 title = "Back to blogging and working without a clock"
 categories = [
-  "GTD",
   "Blogging",
 ]
 slug = "back-to-blogging-and-working-without-a-clock"

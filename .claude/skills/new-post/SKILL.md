@@ -98,6 +98,7 @@ categories = []
 +++
 title = ""
 date = "2026-08-24T16:40:00-04:00"
+categories = []
 location = ""
 camera = ""
 lens = ""

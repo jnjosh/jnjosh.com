@@ -3,7 +3,6 @@ date = "2016-03-29T12:54:38-04:00"
 title = "One Thing"
 categories = [
 	"Productivity",
-	"Life"
 ]
 externalurl = "http://www.manton.org/2016/03/get-one-thing-done-today.html"
 +++

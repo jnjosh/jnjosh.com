@@ -3,8 +3,7 @@ date = "2010-07-23T01:44:32-05:00"
 title = "Global hotkeys in Cocoa on Snow Leopard"
 categories = [
   "Cocoa",
-  "Programming",
-  "AppKit"
+  "macOS",
 ]
 slug = "global-hotkeys-in-cocoa-on-snow-leopard"
 +++

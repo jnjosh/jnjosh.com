@@ -2,9 +2,7 @@
 title = "Confidence"
 date = "2017-11-07T00:05:30-05:00"
 categories = [
-	"Learning",
-	"Life",
-	"Thoughts"
+	"Reflection",
 ]
 +++
 

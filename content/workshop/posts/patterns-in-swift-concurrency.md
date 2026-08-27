@@ -3,7 +3,6 @@ title = "Patterns with Swift Concurrency in new APIs"
 date = "2021-06-13T21:39:04-04:00"
 categories = [
   "Cocoa",
-  "Programming",
   "iOS",
   "Swift",
 ]

@@ -2,7 +2,7 @@
 date = "2011-12-07T02:15:32-05:00"
 title = "Static Linking with C++ Project in Xcode"
 categories = [
-  "Programming",
+  "C++",
   "Xcode",
 ]
 slug = "static-linking-with-c-plus-plus-project-in-xcode"

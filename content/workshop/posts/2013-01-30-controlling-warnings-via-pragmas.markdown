@@ -2,10 +2,8 @@
 date = "2013-01-30T23:30:32-05:00"
 title = "Controlling Xcode warnings via pragmas"
 categories = [
-  "Cocoa",
   "Objective-C",
   "Xcode",
-  "Programming"
 ]
 slug = "controlling-warnings-via-pragmas"
 +++

@@ -3,7 +3,6 @@ date = "2010-07-03T01:34:32-05:00"
 title = "Toasters and Trucks"
 categories = [
   "Apple",
-  "Tech",
 ]
 slug = "toasters-and-trucks"
 +++

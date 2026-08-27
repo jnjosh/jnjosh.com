@@ -2,7 +2,8 @@
 date = "2013-02-01T23:30:32-05:00"
 title = "Implementing a language with LLVM"
 categories = [
-  "Programming",
+  "Engineering",
+  "C++",
 ]
 externalurl = "http://llvm.org/docs/tutorial/LangImpl1.html"
 slug = "implementing-a-language-with-llvm"

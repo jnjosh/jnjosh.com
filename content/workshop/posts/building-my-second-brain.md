@@ -4,10 +4,7 @@ date = "2021-07-04T00:12:57+00:00"
 categories = [
   "Productivity",
   "Blogging",
-  "Writing",
   "Notes",
-  "Organization",
-  "Life"
 ]
 +++
 

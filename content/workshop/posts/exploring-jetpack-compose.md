@@ -2,9 +2,8 @@
 title = "Exploring Jetpack Compose"
 date = "2021-07-11T18:32:27+00:00"
 categories = [
-  "Programming",
   "Android",
-  "Kotlin"
+  "Kotlin",
 ]
 +++
 

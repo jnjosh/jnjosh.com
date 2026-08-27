@@ -2,7 +2,6 @@
 date = "2012-08-20T12:23:32-05:00"
 title = "Interviewed by ObjectiveSee.com"
 categories = [
-  "Cocoa",
   "Community",
 ]
 externalurl = "http://www.objectivesee.com/josh.johnson.html"

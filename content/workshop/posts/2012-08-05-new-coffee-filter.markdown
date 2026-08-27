@@ -3,7 +3,6 @@ date = "2012-08-05T12:23:32-05:00"
 title = "S Filter - A reusable coffee filter for Aeropress"
 categories = [
   "Coffee",
-  "Kickstarter",
 ]
 externalurl = "http://www.kickstarter.com/projects/kaffeologie/s-filter-a-reusable-coffee-filter-for-aeropress/posts"
 slug = "new-coffee-filter"

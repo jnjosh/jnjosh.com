@@ -3,7 +3,6 @@ title = "Things 3 as a Kanban board"
 date = "2022-09-04T20:38:22-04:00"
 categories = [
 	"Productivity",
-	"Organization"
 ]
 +++
 

@@ -1,5 +1,6 @@
 +++
 date = "2015-08-05T23:23:49-05:00"
+categories = ["Photography"]
 title = "American Tobacco Campus with a New Camera"
 location = "Durham, NC"
 camera = "Sony a6000"

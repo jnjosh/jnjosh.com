@@ -1,12 +1,11 @@
----
-title: "2023: Entertainment Year in Review"
-date: 2023-12-31T20:06:48-05:00
-categories: [
-  "Life",
-  "Entertainment"
++++
+title = "2023: Entertainment Year in Review"
+date = "2023-12-31T20:06:48-05:00"
+categories = [
+  "Entertainment",
 ]
-feature: "assets/images/20231231/movies-2023.png"
----
+feature = "assets/images/20231231/movies-2023.png"
++++
 
 I almost forgot to blog this year! It's now the last minute—9pm on December 31—and the only thing I could think of was to write was a sort of 'Year in Review' of the movies, TV, and music I've enjoyed this year. It is something I've wanted to do before anyway, so why not start the tradition? So if you'll indulge me here are a few interesting movies, shows, and songs I was entertained by in 2023.
 

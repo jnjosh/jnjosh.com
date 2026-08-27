@@ -3,8 +3,7 @@ date = "2009-11-30T01:05:39-05:00"
 title = "iPhone App Design Evolution - 100percent"
 categories = [
     "Design",
-    "iPhone",
-    "UI",
+    "iOS",
 ]
 slug = "iphone-app-design-evolution-100percent"
 +++

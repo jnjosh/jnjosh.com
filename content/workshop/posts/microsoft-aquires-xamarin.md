@@ -2,8 +2,7 @@
 date = "2016-02-24T14:32:19-05:00"
 title = "Microsoft Acquires Xamarin"
 categories = [
-  "News",
-  "Programming"
+  "Engineering",
 ]
 externalurl = "https://blog.xamarin.com/a-xamarin-microsoft-future/"
 +++

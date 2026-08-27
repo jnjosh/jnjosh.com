@@ -1,6 +1,7 @@
 +++
 title = "Durham in October"
 date = "2019-10-03T23:01:09-04:00"
+categories = ["Photography"]
 location = "Durham, NC"
 camera = "Sony a7s"
 +++

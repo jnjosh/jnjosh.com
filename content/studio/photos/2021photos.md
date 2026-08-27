@@ -1,7 +1,8 @@
 +++
 title = "2021 in Photos: Part 1"
 date = "2021-06-15T21:51:57-04:00"
-location = "the Triangle, North Carolina"
+categories = ["Photography"]
+location = "Triangle, North Carolina"
 camera = "Sony α7S II"
 +++
 

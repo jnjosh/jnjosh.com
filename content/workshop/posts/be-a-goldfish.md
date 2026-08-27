@@ -4,7 +4,6 @@ date = "2025-02-02T19:24:36-05:00"
 categories = [
   "Productivity",
   "Engineering Manager",
-  "Life"
 ]
 +++
 

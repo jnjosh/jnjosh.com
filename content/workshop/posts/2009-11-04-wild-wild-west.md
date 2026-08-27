@@ -2,9 +2,8 @@
 date = "2009-11-04T01:20:32-05:00"
 title = "Are we in the Wild Wild West of iPhone App Marketing?"
 categories = [
-  "iPhone",
+  "iOS",
   "Apple",
-  "Thoughts",
 ]
 slug = "wild-wild-west"
 +++

@@ -5,7 +5,6 @@ categories = [
   "Android",
   "C++",
   "Kotlin",
-  "Programming"
 ]
 +++
 

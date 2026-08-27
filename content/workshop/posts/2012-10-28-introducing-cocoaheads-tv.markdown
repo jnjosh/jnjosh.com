@@ -2,9 +2,9 @@
 date = "2012-10-28T12:18:32-05:00"
 title = "Introducing CocoaHeads TV"
 categories = [
-  "Cocoa",
   "Community",
   "Videos",
+  "CocoaHeads",
 ]
 externalurl = "http://cocoaheads.tv"
 slug = "introducing-cocoaheads-tv"

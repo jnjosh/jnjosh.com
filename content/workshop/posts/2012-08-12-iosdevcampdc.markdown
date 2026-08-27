@@ -2,7 +2,6 @@
 date = "2012-08-12T22:23:32-05:00"
 title = "iOSDevCampDC 2012"
 categories = [
-  "Cocoa",
   "Community",
   "Conferences",
 ]

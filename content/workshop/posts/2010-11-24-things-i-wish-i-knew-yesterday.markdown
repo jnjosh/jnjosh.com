@@ -3,7 +3,6 @@ date = "2010-11-24T01:54:32-05:00"
 title = "Things I wish I knew yesterday"
 categories = [
   "Cocoa",
-  "Programming",
   "Xcode",
 ]
 slug = "things-i-wish-i-knew-yesterday"

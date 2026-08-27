@@ -1,5 +1,6 @@
 +++
 date = "2017-10-28T01:56:25-04:00"
+categories = ["Photography"]
 title = "Chicago, October 2017"
 location = "Chicago, Il"
 camera = "Canon 60D"

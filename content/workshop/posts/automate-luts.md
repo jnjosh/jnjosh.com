@@ -2,7 +2,7 @@
 title = "Automating LUTs on Video"
 date = "2024-05-27T14:43:58-04:00"
 categories = [
-	"Video",
+	"Videos",
 	"Scripting"
 ]
 

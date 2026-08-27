@@ -1,6 +1,7 @@
 +++
 title = "One Charge Trip to Wilson, NC"
 date = "2019-08-31T20:52:47-04:00"
+categories = ["Photography"]
 location = "Wilson, NC"
 camera = "Canon EOS 60D"
 +++

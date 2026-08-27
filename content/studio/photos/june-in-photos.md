@@ -1,6 +1,7 @@
 +++
 title = "June in Photos"
 date = "2021-07-03T00:48:20-04:00"
+categories = ["Photography"]
 location = "North Carolina"
 camera = "Sony α7S II"
 +++

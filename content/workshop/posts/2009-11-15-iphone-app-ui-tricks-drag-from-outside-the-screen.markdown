@@ -2,9 +2,8 @@
 date = "2009-11-05T01:19:32-05:00"
 title = "iPhone App UI Tricks - Drag from outside the Screen"
 categories = [
-  "iPhone",
-  "Programming",
-  "UI",
+  "iOS",
+  "Cocoa",
 ]
 slug = "iphone-app-ui-tricks-drag-from-outside-the-screen"
 +++

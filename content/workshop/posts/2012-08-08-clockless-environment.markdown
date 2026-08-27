@@ -3,8 +3,8 @@ date = "2012-08-08T22:23:32-05:00"
 title = "I'm still working without a clock"
 categories = [
   "Open Source",
-  "Mac",
-  "Apps",
+  "macOS",
+  "Projects",
 ]
 slug = "clockless-environment"
 +++

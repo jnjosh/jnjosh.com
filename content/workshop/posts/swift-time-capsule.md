@@ -2,10 +2,9 @@
 title = "A Swift Time Capsule"
 date = "2021-06-20T23:47:11+00:00"
 categories = [
-  "Programming",
   "iOS",
   "Swift",
-  "SwiftUI"
+  "SwiftUI",
 ]
 +++
 

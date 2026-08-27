@@ -3,8 +3,7 @@ title = "So I'm starting another blog about Italian stuff"
 date = "2024-01-13T16:48:08-05:00"
 categories = [
   "Blogging",
-  "Life",
-  "Italian"
+  "Italy"
 ]
 externalurl = "https://italy.jnjosh.com"
 +++

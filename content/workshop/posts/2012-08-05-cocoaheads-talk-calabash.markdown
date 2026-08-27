@@ -4,7 +4,7 @@ title = "Automated Acceptance Testing or: How I stopped worrying and trusted the
 categories = [
   "Speaking",
   "Testing",
-  "Programming",
+  "Engineering",
 ]
 slug = "cocoaheads-talk-calabash"
 +++

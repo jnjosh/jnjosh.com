@@ -4,8 +4,6 @@ title = "CocoaHeads March 2016"
 categories = [
 	"CocoaHeads",
 	"Community",
-	"Cocoa",
-	"⚡️"
 ]
 +++
 

@@ -3,7 +3,7 @@ date = "2017-05-15T17:28:42-04:00"
 description = ""
 title = "10 years of jnjosh.com"
 categories = [
-	"Blog",
+	"Blogging",
 ]
 +++
 

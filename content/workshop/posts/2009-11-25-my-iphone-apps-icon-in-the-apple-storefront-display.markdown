@@ -2,9 +2,9 @@
 date = "2009-11-25T01:23:32-05:00"
 title = "My iPhone App's Icon in the Apple Storefront Display"
 categories = [
-  "iPhone",
-  "Apps",
+  "iOS",
   "Apple",
+  "Projects",
 ]
 slug = "my-iphone-apps-icon-in-the-apple-storefront-display"
 +++

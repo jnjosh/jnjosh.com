@@ -1,7 +1,8 @@
 +++
 title = "Umstead Park, September 2019"
 date = "2019-09-08T22:49:20-04:00"
-location = "Umstead Park (Raleigh, NC)"
+categories = ["Photography"]
+location = "Umstead Park"
 camera = "Sony a6400"
 +++
 

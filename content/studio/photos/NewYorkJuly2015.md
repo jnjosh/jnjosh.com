@@ -1,5 +1,6 @@
 +++
 date = "2015-07-12T01:20:32-05:00"
+categories = ["Photography"]
 title = "Fourth of July Weekend in NYC"
 location = "New York, NY"
 camera = "iPhone 6"

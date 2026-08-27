@@ -2,7 +2,6 @@
 date = "2012-12-02T18:37:32-05:00"
 title = "CocoaConf Raleigh 2012"
 categories = [
-  "Cocoa",
   "Community",
   "Conferences",
   "Speaking",

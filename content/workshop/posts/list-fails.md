@@ -2,7 +2,6 @@
 date = "2017-03-08T16:08:45-05:00"
 title = "Where I rant about TODO lists falling short"
 categories = [
-	"Organization",
 	"Productivity",
 ]
 +++

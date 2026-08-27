@@ -3,7 +3,7 @@ date = "2010-07-03T01:31:32-05:00"
 title = "Getting kids excited about coding"
 categories = [
   "Arduino",
-  "Programming",
+  "Engineering",
   "Kids",
 ]
 slug = "getting-kids-excited-about-coding"

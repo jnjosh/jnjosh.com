@@ -3,7 +3,6 @@ date = "2015-09-07T16:19:43-05:00"
 title = "Just Say It"
 categories = [
   "Blogging",
-  "Life",
   "Podcasts",
 ]
 slug = "just-say-it"

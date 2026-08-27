@@ -2,8 +2,8 @@
 title = "Debugging with Sound"
 date = "2018-02-08T22:27:06-05:00"
 categories = [
+  "Engineering",
   "Debugging",
-  "Programming",
 ]
 +++
 

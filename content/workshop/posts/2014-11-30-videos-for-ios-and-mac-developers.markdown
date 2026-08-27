@@ -2,9 +2,9 @@
 date = "2014-11-30T01:39:32-05:00"
 title = "Videos for iOS and Mac Developers"
 categories = [
-  "Cocoa",
   "Community",
   "Learning",
+  "CocoaHeads",
 ]
 slug = "videos-for-ios-and-mac-developers"
 +++

@@ -2,8 +2,8 @@
 title = "Why Monorepos?"
 date = "2022-10-06T23:27:17-04:00"
 categories = [
-	"Programming",
-	"Engineering Manager"
+	"Engineering",
+	"Engineering Manager",
 ]
 +++
 

@@ -3,9 +3,9 @@ date = "2016-02-19T02:22:28-05:00"
 title = "Goodbye Octopress, Hello Hugo"
 categories = [
   "Blogging",
-  "Web Development",
+  "Web",
   "Go",
-  "Hugo"
+  "Hugo",
 ]
 +++
 

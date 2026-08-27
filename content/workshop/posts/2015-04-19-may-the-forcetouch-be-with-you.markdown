@@ -3,8 +3,7 @@ date = "2015-04-19T01:39:32-05:00"
 title = "May the Force Touch be with You"
 categories = [
   "Cocoa",
-  "AppKit",
-  "Force Touch",
+  "macOS",
 ]
 slug = "may-the-forcetouch-be-with-you"
 +++

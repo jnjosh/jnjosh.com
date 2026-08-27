@@ -3,7 +3,6 @@ date = "2012-08-06T12:23:32-05:00"
 title = "The Github Way on iDeveloper TV Podcast"
 categories = [
   "Podcasts",
-  "GTD",
 ]
 externalurl = "http://ideveloper.tv/blog/2012/07/ideveloperlive-episode-61"
 slug = "github-workstyle"

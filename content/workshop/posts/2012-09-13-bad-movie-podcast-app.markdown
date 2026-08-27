@@ -2,8 +2,8 @@
 date = "2012-09-13T12:23:32-05:00"
 title = "Bad Movie Podcast: The App"
 categories = [
-  "iPhone",
-  "Apps",
+  "iOS",
+  "Projects",
 ]
 slug = "bad-movie-podcast-app"
 +++

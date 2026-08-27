@@ -2,10 +2,9 @@
 date = "2011-12-06T02:05:32-05:00"
 title = "CocoaConf Raleigh 2011"
 categories = [
-  "Cocoa",
   "Conferences",
-	"Community",
-	"Speaking",
+  "Community",
+  "Speaking",
 ]
 slug = "cocoaconf-raleigh-2011"
 +++

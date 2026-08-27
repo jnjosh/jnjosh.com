@@ -2,8 +2,8 @@
 date = "2016-03-06T13:38:49-05:00"
 title = "Number Rush"
 categories = [
-  "Programming",
-  "German"
+  "Engineering",
+  "German",
 ]
 externalurl = "http://joshuajohnson.co.uk/NumberRush/"
 +++

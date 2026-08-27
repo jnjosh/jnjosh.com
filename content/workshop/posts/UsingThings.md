@@ -3,7 +3,6 @@ title = "On using Things 3"
 date = "2018-02-05T11:45:14-05:00"
 categories = [
 	"Productivity",
-	"Life"
 ]
 externalurl = "http://blog.bellebcooper.com/how-i-use-things-3.html"
 +++

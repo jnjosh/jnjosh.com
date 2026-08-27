@@ -3,7 +3,7 @@ date = "2013-01-22T22:30:32-05:00"
 title = "Automate your environment with Xcoder"
 categories = [
   "Xcode",
-  "CLI",
+  "Tools",
   "Ruby",
 ]
 externalurl = "http://rayh.github.com/xcoder/"

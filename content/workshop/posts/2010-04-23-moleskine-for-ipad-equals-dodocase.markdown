@@ -3,7 +3,6 @@ date = "2010-04-23T01:38:39-05:00"
 title = "Moleskine for iPad = Dodocase"
 categories = [
     "iPad",
-    "Cases"
 ]
 slug = "moleskine-for-ipad-equals-dodocase"
 +++

@@ -2,9 +2,7 @@
 date = "2016-12-31T20:10:01-05:00"
 title = "The WhiteFox Keyboard"
 categories = [
-	"Life",
-	"Products",
-	"Keyboards"
+	"Keyboards",
 ]
 slug = "whitefox-keyboard"
 +++

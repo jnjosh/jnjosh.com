@@ -3,7 +3,7 @@ date = "2016-02-29T21:57:12-05:00"
 title = "Coding Weekend"
 categories = [
   "Community",
-  "Programming",
+  "Engineering",
 ]
 +++
 

@@ -3,7 +3,6 @@ date = "2017-01-16T02:08:24-05:00"
 title = "Social Network for Coders"
 categories = [
 	"Community",
-	"Thoughts"
 ]
 +++
 
