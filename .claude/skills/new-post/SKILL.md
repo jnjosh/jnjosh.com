@@ -47,15 +47,22 @@ Validate before writing. Reject, explain, and ask again if the slug:
 
 - is not lowercase kebab (`a-z`, `0-9`, `-`), or starts/ends with a hyphen
 - is `_index` or `index` — those are section pages, not entries
-- names a file that already exists in the target directory
+- names a file that already exists in the target directory (check for `<date>-<slug>.md`)
+- starts with a `YYYY-MM-DD-` prefix — the date is added automatically; ask for the bare slug
 
 **Never overwrite an existing entry**, and never "helpfully" pick a variant slug — an existing
 file means stop and ask.
 
 ## 4. Write the file
 
-Path is `content/<space>/<type-dir>/<slug>.md`. Always `.md` (some archive files are
-`.markdown`; new ones are not).
+Path is `content/<space>/<type-dir>/<date>-<slug>.md` — the date is the `YYYY-MM-DD` part of
+the timestamp below, so a slug of `a-post` created on 2026-08-26 becomes
+`2026-08-26-a-post.md`. Always `.md`; every file in the archive is `.md`.
+
+**The front matter must also carry `slug = "<slug>"` — the slug WITHOUT the date.** Hugo does
+not strip a date prefix from a filename: without an explicit `slug`, the post would publish at
+`/workshop/posts/2026-08-26-a-post/` instead of `/workshop/posts/a-post/`. All 88 archive files
+set `slug` for exactly this reason. Never omit it, and never include the date in it.
 
 Front matter is **TOML**, `+++`-delimited, with the **date quoted** — that matches 164 of the
 196 files in the archive. Get the timestamp from Python, because BSD `date` has no `%:z` and
@@ -66,7 +73,7 @@ python3 -c "import datetime;print(datetime.datetime.now().astimezone().isoformat
 ```
 
 `title` is left **empty**. Do not derive one from the slug: in this archive slugs do not
-predict titles (`KotlinFromCpp` → "Calling Kotlin from C++"), so a derived title is usually
+predict titles (`kotlin-from-cpp` → "Calling Kotlin from C++"), so a derived title is usually
 wrong and always something to delete.
 
 The body after the closing `+++` is **empty**. No `<!--more-->`, no headings, no placeholder.
@@ -77,6 +84,7 @@ The body after the closing `+++` is **empty**. No `<!--more-->`, no headings, no
 +++
 title = ""
 date = "2026-08-24T16:40:00-04:00"
+slug = "the-slug-he-gave"
 categories = []
 +++
 ```
@@ -87,6 +95,7 @@ categories = []
 +++
 title = ""
 date = "2026-08-24T16:40:00-04:00"
+slug = "the-slug-he-gave"
 externalurl = "https://the-url-he-gave.example.com/article"
 categories = []
 +++
@@ -98,6 +107,7 @@ categories = []
 +++
 title = ""
 date = "2026-08-24T16:40:00-04:00"
+slug = "the-slug-he-gave"
 categories = []
 location = ""
 camera = ""
@@ -115,6 +125,7 @@ film = ""
 +++
 title = ""
 date = "2026-08-24T16:40:00-04:00"
+slug = "the-slug-he-gave"
 poster = ""
 +++
 ```
