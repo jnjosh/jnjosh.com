@@ -1,4 +1,4 @@
-{{/* Generated from internet-weblog-2 1.0.0-beta.3 — do not edit here. */}}{{- $isPhoto := eq .Page.Type "photos" -}}
+{{/* Generated from internet-weblog-2 1.0.0-beta.4 — do not edit here. */}}{{- $isPhoto := eq .Page.Type "photos" -}}
 {{- $eager := and $isPhoto (eq .Ordinal 0) -}}{{- $sizes := cond $isPhoto "(min-width: 84rem) 84rem, 100vw" "(min-width: 42rem) 42rem, 100vw" -}}
 
 {{- $img := partial "image.html" (dict

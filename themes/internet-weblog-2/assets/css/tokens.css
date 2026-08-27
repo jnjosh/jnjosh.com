@@ -1,4 +1,4 @@
-/* Generated from internet-weblog-2 1.0.0-beta.3 — do not edit here. */
+/* Generated from internet-weblog-2 1.0.0-beta.4 — do not edit here. */
 
 @layer tokens {
   :root {
@@ -55,6 +55,7 @@
     --jnj-line-height-body: 1.7;
     --jnj-underline-offset: 0.25;
     --jnj-paragraph-spacing: 1.2;
+    --jnj-radius-content: var(--jnj-space-5);
     --jnj-space-1: 0.25rem;
     --jnj-space-2: 0.5rem;
     --jnj-space-3: 0.75rem;

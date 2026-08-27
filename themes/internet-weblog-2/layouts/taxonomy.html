@@ -1,0 +1,24 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.4 — do not edit here. */}}{{ define "main" }}
+  
+  <h1 class="list-heading">{{ .Title }}</h1>
+
+  
+  {{ $terms := sort .Pages ".Pages" "desc" }}
+
+  
+  <nav class="term-index" aria-label="{{ .Title }}">
+    <ul class="term-index__list">
+      {{ range $terms }}
+        {{ $n := len .Pages }}
+        <li class="term-index__item">
+          <a class="term-index__link" href="{{ .RelPermalink }}">
+            <span class="term-index__name">{{ .LinkTitle }}</span>
+            
+            <span class="term-index__count" aria-hidden="true">{{ $n }}</span>
+            <span class="visually-hidden">{{ $n }} {{ cond (eq $n 1) "entry" "entries" }}</span>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
+{{ end }}
