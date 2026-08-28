@@ -5,6 +5,7 @@ slug = "genoa-summer"
 categories = ["Photography"]
 location = "Genoa, Italy"
 camera = "Sony α7c II"
+lens = "Sigma 45mm"
 aperture = "ƒ/9.0"
 shutter = "1/400s"
 ISO = "500"
