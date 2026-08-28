@@ -8,7 +8,6 @@ camera = "Sony α7c II"
 aperture = "ƒ/9.0"
 shutter = "1/400s"
 ISO = "500"
-featured = true
 series = "Italy 2026"
 +++
 
