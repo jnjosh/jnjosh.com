@@ -1,6 +1,8 @@
 +++
 title = "The Sopraelevata"
 date = "2026-08-27T21:03:02-04:00"
+slug = "the-sopraelevata"
+categories = ["Photography"]
 location = "Genoa, Italy"
 camera = "Sony a7c II"
 lens = "Sigma 45mm"
