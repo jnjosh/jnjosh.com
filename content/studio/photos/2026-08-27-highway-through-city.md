@@ -9,7 +9,6 @@ lens = "Sigma 45mm"
 aperture = "ƒ/5.0"
 shutter = "1/400s"
 iso = "500"
-featured = true
 series = "Italy 2026"
 +++
 
