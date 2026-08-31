@@ -1,7 +1,7 @@
-# Generated from internet-weblog-2 1.0.0-beta.4 — do not edit here.
+# Generated from internet-weblog-2 1.0.0-beta.5 — do not edit here.
 name = "internet-weblog-2"
 
-version = "1.0.0-beta.4"
+version = "1.0.0-beta.5"
 license = "MIT"
 description = "A modern, accessible Hugo theme for posts, microposts, and photos — with a first-class, extractable design system."
 homepage = "https://jnjosh.com"
