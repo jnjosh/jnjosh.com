@@ -1,0 +1,27 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.4 — do not edit here. */}}{{- $sc := .sc -}}
+{{- $inner := .inner -}}
+{{- $title := "" -}}
+{{- $meta := "" -}}
+{{- if $sc.IsNamedParams -}}
+  {{- $title = $sc.Get "title" -}}
+  {{- $meta = $sc.Get "meta" -}}
+{{- else -}}
+  {{- $title = $sc.Get 0 -}}
+  {{- $meta = $sc.Get 1 -}}
+{{- end -}}
+
+{{- if not $title -}}
+  {{- errorf "%s needs a label: {{< %s 2026 >}} or {{< %s title=\"**Acme Corp**\" meta=\"2019 – 2024\" >}} — %s" $sc.Name $sc.Name $sc.Name $sc.Position -}}
+{{- end -}}
+
+{{- if not (trim $inner "\n\r\t ") -}}
+  {{- errorf "%s %q has no entries — %s" $sc.Name $title $sc.Position -}}
+{{- end -}}{{- $entries := strings.Contains $inner "class=\"timeline__entry\"" -}}<h3 class="timeline__heading{{ if $entries }} timeline__heading--section{{ end }}">{{ $title | markdownify }}</h3>
+{{- with $meta }}
+<p class="timeline__meta">{{ . | markdownify }}</p>
+{{- end }}
+{{ if $entries -}}
+<ul class="timeline__entries">{{ $inner }}</ul>
+{{- else -}}
+{{ $inner | $sc.Page.RenderString (dict "display" "block") }}
+{{- end }}

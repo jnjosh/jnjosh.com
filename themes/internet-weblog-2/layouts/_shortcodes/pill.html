@@ -1,0 +1,5 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.4 — do not edit here. */}}{{- $label := cond .IsNamedParams (.Get "label") (.Get 0) -}}
+{{- $label = trim (printf "%v" (or $label "")) "\n\r\t " -}}
+{{- if not $label -}}
+  {{- errorf "pill shortcode needs a label — {{< pill \"Swift\" >}} — %s" .Position -}}
+{{- end -}}<span class="pill">{{ $label | markdownify }}</span>

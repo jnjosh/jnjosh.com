@@ -1,5 +1,5 @@
 +++
-# Cascade carrier, not a page — see workshop/posts/_index.md (ADR-0006 §2).
+# Cascade carrier, not a page — see workshop/posts/_index.md.
 title = "Studio Audio"
 
 [build]

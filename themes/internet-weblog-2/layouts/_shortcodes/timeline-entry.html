@@ -1,0 +1,24 @@
+{{/* Generated from internet-weblog-2 1.0.0-beta.4 — do not edit here. */}}{{- $title := "" -}}
+{{- $meta := "" -}}
+{{- if .IsNamedParams -}}
+  {{- $title = .Get "title" -}}
+  {{- $meta = .Get "meta" -}}
+{{- else -}}
+  {{- $title = .Get 0 -}}
+  {{- $meta = .Get 1 -}}
+{{- end -}}
+
+{{- $inner := .InnerDeindent -}}
+{{- if not (trim $inner "\n\r\t ") -}}
+  {{- errorf "timeline-entry %q has no body — the title and meta are optional, the body is not — %s" $title .Position -}}
+{{- end -}}
+
+<li class="timeline__entry">
+{{- with $title }}
+<h4 class="timeline__entry-title">{{ . | markdownify }}</h4>
+{{- end }}
+{{- with $meta }}
+<p class="timeline__meta">{{ . | markdownify }}</p>
+{{- end }}
+{{ $inner | .Page.RenderString (dict "display" "block") }}
+</li>
