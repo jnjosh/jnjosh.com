@@ -1,4 +1,4 @@
-/* Generated from internet-weblog-2 1.0.0-beta.5 — do not edit here. */
+/* Generated from internet-weblog-2 1.0.0-beta.6 — do not edit here. */
 
 @layer reset, tokens, base, components, utilities;
 
@@ -748,11 +748,14 @@
   }
 
   
+  .entry-summary__frame:has(> .entry-summary__image) {
+    aspect-ratio: 3 / 2;
+  }
+
   .entry-summary__image {
     display: block;
     inline-size: 100%;
-    block-size: auto;
-    aspect-ratio: 3 / 2;
+    block-size: 100%;
     object-fit: cover;
   }
 
@@ -1146,6 +1149,7 @@
   
   .photo-grid__link {
     display: block;
+    aspect-ratio: 1;
     overflow: clip;
   }
 
@@ -1173,8 +1177,7 @@
   .photo-grid__image {
     display: block;
     inline-size: 100%;
-    block-size: auto;
-    aspect-ratio: 1;
+    block-size: 100%;
     object-fit: cover;
     
     scale: 1.02;

@@ -1,4 +1,4 @@
-{{/* Generated from internet-weblog-2 1.0.0-beta.5 — do not edit here. */}}{{- $glass := site.Params.glass }}
+{{/* Generated from internet-weblog-2 1.0.0-beta.6 — do not edit here. */}}{{- $glass := site.Params.glass }}
 {{- $posts := slice }}
 
 {{- with $glass.postsURL }}{{- $fetch := try (resources.GetRemote .) }}
@@ -26,10 +26,6 @@
             <a class="photo-grid__link" href="{{ $post.share_url | default "https://glass.photo" }}"><img
                 class="photo-grid__image"
                 src="{{ . }}"
-                {{- with $post.image640x640 }}
-                srcset="{{ $post.image192x192 }} 192w, {{ . }} 640w"
-                sizes="(min-width: 44rem) 161px, calc((100vw - 3.5rem) / 4)"
-                {{- end }}
                 alt="{{ $post.description | default "A photo on Glass" }}"
                 loading="lazy"
                 decoding="async"

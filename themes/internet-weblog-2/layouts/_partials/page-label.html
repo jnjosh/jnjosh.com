@@ -1,3 +1,3 @@
-{{/* Generated from internet-weblog-2 1.0.0-beta.5 — do not edit here. */}}{{- $label := .LinkTitle -}}{{- if not $label }}{{ $label = .Summary | plainify | htmlUnescape | strings.TrimSpace | truncate 60 }}{{ end -}}
+{{/* Generated from internet-weblog-2 1.0.0-beta.6 — do not edit here. */}}{{- $label := .LinkTitle -}}{{- if not $label }}{{ $label = .Summary | plainify | htmlUnescape | strings.TrimSpace | truncate 60 }}{{ end -}}
 {{- if not $label }}{{ $label = .Date.Format (partial "date-format.html" "short") }}{{ end -}}
 {{- $label -}}
