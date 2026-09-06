@@ -32,7 +32,7 @@ I enjoy developing software and/or web applications with Swift, Kotlin, Objectiv
 
 {{< /timeline-group >}}
 
-{{< timeline-group "**Grubhub**" "2019–2022 · Remote, NC" >}}
+{{< timeline-group "**Grubhub**" "Jan 2019–Aug 2022 · Remote, NC" >}}
 
   {{< timeline-entry title="Engineering Manager, Diner Core" meta="Jan 2021–Aug 2022" >}}
   {{< pill "Engineering Management" >}} {{< pill "Swift" >}} {{< pill "Kotlin" >}} {{< pill "TypeScript" >}}
